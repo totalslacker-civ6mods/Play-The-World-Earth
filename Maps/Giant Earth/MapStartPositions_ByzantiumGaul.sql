@@ -1,0 +1,7 @@
+INSERT OR REPLACE INTO MapStartPositions (Map, Plot, Type, Value)
+SELECT	("{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map"), ("8021"), ("CIVILIZATION"), ("CIVILIZATION_ANTIOCH")
+WHERE EXISTS (SELECT * FROM Players WHERE CivilizationType="CIVILIZATION_BYZANTIUM");
+
+INSERT OR REPLACE INTO MapStartPositions (Map, Plot, Type, Value)
+SELECT	("{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map"), ("6837"), ("CIVILIZATION"), ("CIVILIZATION_ANTIOCH")
+WHERE NOT EXISTS (SELECT * FROM Players WHERE CivilizationType="CIVILIZATION_BYZANTIUM");

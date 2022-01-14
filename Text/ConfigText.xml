@@ -14,6 +14,12 @@
 	<Replace Tag="LOC_MAP_Earth_EqualArea_DESC" Language="en_US">
       <Text>True-start location Earth with no upscaling. Polar regions are removed. Resources are imported for real world resource placement. Enormous size (128*80)</Text>
     </Replace>
+	<Replace Tag="LOC_MAP_GIANT_EARTH_PTW" Language="en_US">
+      <Text>Giant Earth [COLOR_Civ6Yellow](Play The World)[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_MAP_GIANT_EARTH_PTW_DESC" Language="en_US">
+      <Text>True-start location Earth adapted for gameplay over realism. Imported resources and randomly generated resources supported. Giant size (150*84)</Text>
+    </Replace>
 	<!-- Advanced Setup Menu Options -->
 	<Replace Tag="LOC_CONVERT_MAIZE_PTW" Language="en_US">
       <Text>Maize in the Americas</Text>
@@ -165,6 +171,30 @@
 	</Replace>	
 	<Replace Tag="LOC_MOUNTAIN_PASS_CAUCASUS_DESC" Language="en_US">
 		<Text>Add a mountain pass in the Caucasus at Derbent</Text>
+	</Replace>
+	<Replace Tag="LOC_MAP_PTW_RESOURCES_NAME" Language="en_US">
+		<Text>Resource Placement</Text>
+	</Replace>
+	<Replace Tag="LOC_MAP_PTW_RESOURCES_DESCRIPTION" Language="en_US">
+		<Text>Choose a resource generation option.</Text>
+	</Replace>
+	<Replace Tag="LOC_MAP_PTW_RESOURCES_IMPORT_NAME" Language="en_US">
+		<Text>Import Resources</Text>
+	</Replace>
+	<Replace Tag="LOC_MAP_PTW_RESOURCES_IMPORT_DESCRIPTION" Language="en_US">
+		<Text>Resources are imported from the map file. Ignores the resource quantity option.</Text>
+	</Replace>
+	<Replace Tag="LOC_MAP_PTW_RESOURCES_RANDOM_NAME" Language="en_US">
+		<Text>Random Resources</Text>
+	</Replace>
+	<Replace Tag="LOC_MAP_PTW_RESOURCES_RANDOM_DESCRIPTION" Language="en_US">
+		<Text>Resources are placed by the map generator.</Text>
+	</Replace>
+	<Replace Tag="LOC_MAP_PTW_RESOURCES_COMBINED_NAME" Language="en_US">
+		<Text>Import + Map Generator</Text>
+	</Replace>
+	<Replace Tag="LOC_MAP_PTW_RESOURCES_COMBINED_DESCRIPTION" Language="en_US">
+		<Text>Resources are imported from the map file. More resources are placed by the map generator.</Text>
 	</Replace>
   </LocalizedText>
 </GameData>

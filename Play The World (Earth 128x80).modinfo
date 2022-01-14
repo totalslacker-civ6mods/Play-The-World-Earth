@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="0ffac96e-140c-4389-8ae8-6c0cd6391c40" version="1.2.7">
+<Mod id="0ffac96e-140c-4389-8ae8-6c0cd6391c40" version="1.3.0">
 	<Properties>
 		<Name>Play The World (Earth 128*80)</Name>
 		<Description>Features Earth 128*80 with upscaled Europe, and Equal Area Earth (128*80). Works with all game versions and DLC, up to New Frontier</Description>
@@ -42,6 +42,10 @@
 			<LeaderPlayable>Players:StandardPlayers::LEADER_JOHN_CURTIN,StandardPlayers::LEADER_JOHN_CURTIN,Players:Expansion1_Players::LEADER_JOHN_CURTIN,Players:Expansion2_Players::LEADER_JOHN_CURTIN</LeaderPlayable>
 			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
 		</Criteria>
+		<Criteria id="Babylon" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_HAMMURABI,Players:Expansion1_Players::LEADER_HAMMURABI Players:Expansion2_Players::LEADER_HAMMURABI</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
 		<Criteria id="MacedoniaPersia" any="1">
 			<LeaderPlayable>Players:StandardPlayers::LEADER_ALEXANDER,Players:StandardPlayers::LEADER_CYRUS,StandardPlayers::LEADER_ALEXANDER,StandardPlayers::LEADER_CYRUS,Players:Expansion1_Players::LEADER_ALEXANDER,Players:Expansion2_Players::LEADER_CYRUS,Players:Expansion2_Players::LEADER_ALEXANDER,Players:Expansion2_Players::LEADER_CYRUS</LeaderPlayable>
 			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
@@ -64,6 +68,10 @@
 		</Criteria>
 		<Criteria id="ByzantiumGaul" any="1">
 			<LeaderPlayable>Players:StandardPlayers::LEADER_BASIL,Players:StandardPlayers::LEADER_AMBIORIX,StandardPlayers::LEADER_BASIL,StandardPlayers::LEADER_AMBIORIX,Players:Expansion1_Players::LEADER_BASIL,Players:Expansion2_Players::LEADER_AMBIORIX,Players:Expansion2_Players::LEADER_BASIL,Players:Expansion2_Players::LEADER_AMBIORIX</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="Portugal" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_JOAO_III,StandardPlayers::LEADER_JOAO_III,Players:Expansion1_Players::LEADER_JOAO_III,Players:Expansion2_Players::LEADER_JOAO_III</LeaderPlayable>
 			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
 		</Criteria>
 		<Criteria id="ForestFires">
@@ -180,8 +188,42 @@
 				<Value>1</Value>
 			</ConfigurationValueMatches>
 		</Criteria>		
+		<Criteria id="AlternateTSL_Scythia">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>ScythiaTSL</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>	
+		<Criteria id="AlternateTSL_Sumeria">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>SumeriaTSL</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="AlternateTSL_Ottoman">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>OttomansAnatolia</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="AlternateTSL_Phoenicia">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>PhoeniciaTSL</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
 	</ActionCriteria>
 	<InGameActions>	
+		<UpdateDatabase id="Tables">
+           	<Properties>
+				<LoadOrder>-1</LoadOrder>
+           	</Properties>
+			<File>Data/Tables.sql</File>
+		</UpdateDatabase>
 		<ImportFiles id="MapLabels">
            	<Properties>
 				<LoadOrder>1</LoadOrder>
@@ -189,6 +231,7 @@
 			<File>Scripts/MapLabelManager.lua</File>
 			<File>Scripts/CustomMapLabels_Earth128x80.lua</File>
 			<File>Scripts/CustomMapLabels_EqualAreaEarth.lua</File>
+			<File>Scripts/CustomMapLabels_GiantEarth.lua</File>
 		</ImportFiles>
 		<ImportFiles id="Scripts">
            	<Properties>
@@ -197,20 +240,39 @@
            	</Properties>
 			<File>Maps/Earth128x80/Earth128x80.lua</File>
 			<File>Maps/Equal Area Earth/EqualAreaEarth.lua</File>
+			<File>Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map</File>
 			<File>Scripts/FeatureGenerator_Earth128x80.lua</File>
+			<File>Scripts/ResourceGenerator_PTW_GiantEarth.lua</File>
 			<File>Scripts/AssignStartingPlots.lua</File>
 		</ImportFiles>
         <AddGameplayScripts id="Scripts" >
 			<File>Scripts/PTWScript.lua</File>
-        </AddGameplayScripts>		
+        </AddGameplayScripts>	
 		<UpdateDatabase id="TSL">	
 			<Properties><LoadOrder>100</LoadOrder></Properties>
 			<Items>
 				<File>Maps/Earth128x80/MapValues.xml</File>
 				<File>Maps/Earth128x80/ModSupport.xml</File>
 				<File>Maps/Equal Area Earth/MapValues.xml</File>
+				<File>Maps/Giant Earth/NaturalWonderPositions.xml</File>
 			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="TSL_GiantEarth_Scythia" criteria="AlternateTSL_Scythia">
+			<LoadOrder>110</LoadOrder>
+			<File>Maps/Giant Earth/AlternateTSL_Scythia.xml</File>
 		</UpdateDatabase>	
+		<UpdateDatabase id="TSL_GiantEarth_Ottoman" criteria="AlternateTSL_Ottoman">
+			<LoadOrder>110</LoadOrder>
+			<File>Maps/Giant Earth/AlternateTSL_Ottoman.xml</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="TSL_GiantEarth_Phoenicia" criteria="AlternateTSL_Phoenicia">
+			<LoadOrder>110</LoadOrder>
+			<File>Maps/Giant Earth/AlternateTSL_Phoenicia.xml</File>
+		</UpdateDatabase>		
+		<UpdateDatabase id="TSL_GiantEarth_Sumeria" criteria="AlternateTSL_Sumeria">
+			<LoadOrder>110</LoadOrder>
+			<File>Maps/Giant Earth/AlternateTSL_Sumeria.xml</File>
+		</UpdateDatabase>
 		<UpdateDatabase id="Data">	
 			<Properties><LoadOrder>105</LoadOrder></Properties>
 			<Items>
@@ -281,7 +343,19 @@
 				<LoadOrder>2015</LoadOrder>
            	</Properties>
 			<File>Text/CityNameChanges.xml</File>
-		</UpdateText>		
+		</UpdateText>
+		<UpdateText id="NamedRivers" criteria="Expansion2">
+           	<Properties>
+				<LoadOrder>10</LoadOrder>
+           	</Properties>
+			<File>Text/NamedRiversText.xml</File>
+		</UpdateText>	
+		<UpdateDatabase id="NamedRivers" criteria="Expansion2">	
+			<Properties><LoadOrder>10</LoadOrder></Properties>
+			<Items>
+				<File>Data/NamedRivers.sql</File>
+			</Items>
+		</UpdateDatabase>		
 		<UpdateDatabase id="Gameplay" criteria="CityDistance_PTW">	
 			<Properties><LoadOrder>10</LoadOrder></Properties>
 			<Items>
@@ -329,7 +403,24 @@
 		<UpdateDatabase id="SetupMenu">
 			<File>Maps/Earth128x80/Config.xml</File>
 			<File>Maps/Equal Area Earth/Config.xml</File>
+			<File>Maps/Giant Earth/Config.xml</File>
 			<File>Data/AdvancedOptionsConfig.xml</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="TSL_GiantEarth">
+			<LoadOrder>100</LoadOrder>
+			<File>Maps/Giant Earth/MapStartPositions_Major.xml</File>
+			<File>Maps/Giant Earth/MapStartPositions_Minor.xml</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="TSL_GiantEarth_DLC">
+			<LoadOrder>105</LoadOrder>
+			<File>Maps/Giant Earth/MapStartPositions_Babylon.sql</File>
+			<File>Maps/Giant Earth/MapStartPositions_ByzantiumGaul.sql</File>
+			<File>Maps/Giant Earth/MapStartPositions_IndonesiaKhmer.sql</File>
+			<File>Maps/Giant Earth/MapStartPositions_Portugal.sql</File>
+			<File>Maps/Giant Earth/MapStartPositions_XP1.sql</File>
+		</UpdateDatabase>
+		<UpdateDatabase id="TSL_GiantEarth">
+			<File>Maps/Giant Earth/MapStartPositions_Leaders.xml</File>
 		</UpdateDatabase>		
 		<UpdateText id="SetupMenu">
 			<File>Text/ConfigText.xml</File>
@@ -342,20 +433,40 @@
 	<File>Maps/Earth128x80/Resource.xml</File>
 	<File>Maps/Equal Area Earth/EqualAreaEarth.lua</File>
 	<File>Maps/Equal Area Earth/MapValues.xml</File>
+	<File>Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map</File>
+	<File>Maps/Giant Earth/PTW_GiantEarth_WB.lua</File>
+	<File>Maps/Giant Earth/MapStartPositions_Major.xml</File>
+	<File>Maps/Giant Earth/MapStartPositions_Minor.xml</File>
+	<File>Maps/Giant Earth/MapStartPositions_Leaders.xml</File>
+	<File>Maps/Giant Earth/MapStartPositions_Babylon.sql</File>
+	<File>Maps/Giant Earth/MapStartPositions_ByzantiumGaul.sql</File>
+	<File>Maps/Giant Earth/MapStartPositions_IndonesiaKhmer.sql</File>
+	<File>Maps/Giant Earth/MapStartPositions_Portugal.sql</File>
+	<File>Maps/Giant Earth/MapStartPositions_XP1.sql</File>
+	<File>Maps/Giant Earth/AlternateTSL_Scythia.xml</File>
+	<File>Maps/Giant Earth/AlternateTSL_Sumeria.xml</File>
+	<File>Maps/Giant Earth/AlternateTSL_Ottoman.xml</File>
+	<File>Maps/Giant Earth/AlternateTSL_Phoenicia.xml</File>
+	<File>Maps/Giant Earth/NaturalWonderPositions.xml</File>
 	<File>CityMaps/Earth128x80CityMap.xml</File>
 	<File>CityMaps/EqualAreaEarthCityMap.xml</File>
 	<File>Scripts/FeatureGenerator_Earth128x80.lua</File>
+	<File>Scripts/ResourceGenerator_PTW_GiantEarth.lua</File>
 	<File>Scripts/AssignStartingPlots.lua</File>
 	<File>Scripts/PTWScript.lua</File>
 	<File>Scripts/MapLabelManager.lua</File>
 	<File>Scripts/CustomMapLabels_Earth128x80.lua</File>
 	<File>Scripts/CustomMapLabels_EqualAreaEarth.lua</File>
+	<File>Scripts/CustomMapLabels_GiantEarth.lua</File>
     <File>Maps/Earth128x80/Config.xml</File>
 	<File>Maps/Equal Area Earth/Config.xml</File>
+	<File>Maps/Giant Earth/Config.xml</File>
 	<File>Text/ConfigText.xml</File>
 	<File>Text/Earth128x80_GamePlayText.xml</File>
 	<File>Text/EqualAreaEarth_GamePlayText.xml</File>
 	<File>Text/CityNameChanges.xml</File>
+	<File>Text/NamedRiversText.xml</File>
+	<File>Data/NamedRivers.sql</File>
 	<File>Data/Resources.sql</File>
 	<File>Data/Features.sql</File>
 	<File>Data/FirstEnvoyCS.sql</File>
@@ -370,5 +481,6 @@
 	<File>Data/LoyalCapitals.sql</File>	
 	<File>Data/CityStateBorders.sql</File>
 	<File>Data/ResourceChanges.sql</File>
+	<File>Data/Tables.sql</File>
   </Files>
 </Mod>

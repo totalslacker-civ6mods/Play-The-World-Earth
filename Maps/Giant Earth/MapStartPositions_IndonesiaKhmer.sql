@@ -1,0 +1,7 @@
+INSERT OR REPLACE INTO MapStartPositions (Map, Plot, Type, Value)
+SELECT	("{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map"), ("4475"), ("CIVILIZATION"), ("CIVILIZATION_JAKARTA")
+WHERE EXISTS (SELECT * FROM Players WHERE CivilizationType="CIVILIZATION_INDONESIA");
+
+INSERT OR REPLACE INTO MapStartPositions (Map, Plot, Type, Value)
+SELECT	("{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map"), ("3272"), ("CIVILIZATION"), ("CIVILIZATION_JAKARTA")
+WHERE NOT EXISTS (SELECT * FROM Players WHERE CivilizationType="CIVILIZATION_INDONESIA");

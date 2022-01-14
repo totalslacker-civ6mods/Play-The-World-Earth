@@ -8,6 +8,7 @@ include( "SupportFunctions" );
 include( "Civ6Common" );
 include( "CustomMapLabels_Earth128x80" );
 include( "CustomMapLabels_EqualAreaEarth" );
+include( "CustomMapLabels_GiantEarth" );
 
 local mapName		= MapConfiguration.GetValue("MapName");
 local bCustomLabels	= MapConfiguration.GetValue("CustomLabels");
@@ -798,6 +799,374 @@ function CreateMapLabel_EqualAreaEarth(szName, pOverlay, x, y)
 end
 
 -- ===========================================================================
+--	Play The World (Giant Earth) Real Map Labels by totalslacker
+-- ===========================================================================
+
+function CreateMapLabel_PTW_GiantEarth(szName, pOverlay, x, y)
+	if szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_ANDES_NAME")) then
+		pOverlay:CreateTextAtPos(szName, x, (y-64), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_ALASKAN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_ARAL_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_ARABIAN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_ARABIAN_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x+160), (y-128), FontParams_MinorRegion);
+		if bExtraLabels then
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_OMAN_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x+64), (y-320), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_PERSIAN_GULF_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-32), (y+32), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_ADEN_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-256), (y-512), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_ALTAI_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-64), y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_ATLAS_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_BAIKAL_MOUNTAINS_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x), (y+32), FontParams_MinorRegion);
+	-- elseif(szName == "BALTIC SEA") then
+		-- if bExtraLabels then
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_FINLAND_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+448), (y+16), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_NORTH_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-64), (y+64), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BALTIC_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+352), (y-64), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BAY_OF_POMERANIA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+256), (y-96), FontParams_MinorRegion);
+		-- else
+			-- pOverlay:CreateTextAtPos(szName, (x+100), y, FontParams_MinorRegion);
+		-- end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BALTIC_SEA_NAME"))) then
+		if bExtraLabels then
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_FINLAND_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x+320), (y+96), FontParams_PointOfInterest);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_NORTH_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-224), (y+64), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BALTIC_SEA_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x+160), (y+32), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GDANSK_BAY_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x+128), (y-228), FontParams_PointOfInterest);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BAY_OF_POMERANIA_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-128), (y-224), FontParams_PointOfInterest);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_BOTHNIA_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x+192), (y+416), FontParams_PointOfInterest);
+		else
+			pOverlay:CreateTextAtPos(szName, (x+100), y, FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BANDA_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+		if bExtraLabels then
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_ARAFURA_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+128), (y-64), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_CELEBES_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-96), (y+480), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_CERAM_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+64), (y+192), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_FLORES_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-96), (y+80), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_JAWA_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-320), (y+140), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_JOSEPH_BONAPARTE_GULF_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-128), (y-256), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_MOLUCCA_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-32), (y+288), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_TIMOR_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-64), (y-128), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BAY_OF_BENGAL_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+		if bExtraLabels then
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_ANDAMAN_SEA_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x+128), (y-160), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BAY_OF_BISCAY_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-32), (y+32), FontParams_MinorRegion);
+		if bExtraLabels then
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_CELTIC_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-192), y, FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_ENGLISH_CHANNEL_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+96), (y+48), FontParams_PointOfInterest);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BLACK_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y-16), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_CASPIAN_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_CARIBBEAN_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x+64), y, FontParams_MinorRegion);
+		if bExtraLabels then
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_PANAMA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-160), (y-384), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_COAST_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+50), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_CORAL_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+		if bExtraLabels then
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_CARPENTARIA_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-384), (y-32), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BOTANY_BAY_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x+96), (y-640), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_DAL_LAKE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_EAST_CHINA_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x+64), (y-128), FontParams_MinorRegion);
+		if bExtraLabels then
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BO_HAI_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-256), (y+288), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_KOREA_BAY_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-96), (y+164), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_YELLOW_SEA_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-96), (y+64), FontParams_MinorRegion);
+		end
+	-- elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_ENGLISH_CHANNEL_NAME"))) then
+		-- pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_GIBSON_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y-64), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_GOBI_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_GREAT_BASIN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+80), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_GREAT_VICTORIA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-64), (y-64), FontParams_MinorRegion);
+		if bExtraLabels then
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GREAT_AUSTRALIAN_BIGHT_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-64), (y-256), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_CALIFORNIA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+		if bExtraLabels then
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SAN_FRANCISCO_BAY_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-352), (y+416), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_ALASKA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-768), (y+832), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_MEXICO_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-32), (y+16), FontParams_MinorRegion);
+		if bExtraLabels then
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BAY_OF_CAMPECHE_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-160), (y-128), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_HONDURAS_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x+160), (y-224), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_TEHUANTEPEC_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-192), (y-480), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_SAINT_LAWRENCE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x), (y-288), FontParams_MinorRegion);
+		if bExtraLabels then
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_LABRADOR_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_HIMALAYAS_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y-64), FontParams_Religion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_HINDU_KUSH_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_HUDSON_BAY_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x+320), (y-128), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_HULUN_LAKE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_ISSYK_KUL_LAKE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_KALAHARI_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+96), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_KARAKUM_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+64), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_KHOVSGOL_LAKE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_KUNLUN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+32), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_ALAKOL_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_ALBERT_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_ADAPASKAW_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_BALKHASH_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+16), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_ERIE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_KHANKA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_KIVU_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_LADOGA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_OF_THE_WOODS_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_NIANGAY_NAME"))) then
+		print("Don't create text over natural wonder")
+		-- pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+		if bExtraLabels then
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_HANN_BAY_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-164), (y-64), FontParams_PointOfInterest);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_YOF_BAY_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-164), (y+64), FontParams_PointOfInterest);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BAY_OF_ARGUIN_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-164), (y+192), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SANGAREYA_BAY_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-128), (y-320), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_GUINEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+384), (y-512), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_ONTARIO_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_SUPERIOR_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x+32), (y+48), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_TAHOE_NAME"))) then
+		print("Don't create text over natural wonder")
+		-- pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_TEXCOCO_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_TITIQAQA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_TURKANA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_URMIA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_VAN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_LAKE_WINNIPEG_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_MEDITERRANEAN_SEA_NAME"))) then
+		if bExtraLabels then
+			--Big Mediterranean Label
+			pOverlay:CreateTextAtPos(szName, (x+128), (y+32), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_ADRIATIC_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+312), (y+96), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_AEGEAN_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+256), (y+32), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_ALBORAN_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-292), (y+32), FontParams_PointOfInterest);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_CADIZ_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-480), (y+32), FontParams_PointOfInterest);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_GABES_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+160), (y-136), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_VALENCIA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-164), (y+128), FontParams_PointOfInterest);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_LEVANTINE_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+544), (y-32), FontParams_PointOfInterest);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_LIBYAN_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+240), (y-80), FontParams_PointOfInterest);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_LIGURIAN_SEA_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-16), (y+208), FontParams_PointOfInterest);
+		else
+			pOverlay:CreateTextAtPos(szName, (x+200), (y-30), FontParams_MinorRegion);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_MACKENZIE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-15), (y+15), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_NORWEGIAN_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-128), y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_PANGONG_TSO_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_MOZAMBIQUE_CHANNEL_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GREENLAND_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x+64), (y-64), FontParams_MinorRegion);
+		if bExtraLabels then
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SEA_OF_THE_HEBRIDES_NAME"));
+			pOverlay:CreateTextAtPos(szName, x, (y-448), FontParams_PointOfInterest);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_NORTH_SEA_NAME"))) then
+		if bScotland then
+			pOverlay:CreateTextAtPos(szName, (x-128), (y+32), FontParams_MinorRegion);
+			if bExtraLabels then
+				szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BALTIC_SEA_NAME"));
+				pOverlay:CreateTextAtPos(szName, (x+256), (y-80), FontParams_MinorRegion);
+			end		
+		else
+			pOverlay:CreateTextAtPos(szName, (x+64), (y-128), FontParams_MinorRegion);
+			if bExtraLabels then
+				szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SEA_OF_THE_HEBRIDES_NAME"));
+				pOverlay:CreateTextAtPos(szName, (x-320), (y-96), FontParams_MinorRegion);
+				-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_MORAY_FIRTH_NAME"));
+				-- pOverlay:CreateTextAtPos(szName, (x-128), (y-64), FontParams_MinorRegion);
+				szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BALTIC_SEA_NAME"));
+				pOverlay:CreateTextAtPos(szName, (x+384), (y-224), FontParams_MinorRegion);
+				szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_NORWEGIAN_SEA_NAME"));
+				pOverlay:CreateTextAtPos(szName, (x+64), (y+128), FontParams_MinorRegion);
+				szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GREENLAND_SEA_NAME"));
+				pOverlay:CreateTextAtPos(szName, (x-256), (y+128), FontParams_MinorRegion);
+			end		
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_PACARAIMA_MOUNTAINS_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+64), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_POYANG_LAKE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_QINGHAI_LAKE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_RED_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-128), (y-32), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_REGISTAN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y-80), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_SAHARA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x+64), y, FontParams_Religion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SARGASSO_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x+32), (y-96), FontParams_MinorRegion);
+		if bExtraLabels then
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_CHESAPEAKE_BAY_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x-16), (y), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_MASSACHUSETTS_BAY_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+96), (y+288), FontParams_MinorRegion);
+			-- szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_BAY_OF_FUNDY_NAME"));
+			-- pOverlay:CreateTextAtPos(szName, (x+128), (y+448), FontParams_PointOfInterest);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_SEA_OF_GALILEE_NAME"))) then
+		print("Don't create text over natural wonder")
+		-- pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SEA_OF_JAPAN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-32), (y-64), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SEA_OF_OKHOTSK_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+64), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_SAYAN_MOUNTAINS_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+64), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SCOTIA_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SOUTH_CHINA_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x), (y+128), FontParams_MinorRegion);
+		if bExtraLabels then
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_THAILAND_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-464), (y-160), FontParams_PointOfInterest);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SULU_SEA_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x+160), (y-64), FontParams_MinorRegion);
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_GULF_OF_TONKIN_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-240), (y+256), FontParams_PointOfInterest);
+		end
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_STANOVOY_MOUNTAINS_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y+20), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_SULU_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-400), y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_TAKLAMAKAN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x-64), (y-32), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_DESERT_THAR_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x), y, FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_MOUNTAIN_TIEN_SHAN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x+64), (y+16), FontParams_MinorRegion);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_TONLE_SAP_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, (x), y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_UTIKUMA_LAKE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_VANERN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_VATTERN_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_LAKE_WEST_NUBIAN_LAKE_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_PointOfInterest);
+	elseif(szName == Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_KARA_SEA_NAME"))) then
+		pOverlay:CreateTextAtPos(szName, x, (y-16), FontParams_MinorRegion);
+		if bExtraLabels then
+			szName = Locale.ToUpper(Locale.Lookup("LOC_NAMED_SEA_WHITE_SEA_NAME"));
+			pOverlay:CreateTextAtPos(szName, (x-448), (y-128), FontParams_MinorRegion);
+		end
+	else
+		pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);
+	end
+end
+
+-- ===========================================================================
 --	Modified Firaxis function
 -- ===========================================================================
 function AddTerritoryLabel(pOverlay, pTerritory)
@@ -826,6 +1195,10 @@ function AddTerritoryLabel(pOverlay, pTerritory)
 			if mapName == "EqualAreaEarth" then
 				-- print("EqualAreaEarth detected. Applying Real Map Labels for Equal Area Earth (Play The World)");
 				szName = GetCustomMapLabel_EqualAreaEarth(eTerritory, szName);
+			end
+			if mapName == "PTW_GiantEarth" then
+				-- print("Giant Earth detected. Applying Real Map Labels for Giant Earth (Play The World)");
+				szName = GetCustomMapLabel_PTW_GiantEarth(eTerritory, pTerritory, szName);	
 			end
 		end
 		
@@ -878,6 +1251,8 @@ function AddTerritoryLabel(pOverlay, pTerritory)
 				CreateMapLabel_Earth128x80(szName, pOverlay, x, y);			
 			elseif(mapName == "EqualAreaEarth") then
 				CreateMapLabel_EqualAreaEarth(szName, pOverlay, x, y);	
+			elseif(mapName == "PTW_GiantEarth") then
+				CreateMapLabel_PTW_GiantEarth(szName, pOverlay, x, y);	
 			else
 				pOverlay:CreateTextAtPos(szName, x, y, FontParams_MinorRegion);	
 			end
@@ -2399,6 +2774,16 @@ function AddRiverLabel(pOverlay, pRiver)
 			end
 			if mapName == "EqualAreaEarth" then
 				GetCustomRiverLabel_EqualAreaEarth(pOverlay, pRiver, szName);
+			end
+			if mapName == "PTW_GiantEarth" then
+				-- Rivers are hardcoded on this map, use the default method
+				local fLength = pOverlay:GetTextLength(pRiver.Name, FontParams_River);
+				local pSegments = UI.CalculateEdgeSplineSegments(pRiver.Edges, 5, 10, 3, fLength);
+				if pSegments ~= nil then
+					for _,pSegment in pairs(pSegments) do
+						pOverlay:CreateTextArc(pRiver.Name, pSegment, FontParams_River);
+					end
+				end
 			end
 		else
 			-- approximately one label every 15 edges

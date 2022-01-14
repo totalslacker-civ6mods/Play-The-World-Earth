@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+		<!-- Rivers -->
+		<Replace Tag="LOC_NAMED_RIVER_ALABAMA_NAME" Text="Alabama" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_ALBANY_NAME" Text="Albany River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_ALDAN_NAME" Text="Aldan River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_ANADYR_NAME" Text="Anadyr River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_ANGARA_NAME" Text="Angara River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_ARAGUAIA_NAME" Text="Araguaia River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_ATRATO_NAME" Text="Atrato River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_ATREK_NAME" Text="Atrek River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_ATTAWAPISKAT_NAME" Text="Attawâpiskât" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_BANDAMA_NAME" Text="Bandama" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_BENUE_NAME" Text="Benue River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_BHIMA_NAME" Text="Bhima River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_BRAZOS_NAME" Text="Brazos River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_CHARI_NAME" Text="Chari River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_CHATTAHOOCHEE_NAME" Text="Chattahoochee" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_CHENAB_NAME" Text="Chenab River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_CHICO_NAME" Text="Chico River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_CHURCHILL_ATLANTIC_NAME" Text="Mishta-shipu" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_CONNECTICUT_NAME" Text="Connecticut" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_COPPERMINE_NAME" Text="Coppermine River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_EMS_NAME" Text="Ems River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_EASTMAIN_NAME" Text="Eastmain River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_GARONNE_NAME" Text="Garonne River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_GREAT_FISH_NAME" Text="Great Fish River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_GREAT_MORAVA_NAME" Text="Great Morava" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_GREAT_WHALE_NAME" Text="Great Whale" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_GUINEA_NAME" Text="Guinea River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_HAY_NAME" Text="Hay River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_HALYS_NAME" Text="Halys" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_HELMAND_NAME" Text="Helmand" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_HUDSON_NAME" Text="Hudson River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_INDIGIRKA_NAME" Text="Indigirka River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_IRTYSH_NAME" Text="Irtysh River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_JAMARA_NAME" Text="Jama'are River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_JURUA_NAME" Text="Juruá River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_KISSIMMEE_NAME" Text="Kissimmee" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_KOLYMA_NAME" Text="Kolyma River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_KOMOE_NAME" Text="Komoé" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_KRISHNA_NAME" Text="Krishna River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_KWANZA_NAME" Text="Kwanza River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_KUUJUAQ_NAME" Text="Kuujuaq River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_LA_GRANDE_NAME" Text="La Grande" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_LIAO_NAME" Text="Liao River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_LOWER_TUNGUSKA_NAME" Text="Lower Tunguska" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_LURIO_NAME" Text="Lurio River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_MAHANADI_NAME" Text="Mahanadi River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_MAHANADI_NAME" Text="Mahanadi River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_MARGIANA_NAME" Text="Margiana" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_MAND_NAME" Text="Mand River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_MIN_NAME" Text="Min River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_MEZEN_NAME" Text="Mezen River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_MOSKVA_NAME" Text="Moskva" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_NEMUNAS_NAME" Text="Nemunas" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_NERIS_NAME" Text="Neris" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_OLENEK_NAME" Text="Olenek River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_PEACE_NAME" Text="Peace River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_PECHORA_NAME" Text="Pechora River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_PRIPYAT_NAME" Text="Pripyat" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_PURUS_NAME" Text="Purus River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_RUFIJI_NAME" Text="Rufiji River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_RUPERT_NAME" Text="Rupert River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_RUVUMA_NAME" Text="Ruvuma River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SABINE_NAME" Text="Sabine River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SAGUENAY_NAME" Text="Saguenay" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SASSANDRA_NAME" Text="Sassandra" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SAVA_NAME" Text="Sava River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SAVANNAH_NAME" Text="Savannah River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SEGURA_NAME" Text="Segura River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SELENGE_NAME" Text="Selenge River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SEVERN_NAME" Text="Severn River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SEYHAN_NAME" Text="Seyhan River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SHANNON_NAME" Text="Shannon River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SLAVE_NAME" Text="Slave River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SNAKE_NAME" Text="Snake River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_SUTLEJ_NAME" Text="Sutlej River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_TAPAJOS_NAME" Text="Tapajós River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_TAYMYR_NAME" Text="Taymyr River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_TENNESSEE_NAME" Text="Tennessee" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_TUNGABHADRA_NAME" Text="Tungabhadra" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_UBANGI_NAME" Text="Ubangi River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_UPPER_TUNGUSKA_NAME" Text="Upper Tunguska" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_URUGUAY_NAME" Text="Uruguay" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_VOLTA_NAME" Text="Volta River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_WHITE_NILE_NAME" Text="White Nile" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_WHITE_VOLTA_NAME" Text="White Volta" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_XINGU_NAME" Text="Xingu River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_YANA_NAME" Text="Yana River" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_YOBE_NAME" Text="Komadougou Yobe" Language="en_US" />
+		<Replace Tag="LOC_NAMED_RIVER_YOUBOU_NAME" Text="Youbou River" Language="en_US" />
+		<!-- Lakes -->
+		<Replace Tag="LOC_NAMED_LAKE_LAKE_CHAD_NAME" Text="Lake Chad" Language="en_US" />
+		<Replace Tag="LOC_NAMED_LAKE_LAKE_INARI_NAME" Text="Lake Inari" Language="en_US" />
+		<Replace Tag="LOC_NAMED_LAKE_LAKE_OULUJARVI_NAME" Text="Lake Oulujärvi" Language="en_US" />
+		<Replace Tag="LOC_NAMED_LAKE_OKAVANGO_DELTA_NAME" Text="Okavango Delta" Language="en_US" />
+		<Replace Tag="LOC_NAMED_LAKE_LAKE_VYGOZERO_NAME" Text="Lake Vygozero" Language="en_US" />
+		<Replace Tag="LOC_NAMED_LAKE_LAKE_ZAYSAN_NAME" Text="Lake Zaysan" Language="en_US" />
+  </LocalizedText>
+</GameData>

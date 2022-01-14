@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author: totalslacker -->
+<GameInfo>
+	<MapStartPositions>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7435" Type="CIVILIZATION" Value="CIVILIZATION_OTTOMAN"/>
+		<!-- <Update> -->
+			<!-- <Set Plot="7435" /> -->
+			<!-- <Where Value="CIVILIZATION_OTTOMAN"/> -->
+			<!-- <And Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" />  -->
+		<!-- </Update> -->
+	</MapStartPositions>	
+</GameInfo>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MapStartPositions>
+	
+		<Replace Map="PTW_GiantEarth" Plot="2540" Type="NATURAL_WONDER" Value="FEATURE_BARRIER_REEF" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="8911" Type="NATURAL_WONDER" Value="FEATURE_CLIFFS_DOVER" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="8412" Type="NATURAL_WONDER" Value="FEATURE_CRATER_LAKE" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="6086" Type="NATURAL_WONDER" Value="FEATURE_DEAD_SEA" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="6712" Type="NATURAL_WONDER" Value="FEATURE_EVEREST" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="4073" Type="NATURAL_WONDER" Value="FEATURE_GALAPAGOS" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="3235" Type="NATURAL_WONDER" Value="FEATURE_KILIMANJARO" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="2738" Type="NATURAL_WONDER" Value="FEATURE_PANTANAL" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="296" Type="NATURAL_WONDER" Value="FEATURE_PIOPIOTAHI" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="333" Type="NATURAL_WONDER" Value="FEATURE_TORRES_DEL_PAINE" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="1890" Type="NATURAL_WONDER" Value="FEATURE_TSINGY" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="7963" Type="NATURAL_WONDER" Value="FEATURE_YOSEMITE" />
+		
+		
+		<!-- **************** -->
+		<!--     DLC NW       -->
+		<!-- **************** -->
+		
+		<Replace Map="PTW_GiantEarth" Plot="11302" Type="NATURAL_WONDER" Value="FEATURE_EYJAFJALLAJOKULL" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="10718" Type="NATURAL_WONDER" Value="FEATURE_LYSEFJORDEN" />
+
+		<Replace Map="PTW_GiantEarth" Plot="10106" Type="NATURAL_WONDER" Value="FEATURE_GIANTS_CAUSEWAY" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="1633" Type="NATURAL_WONDER" Value="FEATURE_ULURU" />
+
+		<Replace Map="PTW_GiantEarth" Plot="5822" Type="NATURAL_WONDER" Value="FEATURE_HA_LONG_BAY" />
+		
+		<!-- **************** -->
+		<!-- Rise and Fall NW -->
+		<!-- **************** -->		
+		
+		<Replace Map="PTW_GiantEarth" Plot="4236" Type="NATURAL_WONDER" Value="FEATURE_RORAIMA" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="8063" Type="NATURAL_WONDER" Value="FEATURE_ZHANGYE_DANXIA" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="8962" Type="NATURAL_WONDER" Value="FEATURE_UBSUNUR_HOLLOW" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="4705" Type="NATURAL_WONDER" Value="FEATURE_LAKE_RETBA" />
+		
+		<Replace Map="PTW_GiantEarth" Plot="8169" Type="NATURAL_WONDER" Value="FEATURE_MATTERHORN"/> 
+		
+		<Replace Map="PTW_GiantEarth" Plot="8264" Type="NATURAL_WONDER" Value="FEATURE_DELICATE_ARCH"/> 
+
+		<Replace Map="PTW_GiantEarth" Plot="5459" Type="NATURAL_WONDER" Value="FEATURE_EYE_OF_THE_SAHARA"/> 
+		
+		 
+		<!-- ****************** -->
+		<!-- Gathering Storm NW -->
+		<!-- ****************** -->
+
+		<Replace Map="PTW_GiantEarth" Plot="5529" Type="NATURAL_WONDER" Value="FEATURE_CHOCOLATEHILLS"/> 
+
+		<Replace Map="PTW_GiantEarth" Plot="7442" Type="NATURAL_WONDER" Value="FEATURE_GOBUSTAN"/> 
+		
+		<Replace Map="PTW_GiantEarth" Plot="7282" Type="NATURAL_WONDER" Value="FEATURE_PAMUKKALE"/> 
+
+		<Replace Map="PTW_GiantEarth" Plot="5927" Type="NATURAL_WONDER" Value="FEATURE_WHITEDESERT"/> 
+		
+		<Replace Map="PTW_GiantEarth" Plot="8420" Type="NATURAL_WONDER" Value="FEATURE_DEVILSTOWER"/> 
+		
+		<Replace Map="PTW_GiantEarth" Plot="6325" Type="NATURAL_WONDER" Value="FEATURE_IKKIL"/> 
+		
+		<Replace Map="PTW_GiantEarth" Plot="7273" Type="NATURAL_WONDER" Value="FEATURE_VESUVIUS"/> 
+		
+		<!-- ****************** -->
+		<!-- New Frontier NW -->
+		<!-- ****************** -->	
+		
+		<Replace Map="PTW_GiantEarth" Plot="6632" Type="NATURAL_WONDER" Value="FEATURE_FOUNTAIN_OF_YOUTH"/> 
+		
+		<Replace Map="PTW_GiantEarth" Plot="3033" Type="NATURAL_WONDER" Value="FEATURE_PAITITI"/> 
+
+		<Replace Map="PTW_GiantEarth" Plot="6935" Type="NATURAL_WONDER" Value="FEATURE_BERMUDA_TRIANGLE"/> 
+		 
+		<!-- **************** -->
+		<!--    Modded NW     -->
+		<!-- **************** -->
+		
+		<!-- Sukritact's Wonders -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="113" Y="52" FeatureType="FEATURE_SUK_FUJI" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="74" Y="33" FeatureType="FEATURE_SUK_NGORONGORO_CRATER" TerrainType="TERRAIN_GRASS" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="75" Y="33" FeatureType="FEATURE_SUK_NGORONGORO_CRATER" TerrainType="TERRAIN_GRASS" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="75" Y="32" FeatureType="FEATURE_SUK_NGORONGORO_CRATER" TerrainType="TERRAIN_GRASS" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="23" Y="55" FeatureType="FEATURE_SUK_GRANDCANYON" TerrainType="TERRAIN_DESERT_HILLS" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="24" Y="55" FeatureType="FEATURE_SUK_GRANDCANYON" TerrainType="TERRAIN_DESERT_HILLS" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="24" Y="54" FeatureType="FEATURE_SUK_GRANDCANYON" TerrainType="TERRAIN_DESERT_HILLS" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="101" Y="42" FeatureType="FEATURE_SUK_TONLESAP" TerrainType="TERRAIN_COAST" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="100" Y="43" FeatureType="FEATURE_SUK_TONLESAP" TerrainType="TERRAIN_COAST" />		 -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="34" Y="44" FeatureType="FEATURE_SUK_GREATBLUEHOLE" TerrainType="TERRAIN_COAST" /> -->
+		
+		<!-- Terra Mirabilis -->
+
+		<!-- <Replace Map="PTW_GiantEarth" X="40" Y="25" FeatureType="FEATURE_CERRO_DE_POTOSI" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="25" Y="52" FeatureType="FEATURE_BARRINGER_CRATER" TerrainType="TERRAIN_DESERT" />		 -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="93" Y="38" FeatureType="FEATURE_SRI_PADA" TerrainType="TERRAIN_GRASS_MOUNTAIN" />		 -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="101" Y="30" FeatureType="FEATURE_KRAKATOA" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="79" Y="40" FeatureType="FEATURE_DALLOL" TerrainType="TERRAIN_DESERT" />				 -->
+
+		<!-- <Replace Map="PTW_GiantEarth" X="74" Y="35" FeatureType="FEATURE_LAKE_VICTORIA" TerrainType="TERRAIN_COAST" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="75" Y="35" FeatureType="FEATURE_LAKE_VICTORIA" TerrainType="TERRAIN_COAST" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="75" Y="34" FeatureType="FEATURE_LAKE_VICTORIA" TerrainType="TERRAIN_COAST" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="76" Y="34" FeatureType="FEATURE_LAKE_VICTORIA" TerrainType="TERRAIN_COAST" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="50" Y="32" FeatureType="FEATURE_LENCOIS_MARANHENSES" TerrainType="TERRAIN_DESERT" />		 -->
+		<!-- <Replace Map="PTW_GiantEarth" X="50" Y="31" FeatureType="FEATURE_LENCOIS_MARANHENSES" TerrainType="TERRAIN_DESERT" /> -->
+
+		<!-- <Replace Map="PTW_GiantEarth" X="74" Y="27" FeatureType="FEATURE_MOTLATSE_CANYON" TerrainType="TERRAIN_GRASS" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="75" Y="28" FeatureType="FEATURE_MOTLATSE_CANYON" TerrainType="TERRAIN_GRASS" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="75" Y="27" FeatureType="FEATURE_MOTLATSE_CANYON" TerrainType="TERRAIN_GRASS" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="76" Y="27" FeatureType="FEATURE_MOTLATSE_CANYON" TerrainType="TERRAIN_GRASS" />		 -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="68" Y="26" FeatureType="FEATURE_NAMIB" TerrainType="TERRAIN_DESERT" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="68" Y="25" FeatureType="FEATURE_NAMIB" TerrainType="TERRAIN_DESERT" />	 -->
+		<!-- <Replace Map="PTW_GiantEarth" X="69" Y="24" FeatureType="FEATURE_NAMIB" TerrainType="TERRAIN_DESERT" />				 -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="70" Y="43" FeatureType="FEATURE_OUNIANGA" TerrainType="TERRAIN_DESERT" />	 -->
+		<!-- <Replace Map="PTW_GiantEarth" X="71" Y="44" FeatureType="FEATURE_OUNIANGA" TerrainType="TERRAIN_DESERT" />		 -->
+
+		<!-- <Replace Map="PTW_GiantEarth" X="39" Y="24" FeatureType="FEATURE_SALAR_DE_UYUNI" TerrainType="TERRAIN_DESERT" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="38" Y="23" FeatureType="FEATURE_SALAR_DE_UYUNI" TerrainType="TERRAIN_DESERT" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="39" Y="23" FeatureType="FEATURE_SALAR_DE_UYUNI" TerrainType="TERRAIN_DESERT" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="39" Y="22" FeatureType="FEATURE_SALAR_DE_UYUNI" TerrainType="TERRAIN_DESERT" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="24" Y="59" FeatureType="FEATURE_OLD_FAITHFUL" TerrainType="TERRAIN_PLAINS" />	 -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="25" Y="55" FeatureType="FEATURE_GRAND_MESA" TerrainType="TERRAIN_PLAINS_MOUNTAIN" />		 -->
+
+		<!-- <Replace Map="PTW_GiantEarth" X="93" Y="52" FeatureType="FEATURE_KAILASH" TerrainType="TERRAIN_GRASS_MOUNTAIN" />	 -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="41" Y="44" FeatureType="FEATURE_BIOLUMINESCENT_BAY" TerrainType="TERRAIN_COAST" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="76" Y="49" FeatureType="FEATURE_SINAI" TerrainType="TERRAIN_PLAINS_MOUNTAIN" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="75" Y="26" FeatureType="FEATURE_MOSI_OA_TUNYA" TerrainType="TERRAIN_GRASS" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="61" Y="54" FeatureType="FEATURE_GIBRALTAR" TerrainType="TERRAIN_GRASS" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="73" Y="22" FeatureType="FEATURE_VREDEFORT_DOME" TerrainType="TERRAIN_PLAINS" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="74" Y="22" FeatureType="FEATURE_VREDEFORT_DOME" TerrainType="TERRAIN_PLAINS" /> -->
+		
+		<!-- <Replace Map="PTW_GiantEarth" X="102" Y="49" FeatureType="FEATURE_WULINGYUAN" TerrainType="TERRAIN_GRASS_HILLS" /> -->
+		<!-- <Replace Map="PTW_GiantEarth" X="102" Y="50" FeatureType="FEATURE_WULINGYUAN" TerrainType="TERRAIN_GRASS_HILLS" /> -->
+
+	</MapStartPositions>
+</GameData>

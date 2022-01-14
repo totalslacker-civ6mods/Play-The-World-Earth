@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author: totalslacker -->
+<GameInfo>
+	<MapStartPositions>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7129" Type="LEADER" Value="LEADER_PERICLES"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6826" Type="LEADER" Value="LEADER_GORGO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6556" Type="LEADER" Value="LEADER_CHANDRAGUPTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5056" Type="LEADER" Value="LEADER_GANDHI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7770" Type="LEADER" Value="LEADER_QIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8524" Type="LEADER" Value="LEADER_KUBLAI_KHAN_CHINA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9269" Type="LEADER" Value="LEADER_KUBLAI_KHAN_MONGOLIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8816" Type="LEADER" Value="LEADER_GENGHIS_KHAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8011" Type="LEADER" Value="LEADER_ELEANOR_FRANCE"/>
+	</MapStartPositions>	
+</GameInfo>

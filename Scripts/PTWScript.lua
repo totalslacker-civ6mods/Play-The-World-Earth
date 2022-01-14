@@ -26,7 +26,7 @@ function ConvertMaize()
 	if bConvertMaize then
 		print("Attempting to add Maize resources to the Americas")
 		local bMaize = false
-		if GameInfo.Resources['RESOURCE_MAIZE'].Index ~= nil then bMaize = true end
+		if (GameInfo.Resources['RESOURCE_MAIZE'] ~= nil) then bMaize = true end
 		if not bMaize then 
 			print("Maize resource not detected, ending function")
 			return 
@@ -142,7 +142,7 @@ end
 -- ===========================================================================
 
 function Initialize()
-	if (mapName == "Earth128x80") or (mapName == "EqualAreaEarth") then
+	if (mapName == "Earth128x80") or (mapName == "EqualAreaEarth") or (mapName == "PTW_GiantEarth") then
 		GameEvents.PlayerTurnStarted.Add( TSLEE_MapConfig )
 	end
 end

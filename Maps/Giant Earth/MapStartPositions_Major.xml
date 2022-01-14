@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author: totalslacker -->
+<GameInfo>
+	<MapStartPositions>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7832" Type="CIVILIZATION" Value="CIVILIZATION_AMERICA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5635" Type="CIVILIZATION" Value="CIVILIZATION_ARABIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="1191" Type="CIVILIZATION" Value="CIVILIZATION_AUSTRALIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6169" Type="CIVILIZATION" Value="CIVILIZATION_AZTEC"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6390" Type="CIVILIZATION" Value="CIVILIZATION_BABYLON_STK"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="2744" Type="CIVILIZATION" Value="CIVILIZATION_BRAZIL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7732" Type="CIVILIZATION" Value="CIVILIZATION_BYZANTIUM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9029" Type="CIVILIZATION" Value="CIVILIZATION_CANADA"/>
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7770" Type="CIVILIZATION" Value="CIVILIZATION_CHINA"/> -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9318" Type="CIVILIZATION" Value="CIVILIZATION_CREE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5630" Type="CIVILIZATION" Value="CIVILIZATION_EGYPT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9061" Type="CIVILIZATION" Value="CIVILIZATION_ENGLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4285" Type="CIVILIZATION" Value="CIVILIZATION_ETHIOPIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8464" Type="CIVILIZATION" Value="CIVILIZATION_FRANCE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8618" Type="CIVILIZATION" Value="CIVILIZATION_GAUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8190" Type="CIVILIZATION" Value="CIVILIZATION_GEORGIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9072" Type="CIVILIZATION" Value="CIVILIZATION_GERMANY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4835" Type="CIVILIZATION" Value="CIVILIZATION_GRAN_COLOMBIA"/>
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7129" Type="CIVILIZATION" Value="CIVILIZATION_GREECE"/> -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8325" Type="CIVILIZATION" Value="CIVILIZATION_HUNGARY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="2882" Type="CIVILIZATION" Value="CIVILIZATION_INCA"/>
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6557" Type="CIVILIZATION" Value="CIVILIZATION_INDIA"/> -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="3275" Type="CIVILIZATION" Value="CIVILIZATION_INDONESIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7789" Type="CIVILIZATION" Value="CIVILIZATION_JAPAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4921" Type="CIVILIZATION" Value="CIVILIZATION_KHMER"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="2624" Type="CIVILIZATION" Value="CIVILIZATION_KONGO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8081" Type="CIVILIZATION" Value="CIVILIZATION_KOREA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7728" Type="CIVILIZATION" Value="CIVILIZATION_MACEDON"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4410" Type="CIVILIZATION" Value="CIVILIZATION_MALI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="3153" Type="CIVILIZATION" Value="CIVILIZATION_MAORI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="782" Type="CIVILIZATION" Value="CIVILIZATION_MAPUCHE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6175" Type="CIVILIZATION" Value="CIVILIZATION_MAYA"/>
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8817" Type="CIVILIZATION" Value="CIVILIZATION_MONGOLIA"/> -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9066" Type="CIVILIZATION" Value="CIVILIZATION_NETHERLANDS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="11171" Type="CIVILIZATION" Value="CIVILIZATION_NORWAY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4582" Type="CIVILIZATION" Value="CIVILIZATION_NUBIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8958" Type="CIVILIZATION" Value="CIVILIZATION_OTTOMAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7144" Type="CIVILIZATION" Value="CIVILIZATION_PERSIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6518" Type="CIVILIZATION" Value="CIVILIZATION_PHOENICIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8779" Type="CIVILIZATION" Value="CIVILIZATION_POLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6955" Type="CIVILIZATION" Value="CIVILIZATION_PORTUGAL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7421" Type="CIVILIZATION" Value="CIVILIZATION_ROME"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9686" Type="CIVILIZATION" Value="CIVILIZATION_RUSSIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9959" Type="CIVILIZATION" Value="CIVILIZATION_SCOTLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8790" Type="CIVILIZATION" Value="CIVILIZATION_SCYTHIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7260" Type="CIVILIZATION" Value="CIVILIZATION_SPAIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5942" Type="CIVILIZATION" Value="CIVILIZATION_SUMERIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="10426" Type="CIVILIZATION" Value="CIVILIZATION_SWEDEN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5971" Type="CIVILIZATION" Value="CIVILIZATION_VIETNAM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="1431" Type="CIVILIZATION" Value="CIVILIZATION_ZULU"/>
+	</MapStartPositions>	
+</GameInfo>

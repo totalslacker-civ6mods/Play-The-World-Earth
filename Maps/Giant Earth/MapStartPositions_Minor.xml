@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author: totalslacker -->
+<GameInfo>
+	<MapStartPositions>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6991" Type="CIVILIZATION" Value="CIVILIZATION_AKKAD"/>
+		<!-- Amsterdam City-State is set separately in MapStartPositions_XP1 -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="1891" Type="CIVILIZATION" Value="CIVILIZATION_ANTANANARIVO"/>
+		<!-- Antioch City-State is set separately in MapStartPositions_ByzantiumGaul.sql -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9656" Type="CIVILIZATION" Value="CIVILIZATION_ARMAGH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="1200" Type="CIVILIZATION" Value="CIVILIZATION_AUCKLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5368" Type="CIVILIZATION" Value="CIVILIZATION_AYUTTHAYA"/>
+		<!-- Babylon City-State TSL is set separately in MapStartPositions_Babylon.sql -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7869" Type="CIVILIZATION" Value="CIVILIZATION_BOLOGNA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9067" Type="CIVILIZATION" Value="CIVILIZATION_BRUSSELS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="1688" Type="CIVILIZATION" Value="CIVILIZATION_BUENOS_AIRES"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6188" Type="CIVILIZATION" Value="CIVILIZATION_CAGUANA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8125" Type="CIVILIZATION" Value="CIVILIZATION_CAHOKIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9358" Type="CIVILIZATION" Value="CIVILIZATION_CARDIFF"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6368" Type="CIVILIZATION" Value="CIVILIZATION_CARTHAGE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6210" Type="CIVILIZATION" Value="CIVILIZATION_FEZ"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8167" Type="CIVILIZATION" Value="CIVILIZATION_GENEVA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5457" Type="CIVILIZATION" Value="CIVILIZATION_CHINGUETTI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6812" Type="CIVILIZATION" Value="CIVILIZATION_GRANADA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7586" Type="CIVILIZATION" Value="CIVILIZATION_HATTUSA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6127" Type="CIVILIZATION" Value="CIVILIZATION_HONG_KONG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4531" Type="CIVILIZATION" Value="CIVILIZATION_HUNZA"/>
+		<!-- Jakarta City-State is set separately in MapStartPositions_IndonesiaKhmer.sql -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6235" Type="CIVILIZATION" Value="CIVILIZATION_JERUSALEM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="1580" Type="CIVILIZATION" Value="CIVILIZATION_JOHANNESBURG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7153" Type="CIVILIZATION" Value="CIVILIZATION_KABUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4009" Type="CIVILIZATION" Value="CIVILIZATION_KANDY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="3814" Type="CIVILIZATION" Value="CIVILIZATION_KUMASI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7007" Type="CIVILIZATION" Value="CIVILIZATION_LAHORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5872" Type="CIVILIZATION" Value="CIVILIZATION_LA_VENTA"/>
+		<!-- Lisbon City-State is set separately in MapStartPositions_Portugal.sql -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6168" Type="CIVILIZATION" Value="CIVILIZATION_MEXICO_CITY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6552" Type="CIVILIZATION" Value="CIVILIZATION_MOHENJO_DARO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5797" Type="CIVILIZATION" Value="CIVILIZATION_MUSCAT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6410" Type="CIVILIZATION" Value="CIVILIZATION_NALANDA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5386" Type="CIVILIZATION" Value="CIVILIZATION_NAN_MADOL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="3029" Type="CIVILIZATION" Value="CIVILIZATION_NAZCA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4573" Type="CIVILIZATION" Value="CIVILIZATION_NGAZARGAMU"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5576" Type="CIVILIZATION" Value="CIVILIZATION_PALENQUE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8180" Type="CIVILIZATION" Value="CIVILIZATION_PRESLAV"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="1675" Type="CIVILIZATION" Value="CIVILIZATION_RAPA_NUI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7752" Type="CIVILIZATION" Value="CIVILIZATION_SAMARKAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8231" Type="CIVILIZATION" Value="CIVILIZATION_SEOUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4170" Type="CIVILIZATION" Value="CIVILIZATION_SINGAPORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="10426" Type="CIVILIZATION" Value="CIVILIZATION_STOCKHOLM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4119" Type="CIVILIZATION" Value="CIVILIZATION_TARUGA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9030" Type="CIVILIZATION" Value="CIVILIZATION_TORONTO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6371" Type="CIVILIZATION" Value="CIVILIZATION_VALLETTA"/>
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7236" Type="CIVILIZATION" Value="CIVILIZATION_VATICAN_CITY"/> -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7571" Type="CIVILIZATION" Value="CIVILIZATION_VATICAN_CITY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9380" Type="CIVILIZATION" Value="CIVILIZATION_VILNIUS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9226" Type="CIVILIZATION" Value="CIVILIZATION_WOLIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7590" Type="CIVILIZATION" Value="CIVILIZATION_YEREVAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="2788" Type="CIVILIZATION" Value="CIVILIZATION_ZANZIBAR"/>
+	</MapStartPositions>	
+</GameInfo>

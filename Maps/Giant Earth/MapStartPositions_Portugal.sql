@@ -1,0 +1,9 @@
+INSERT OR REPLACE INTO MapStartPositions (Map, Plot, Type, Value)
+SELECT	("{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map"), ("3690"), ("CIVILIZATION"), ("CIVILIZATION_LISBON")
+WHERE EXISTS (SELECT * FROM Players WHERE CivilizationType="CIVILIZATION_PORTUGAL");
+
+-- DELETE FROM MapStartPositions WHERE Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" AND Plot="6956" AND Type="CIVILIZATION" AND Value="CIVILIZATION_PORTUGAL" AND NOT EXISTS (SELECT * FROM Players WHERE CivilizationType="CIVILIZATION_PORTUGAL");
+
+-- INSERT OR REPLACE INTO MapStartPositions (Map, Plot, Type, Value)
+-- SELECT	("{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map"), ("6956"), ("CIVILIZATION"), ("CIVILIZATION_LISBON")
+-- WHERE NOT EXISTS (SELECT * FROM Players WHERE CivilizationType="CIVILIZATION_PORTUGAL");

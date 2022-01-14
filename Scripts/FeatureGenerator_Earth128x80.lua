@@ -621,10 +621,14 @@ function FeatureGenerator_Earth128x80:AddIceToEarthMap(MapName)
 								-- TerrainBuilder.AddIce(plot:GetIndex(), -1); 		
 							-- end								
 						end
+						if mapName == "PTW_GiantEarth" then
+							print("Do not add ice to bottom of Giant Earth at this time")								
+						end
 					end
 				end
 			end
 		end
+		--Generate ice on the top of the map
 		for x = 0, self.iGridW - 1, 1 do
 			local y = self.iGridH - 1;
 			local i = y * self.iGridW + x;
@@ -645,6 +649,13 @@ function FeatureGenerator_Earth128x80:AddIceToEarthMap(MapName)
 								TerrainBuilder.SetFeatureType(plot, g_FEATURE_ICE);
 								TerrainBuilder.AddIce(plot:GetIndex(), -1); 		
 							end										
+						end
+						if mapName == "PTW_GiantEarth" then 
+							-- Plots between Greenland and Russia, which should be ice free on TSL Earth Map
+							if x < 51 or x > 89 then 
+								TerrainBuilder.SetFeatureType(plot, g_FEATURE_ICE);
+								TerrainBuilder.AddIce(plot:GetIndex(), -1); 
+							end							
 						end
 					end
 				end
