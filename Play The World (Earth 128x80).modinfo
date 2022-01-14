@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="0ffac96e-140c-4389-8ae8-6c0cd6391c40" version="1.3.0">
 	<Properties>
-		<Name>Play The World (Earth 128*80)</Name>
-		<Description>Features Earth 128*80 with upscaled Europe, and Equal Area Earth (128*80). Works with all game versions and DLC, up to New Frontier</Description>
-		<Teaser>Earth (128*80) and Equal Area Earth by totalslacker</Teaser>
+		<Name>Play The World</Name>
+		<Description>Map pack includes Giant Earth (150*84), Earth (128*80), and Equal Area Earth (128*80). Compatible with all game versions and DLC</Description>
+		<Teaser>Giant Earth, Earth (128*80) and Equal Area Earth by totalslacker</Teaser>
 		<Authors>totalslacker</Authors>
 		<AffectsSavedGames>1</AffectsSavedGames>
 		<SupportsMultiplayer>1</SupportsMultiplayer>
