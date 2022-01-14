@@ -1,0 +1,5 @@
+DELETE FROM Feature_ValidTerrains WHERE FeatureType="FEATURE_BURNING_FOREST" AND TerrainType="TERRAIN_TUNDRA"; 
+DELETE FROM Feature_ValidTerrains WHERE FeatureType="FEATURE_BURNING_FOREST" AND TerrainType="TERRAIN_TUNDRA_HILLS"; 
+
+UPDATE RandomEvent_Yields SET Turn="8" WHERE RandomEventType="RANDOM_EVENT_FOREST_FIRE" AND FeatureType="FEATURE_FOREST"; 
+UPDATE RandomEvent_Yields SET Turn="8" WHERE RandomEventType="RANDOM_EVENT_JUNGLE_FIRE" AND FeatureType="FEATURE_JUNGLE"; 

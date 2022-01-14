@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author: totalslacker -->
+<GameInfo>
+	<Parameters>
+		<!-- Advanced Options -->
+		<Row ParameterId="PTW_Header_Main" Name="LOC_MAP_PTW_HEADER_MAIN_NAME" Description="" Domain="bool" DefaultValue="1" ConfigurationGroup="Map" ConfigurationId="PTW_Header_Main" GroupId="AdvancedOptions" Visible="1" ReadOnly="1" SortIndex="499"/>
+		<Row ParameterId="PTW_Footer_Main" Name="LOC_MAP_PTW_FOOTER_MAIN_NAME" Description="" Domain="bool" DefaultValue="1" ConfigurationGroup="Map" ConfigurationId="PTW_Footer_Main" GroupId="AdvancedOptions" Visible="1" ReadOnly="1" SortIndex="511"/>
+		<Row ParameterId="LoyalCapitals_PTW" Name="LOC_GAME_LOYAL_CAPITALS_NAME" Description="LOC_GAME_LOYAL_CAPITALS_DESC" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="LoyalCapitals_PTW" GroupId="AdvancedOptions" Visible="1" SortIndex="500"/>
+		<Row ParameterId="LoyaltyPressure_PTW" Name="LOC_GAME_LOYALTY_PRESSURE_NAME" Description="LOC_GAME_LOYALTY_PRESSURE_DESC" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="LoyaltyPressure_PTW" GroupId="AdvancedOptions" Visible="1" SortIndex="500"/>
+		<Row ParameterId="CityDistance_PTW" Name="LOC_GAME_CITY_DISTANCE_NAME" Description="LOC_GAME_CITY_DISTANCE_DESC" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="CityDistance_PTW" GroupId="AdvancedOptions" Visible="1" SortIndex="500"/>
+		<Row ParameterId="CityStateBorders_PTW" Name="LOC_GAME_CS_BORDERS_NAME" Description="LOC_GAME_CS_BORDERS_DESC" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="CityStateBorders_PTW" GroupId="AdvancedOptions" Visible="1" SortIndex="500"/>
+		<Row ParameterId="ResourceChanges_PTW" Name="LOC_GAME_RESOURCE_CHANGES_NAME" Description="LOC_GAME_RESOURCE_CHANGES_DESC" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="ResourceChanges_PTW" GroupId="AdvancedOptions" Visible="1" SortIndex="500"/>
+	</Parameters>
+	<ParameterDependencies>
+		<Row ParameterId="LoyalCapitals_PTW" ConfigurationGroup="Map" ConfigurationId="TSLEE_Header_Main" Operator="NotEquals" ConfigurationValue="1"/>
+		<Row ParameterId="LoyaltyPressure_PTW" ConfigurationGroup="Map" ConfigurationId="TSLEE_Header_Main" Operator="NotEquals" ConfigurationValue="1"/>
+		<Row ParameterId="CityDistance_PTW" ConfigurationGroup="Map" ConfigurationId="TSLEE_Header_Main" Operator="NotEquals" ConfigurationValue="1"/>
+		<Row ParameterId="CityStateBorders_PTW" ConfigurationGroup="Map" ConfigurationId="TSLEE_Header_Main" Operator="NotEquals" ConfigurationValue="1"/>
+		<Row ParameterId="ResourceChanges_PTW" ConfigurationGroup="Map" ConfigurationId="TSLEE_Header_Main" Operator="NotEquals" ConfigurationValue="1"/>
+		<Row ParameterId="PTW_Header_Main" ConfigurationGroup="Map" ConfigurationId="TSLEE_Header_Main" Operator="NotEquals" ConfigurationValue="1"/>
+		<Row ParameterId="PTW_Footer_Main" ConfigurationGroup="Map" ConfigurationId="TSLEE_Header_Main" Operator="NotEquals" ConfigurationValue="1"/>
+	</ParameterDependencies>
+</GameInfo>

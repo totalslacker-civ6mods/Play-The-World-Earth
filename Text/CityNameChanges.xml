@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+		<!-- Names with Special Characters -->
+		<Replace Tag="LOC_CITY_NAME_ABO" Text="Åbo" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_A_CORUNA" Text="A Coruña" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_AMAL" Text="Ålesund" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_AMAL" Text="Åmål" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BAJA" Text="Bája" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BELEM" Text="Belém" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BEOGRAD" Text="Belgrade" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BJARKOY" Text="Bjarkøy" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BOGOTA" Text="Bogotá" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BORLANGE" Text="Borlänge" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BOUAKE" Text="Bouaké" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BRASILIA" Text="Brasília" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CARNUNTUM" Text="Vienna" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_COPAN" Text="Copán" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CUCUTA" Text="Cúcuta" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GDANSK" Text="Gdańsk" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GOAIANA" Text="Goiânia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GOTEBURG" Text="Göteburg" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_HUMAITA" Text="Humaitá" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_JAPURA" Text="Japurá" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_JONKOPING" Text="Jönköping" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_JUTAI" Text="Jutaí" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KOKEQOTA" Text="Kökeqota" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KONIGSBERG" Text="Königsberg" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KRAKOW" Text="Kraków" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LODZ" Text="Łódź" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LUAN" Text="Lu’an" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LUBECK" Text="Lübeck" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LULEA" Text="Luleå" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MALMO" Text="Malmö" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MEROE" Text="Meroë" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MITU" Text="Mitú" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MORON" Text="Mörön" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NARANJO" Text="Wak Kab’nal" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NTERET" Text="N’Teret" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NOVO_PARAISO" Text="Novo Paraíso" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_OBIDOS" Text="Óbidos " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_OSKEMEN" Text="Öskemen " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_OSTERSUND" Text="Östersund " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PRAHA" Text="Prague" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PORTO_VELHO" Text="Pôrto Velho" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_POZNAN" Text="Poznań" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_QOCO" Text="Qočo" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RA_KEDET" Text="Râ-Kedet" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANAA" Text="Sana’a" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAO_LUIS" Text="São Luis" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAO_PAULO" Text="São Paulo" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TAIZZ" Text="Ta’izz" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TIRGOVISTE" Text="Tîrgoviște" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TJOTTA" Text="Tjøtta" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TOBOLSK" Text="Tobol’sk" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TORNEA" Text="Torneå" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TROMSO" Text="Tromsø" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TUNGLIYOU" Text="Tüngliyou" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_UMEA" Text="Umeå" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_URUMQI" Text="Ürümqi" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_VASTERAS" Text="Västerås" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_VASTERVIK" Text="Västervik" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_WROCLAW" Text="Wrocław" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_WURZBURG" Text="Würzburg" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_XIAN" Text="Xi’an" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ZAMOSC" Text="Zamość" Language="en_US" />
+		
+		<!-- Civilization Specific Names -->
+		<!-- Aztec -->
+		<Replace Tag="LOC_CITY_NAME_CIUDAD_VICTORIA_AZTEC" Text="Tamaholipa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GUANTANAMO_AZTEC" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GUATEMALA_AZTEC" Text="Kaminaljuyu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KINGSTON_JAMAICA_AZTEC" Text="Juracán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MATANZAS_AZTEC" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MCGRATH_AZTEC" Text="Tochak" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PORT_PRINCE_AZTEC" Text="Quisqueya" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTO_DOMINGO_AZTEC" Text="Quisqueya" Language="en_US" />	
+		<Replace Tag="LOC_CITY_NAME_SANTIAGO_DE_CUBA_AZTEC" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SPRINGFIELD_AZTEC" Text="Cahokia" Language="en_US" />
+		<!-- Babylon (Anshan) -->
+		<Replace Tag="LOC_CITY_NAME_PARSA_BABYLON" Text="Anshan" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PASARGADAE_BABYLON" Text="Anshan" Language="en_US" />
+		<!-- Akkad -->
+		<Replace Tag="LOC_CITY_NAME_BAGHDAD_AKKAD" Text="ASSUR" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ERBIL_AKKAD" Text="NINEVEH" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MOSUL_AKKAD" Text="NINEVEH" Language="en_US" />
+		<!-- Ayutthaya -->
+		<Replace Tag="LOC_CITY_NAME_BANGKOK_AYUTTHAYA" Text="Ayutthaya" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LAVODYAPURA_AYUTTHAYA" Text="Ayutthaya" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_YANGON_AYUTTHAYA" Text="Ayutthaya" Language="en_US" />
+		<!-- Byzantium -->
+		<Replace Tag="LOC_CITY_NAME_AKSARAY_BYZANTIUM" Text="Koloneia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BAJA_BYZANTIUM" Text="Civitas Moldaviae" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BRUNDISIUM_BYZANTIUM" Text="Bari" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CHALKIDIKI_BYZANTIUM" Text="Thessalonica" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DUBROVNIK_BYZANTIUM" Text="Epidaurum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ISTANBUL_BYZANTIUM" Text="Constantinople" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KONYA_BYZANTIUM" Text="Iconium" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NICE_BYZANTIUM" Text="Nicaea" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ROSTOV_ON_DON_BYZANTIUM" Text="Tanais" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SEVASTOPOL_BYZANTIUM" Text="Cherson" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SPLIT_BYZANTIUM" Text="Salonae" Language="en_US" />
+		<!-- Cahokia -->
+		<Replace Tag="LOC_CITY_NAME_KANSAS_CITY_CAHOKIA" Text="Cahokia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SPRINGFIELD_CAHOKIA" Text="Cahokia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ST_LOUIS_CAHOKIA" Text="Cahokia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_USA_MEMPHIS_CAHOKIA" Text="Cahokia " Language="en_US" />
+		<!-- Cree -->
+		<Replace Tag="LOC_CITY_NAME_CALGARY_CREE" Text="Kinosew-Sakahikan" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CIUDAD_VICTORIA_CREE" Text="Tamaholipa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EDMONTON_CREE" Text="Wihkasko-Kiseyin " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GUANTANAMO_CREE" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GUATEMALA_CREE" Text="Kaminaljuyu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KINGSTON_JAMAICA_CREE" Text="Juracán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LETHBRIDGE_CREE" Text="Nekaneet" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MATANZAS_CREE" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MEDECINE_HAT_CREE" Text="Wapi-maskwa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MCGRATH_CREE" Text="Tochak" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PORT_PRINCE_CREE" Text="Quisqueya" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_REGINA_CREE" Text="Wapi-maskwa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTO_DOMINGO_CREE" Text="Quisqueya" Language="en_US" />	
+		<Replace Tag="LOC_CITY_NAME_SANTIAGO_DE_CUBA_CREE" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SASKATOON_CREE" Text="Mikisiw-Wacîhk" Language="en_US" />	
+		<Replace Tag="LOC_CITY_NAME_SPRINGFIELD_CREE" Text="Cahokia" Language="en_US" />
+		<!-- Gaul -->
+		<Replace Tag="LOC_CITY_NAME_A_CORUNA_GAUL" Text="Brigantium" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_AUGSBURG_GAUL" Text="Aduatica" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BEOGRAD_GAUL" Text="Singidunum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BERLIN_GAUL" Text="Berolindunum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BOLOGNA_GAUL" Text="Bononia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BORDEAUX_GAUL" Text="Burdigala" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BREST_GAUL" Text="Darioritum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BRUSSELS_GAUL" Text="Bibrax" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BUDAPEST_GAUL" Text="Aquincum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CANTERBURY_GAUL" Text="Durovernum Canticorum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CARNUNTUM_GAUL" Text="Vindobona" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CHARTRES_GAUL" Text="Autricum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_COLCHESTER_GAUL" Text="Camulodunum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_COLOGNE_GAUL" Text="Aduatica" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CORK_GAUL" Text="Corcagia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DIJON_GAUL" Text="Alesia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DUBLIN_GAUL" Text="Eblana" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DUBROVNIK_GAUL" Text="Epidaurum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EDINBURGH_GAUL" Text="Dundee" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EXETER_GAUL" Text="Isca Dumnoniorum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_FRANKFURT_GAUL" Text="Aduatica" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KONIGSBERG_GAUL" Text="Twangste" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LIMOGES_GAUL" Text="Avaricum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LINCOLN_GAUL" Text="Lindum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LIVERPOOL_GAUL" Text="Deva Victrix" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LONDON_GAUL" Text="Londinium" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LYON_GAUL" Text="Lugdunum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MAASTRICHT_GAUL" Text="Aduatica" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MADRID_GAUL" Text="Segovia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MANCHESTER_GAUL" Text="Mancunium" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MARSEILLE_GAUL" Text="Massalia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NANTES_GAUL" Text="Namnetum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NICE_GAUL" Text="Cemenelum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NORWICH_GAUL" Text="Venta Icenorum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NOTTINGHAM_GAUL" Text="Ratæ" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PARIS_GAUL" Text="Lutetia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PLYMOUTH_GAUL" Text="Tamaris" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PORTSMOUTH_GAUL" Text="Adurni" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PRAHA_GAUL" Text="Praga" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_REIMS_GAUL" Text="Durocortorum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RENNES_GAUL" Text="Condate" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ROUEN_GAUL" Text="Ratumacos" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTANDER_GAUL" Text="Iuliobriga" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TOULOUSE_GAUL" Text="Uxellodunum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TRIER_GAUL" Text="Aduatica" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TROYES_GAUL" Text="Bibracte" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_VENICE_GAUL" Text="Veneti" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_WIEN_GAUL" Text="Vindobona" Language="en_US" />
+		<!-- Germany -->
+		<Replace Tag="LOC_CITY_NAME_BAJA_GERMANY" Text="Stadt Molde" Language="en_US" />
+		<!-- Greece -->
+		<Replace Tag="LOC_CITY_NAME_ATHENS_GREECE" Text="Athens" Language="en_US" />
+		<!-- Hattusa -->
+		<Replace Tag="LOC_CITY_NAME_AKSARAY_HATTUSA" Text="Hattusa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BATMAN_HATTUSA" Text="Hattusa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KAYSERI_HATTUSA" Text="Hattusa" Language="en_US" />
+		<!-- Hungary -->
+		<Replace Tag="LOC_CITY_NAME_BAJA_HUNGARY" Text="Moldvabánya" Language="en_US" />
+		<!-- Hunza -->
+		<Replace Tag="LOC_CITY_NAME_BOGOTA_HUNZA" Text="Hunza" Language="en_US" />
+		<!-- Inca -->
+		<Replace Tag="LOC_CITY_NAME_ANTOFAGASTA_INCA" Text="Chimpa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CATAMARCA_INCA" Text="Pukara Chena" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GUANTANAMO_INCA" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_IQUIQUE_INCA" Text="Pika" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KINGSTON_JAMAICA_INCA" Text="Juracán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LA_PAZ_INCA" Text="Tiwanaku" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LIMA_INCA" Text="Pachakamaq" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MATANZAS_INCA" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MCGRATH_INCA" Text="Tochak" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_QUITO_INCA" Text="Kitu Kara" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PORT_PRINCE_INCA" Text="Quisqueya" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PORTO_VELHO_INCA" Text="Ollantaytambo" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_POTOSI_INCA" Text="Tukuman" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RIO_BRANCO_INCA" Text="Machu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SALTA_INCA" Text="Pukara Aconquija" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTO_DOMINGO_INCA" Text="Quisqueya" Language="en_US" />	
+		<Replace Tag="LOC_CITY_NAME_SANTIAGO_DE_CUBA_INCA" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTIAGO_DEL_ESTERO_INCA" Text="Ranchillos " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SUCRE_INCA" Text="Chuquisaca" Language="en_US" />
+		<!-- (from Mapuche) -->
+		<Replace Tag="LOC_CITY_NAME_BAHIA_BLANCA_INCA" Text="Rangkül Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BALMACEDA_INCA" Text="Willi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BUENOS_AIRES_INCA" Text="Peñi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EL_CALAFATE_INCA" Text="Kunko Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ESQUEL_INCA" Text="Huilli Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CAMARONES_AIRES_INCA" Text="Puel Willi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CONCEPCION_INCA" Text="Ngulu Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CORDOBA_INCA" Text="Warria Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LAS_HERAS_INCA" Text="Pewen Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MAR_DEL_PLATA_INCA" Text="Mamüll Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MENDOZA_INCA" Text="Nag Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_OLAVARRIA_INCA" Text="Peñi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PUERTO_DESEADO_INCA" Text="Puel Willi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PEURTO_MONTT_INCA" Text="Fudi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PUERTO_NATALES_INCA" Text="Tehuel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PUERTO_SANTA_CRUZ_INCA" Text="Tehuel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PUNTA_ARENAS_INCA" Text="Tehuel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RIO_COLORADO_INCA" Text="Puel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RIO_CUARTO_INCA" Text="Peñi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RIO_GALLEGOS_INCA" Text="Tehuel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ROSARIO_INCA" Text="Pikun Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_CARLOS_DE_BARILOCHE_INCA" Text="Pewen Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_RAFAEL_INCA" Text="Wente Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTIAGO_INCA" Text="Ina Pire Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTA_ROSA_INCA" Text="Chadi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SPRINGFIELD_INCA" Text="Cahokia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TEMUCO_INCA" Text="Xuf Xuf Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_VALDIVIA_INCA" Text="Chol Chol Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_VIEDMA_INCA" Text="Puel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ZAPALA_INCA" Text="Makewe Mapu" Language="en_US" />
+		<!-- Johannesburg -->
+		<Replace Tag="LOC_CITY_NAME_MHLAHLANDLELA_JOHANNESBURG" Text="Johannesburg" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ULUNDI_JOHANNESBURG" Text="Johannesburg" Language="en_US" />
+		<!-- Kabul -->
+		<Replace Tag="LOC_CITY_NAME_KANDAHAR_KABUL" Text="Kabul" Language="en_US" />
+		<!-- La Venta -->
+		<Replace Tag="LOC_CITY_NAME_GUATEMALA_LA_VENTA" Text="Kaminaljuyu" Language="en_US" />
+		<!-- Macedon -->
+		<Replace Tag="LOC_CITY_NAME_EPHESUS_MACEDON" Text="Alexandria Latmus" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_FARAH_MACEDON" Text="Alexandria in Drangiana" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_HARAIVA_MACEDON" Text="Alexandria in Aria" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ISTANBUL_MACEDON" Text="Alexandria Troas" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KABUL_MACEDON" Text="Alexandria in the Caucasus" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KANDAHAR_MACEDON" Text="Alexandria Arachosia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PERGAMON_MACEDON" Text="Alexandria Latmus" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RA_KADET_MACEDON" Text="Alexandria" Language="en_US" />
+		<!-- Mapuche -->
+		<Replace Tag="LOC_CITY_NAME_BAHIA_BLANCA_MAPUCHE" Text="Rangkül Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BALMACEDA_MAPUCHE" Text="Willi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BUENOS_AIRES_MAPUCHE" Text="Peñi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EL_CALAFATE_MAPUCHE" Text="Kunko Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ESQUEL_MAPUCHE" Text="Huilli Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CAMARONES_AIRES_MAPUCHE" Text="Puel Willi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CONCEPCION_MAPUCHE" Text="Ngulu Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CORDOBA_MAPUCHE" Text="Warria Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LAS_HERAS_MAPUCHE" Text="Pewen Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MAR_DEL_PLATA_MAPUCHE" Text="Mamüll Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MCGRATH_MAPUCHE" Text="Tochak" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MENDOZA_MAPUCHE" Text="Nag Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_OLAVARRIA_MAPUCHE" Text="Peñi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PUERTO_DESEADO_MAPUCHE" Text="Puel Willi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PEURTO_MONTT_MAPUCHE" Text="Fudi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PUERTO_NATALES_MAPUCHE" Text="Tehuel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PUERTO_SANTA_CRUZ_MAPUCHE" Text="Tehuel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PUNTA_ARENAS_MAPUCHE" Text="Tehuel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RIO_COLORADO_MAPUCHE" Text="Puel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RIO_CUARTO_MAPUCHE" Text="Peñi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RIO_GALLEGOS_MAPUCHE" Text="Tehuel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ROSARIO_MAPUCHE" Text="Pikun Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_CARLOS_DE_BARILOCHE_MAPUCHE" Text="Pewen Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_RAFAEL_MAPUCHE" Text="Wente Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTIAGO_MAPUCHE" Text="Ina Pire Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTA_ROSA_MAPUCHE" Text="Chadi Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SPRINGFIELD_MAPUCHE" Text="Cahokia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TEMUCO_MAPUCHE" Text="Xuf Xuf Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_VALDIVIA_MAPUCHE" Text="Chol Chol Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_VIEDMA_MAPUCHE" Text="Puel Mapu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ZAPALA_MAPUCHE" Text="Makewe Mapu" Language="en_US" />
+		<!-- Maya -->
+		<Replace Tag="LOC_CITY_NAME_ALBUQUERQUE_MAYA" Text="Keres" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_AMARILLO_MAYA" Text="Numunuu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ATLANTA_MAYA" Text="Chiaha" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BAKERSFIELD_MAYA" Text="Yokuts" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BALTIMORE_MAYA" Text="Patapsco" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BILLINGS_MAYA" Text="Lakota" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BISMARCK_MAYA" Text="Húŋkpapha" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BOISE_MAYA" Text="Bohogue" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BOSTON_USA_MAYA" Text="Nonantum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BOULDER_MAYA" Text="Arapaho" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BUFFALO_MAYA" Text="Wenro" Language="en_US" />		
+		<Replace Tag="LOC_CITY_NAME_CASPER_MAYA" Text="Só’taeo’o" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CHARLESTON_MAYA" Text="Sewee" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CINCINNATI_MAYA" Text="Ohiːyo’" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CLEVELAND_MAYA" Text="Erie" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_COLUMBUS_MAYA" Text="Wakatomica" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CORPUS_CHRISTI_MAYA" Text="Karankawa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CHICAGO_MAYA" Text="Shikaakwa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CIUDAD_VICTORIA_MAYA" Text="Tamaholipa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DALLAS_MAYA" Text="Wichita" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DENVER_MAYA" Text="Taviwatsiu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DES_MOINES_MAYA" Text="Báxoǰe" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DETROIT_MAYA" Text="Kiikaapoa" Language="en_US" />	
+		<Replace Tag="LOC_CITY_NAME_DULUTH_MAYA" Text="Nagaajiwanaang" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DURANGO_MAYA" Text="Tepēhuahcān" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EL_PASO_MAYA" Text="Jumano" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EUGENE_MAYA" Text="Kalapuya" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EUREKA_MAYA" Text="Weyet" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_FARGO_MAYA" Text="Iháŋkthuŋwaŋ" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_FORT_MYERS_MAYA" Text="Calusa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_FORT_WORTH_MAYA" Text="K’itaish" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GREEN_BAY_MAYA" Text="Ho-Chunk" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GREAT_FALLS_MAYA" Text="Aamsskáápipikani" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GUANTANAMO_MAYA" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GUATEMALA_MAYA" Text="Kaminaljuyu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_HOUSTON_MAYA" Text="Akokisa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_IDAHO_FALLS_MAYA" Text="Pocatello" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_JACKSON_MAYA" Text="Taensa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_JACKSONVILLE_MAYA" Text="Saturiwa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KANSAS_CITY_MAYA" Text="Niúachi" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KINGSTON_JAMAICA_MAYA" Text="Juracán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_HAVANA_MAYA" Text="Guanahatabey" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LAFAYETTE_MAYA" Text="Natchez" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LAS_VEGAS_MAYA" Text="Moapa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LITTLE_ROCK_MAYA" Text="Quapaw" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LOUISVILLE_MAYA" Text="Kenhtà-ke" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LOS_ANGELES_MAYA" Text="Tongva" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LUBBOCK_MAYA" Text="Teyas" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MATANZAS_MAYA" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MCGRATH_MAYA" Text="Tochak" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MEX_LA_PAZ_MAYA" Text="Guaycura" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MIAMI_MAYA" Text="Tekesta" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MINNEAPOLIS_MAYA" Text="Mdewakanton" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MISSOULA_MAYA" Text="Nɫq̓a" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MOBILE_MAYA" Text="Naniaba" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MONTGOMERY_MAYA" Text="Alabama" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MONTERREY_MAYA" Text="Guachichil" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NASHVILLE_MAYA" Text="Euchee" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NARANJO_MAYA" Text="Wak Kab’nal" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NEW_ORLEANS_MAYA" Text="Chitimacha" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NEW_YORK_MAYA" Text="Manna-Hata" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_OKLAHOMA_CITY_MAYA" Text="Kiowa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ORLANDO_MAYA" Text="Surruque" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_OR_PORTLAND_MAYA" Text="Chinook" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PANAMA_CITY_MAYA" Text="Panamá" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PHILADELPHIA_USA_MAYA" Text="Armewarmex" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PHOENIX_MAYA" Text="Hohokam" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PITTSBURGH_MAYA" Text="Dionde-gâ" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PORT_PRINCE_MAYA" Text="Quisqueya" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PUEBLO_MAYA" Text="Taviwatsiu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RAPID_CITY_MAYA" Text="Tsétsêhéstâhese" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_REDDING_MAYA" Text="Wintu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RENO_MAYA" Text="Washoe" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RICHMOND_USA_MAYA" Text="Chickahominy" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SACRAMENTO_MAYA" Text="Patwin" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SALT_LAKE_CITY_MAYA" Text="Pi’a-pa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTA_FE_MAYA" Text="Tewa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTIAGO_DE_CUBA_MAYA" Text="Cubanacán " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SANTO_DOMINGO_MAYA" Text="Quisqueya" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SEATTLE_MAYA" Text="Duwamish" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SHREVEPORT_MAYA" Text="Avoyel" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SPRINGFIELD_MAYA" Text="Cahokia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TALLAHASSEE_MAYA" Text="Anhaica" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TAMPICO_MAYA" Text="Huastec" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TOPEKA_MAYA" Text="Tó Pee Kuh" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TUCSON_MAYA" Text="Akimel O’odham" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_USA_BIRMINGHAM_MAYA" Text="Tuskegee" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_USA_MEMPHIS_MAYA" Text="Chucalissa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_USA_SAN_ANTONIO_MAYA" Text="Lipan" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_USA_SYRACUSE_MAYA" Text="Onondaga" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_DIEGO_MAYA" Text="Kumeyaay" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_FRANCISCO_MAYA" Text="Ramaytush" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_JOSE_MAYA" Text="Tamien" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_JOSE_COSTA_RICA_Maya" Text="Aserrí" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_LUIS_POTOSI_MAYA" Text="Otomi" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SAN_SALVADOR_MAYA" Text="Tazumal" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SIOUX_FALLS_MAYA" Text="Iháŋkthuŋwaŋ" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ST_LOUIS_MAYA" Text="Cahokia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TAMPA_MAYA" Text="Tocoso" Language="en_US" />	
+		<Replace Tag="LOC_CITY_NAME_VERACRUZ_MAYA" Text="Cēmpoalātl" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_WASHINGTON_MAYA" Text="Conoy" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_WICHITA_MAYA" Text="Kanza" Language="en_US" />
+		<!-- Mohenjo Daro -->
+		<Replace Tag="LOC_CITY_NAME_JODHPUR_MOHENJO_DARO" Text="Mohenjo Daro" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KARACHI_MOHENJO_DARO" Text="Mohenjo Daro" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MULTAN_MOHENJO_DARO" Text="Mohenjo Daro" Language="en_US" />
+		<!-- Netherlands -->
+		<Replace Tag="LOC_CITY_NAME_JAKARTA_NETHERLANDS" Text="Batavia" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TAIPEI_NETHERLANDS" Text="Fort Zeelandia" Language="en_US" />
+		<!-- Ottoman -->
+		<Replace Tag="LOC_CITY_NAME_ANTIOCH_OTTOMAN" Text="İskenderun" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ADRIANOPLE_OTTOMAN" Text="Edirne" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ALEPPO_OTTOMAN" Text="Halep" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EPHESUS_OTTOMAN" Text="Aydin" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NICOMEDIA_OTTOMAN" Text="İzmit" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PERGAMON_OTTOMAN" Text="İzmir" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SINOPE_OTTOMAN" Text="Sinop" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_THEODOSIOPOLIS_OTTOMAN" Text="Erzurum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TREBIZOND_OTTOMAN" Text="Trabzon" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TRIPOLI_OTTOMAN" Text="Trablusgarp" Language="en_US" />
+		<!-- Persia -->
+		<Replace Tag="LOC_CITY_NAME_ANKARA_PERSIA" Text="Gordian" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_EPHESUS_PERSIA" Text="Halicarnassus" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KAYSERI_PERSIA" Text="Mazaka" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_VAN_PERSIA" Text="Tushpa" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_YEREVAN_PERSIA" Text="Artashat" Language="en_US" />
+		<!-- Phoenicia -->
+		<Replace Tag="LOC_CITY_NAME_ALGIERS_PHOENICIA" Text="Ikosim" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ANTIOCH_PHOENICIA" Text="Ugarit" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CADIZ_PHOENICIA" Text="Gadir" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CONSTANTINE_PHOENICIA" Text="Cirta" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GABES_PHOENICIA" Text="Tacape" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_GHADAMES_PHOENICIA" Text="Cydamus" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PAPHOS_PHOENICIA" Text="Kty" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PALERMO_PHOENICIA" Text="Ziz" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_RABAT_PHOENICIA" Text="Sala" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TANGIER_PHOENICIA" Text="Tingis" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TRIPOLI_PHOENICIA" Text="Oea" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TUNIS_PHOENICIA" Text="Carthage" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_VALLETTA_PHOENICIA" Text="Tas-Silġ" Language="en_US" />
+		<!-- Poland -->
+		<Replace Tag="LOC_CITY_NAME_KONIGSBERG_POLAND" Text="Królewiec" Language="en_US" />
+		<!-- Rome -->
+		<Replace Tag="LOC_CITY_NAME_BAJA_ROME" Text="Civitas Moldaviae" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_COLCHESTER_ROME" Text="Camulodunum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NARBONNE_ROME" Text="Narbo Martius" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_NICE_ROME" Text="Nicaea" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ROME_ROME" Text="Rome" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_SPLIT_ROME" Text="Salonae" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TRIER_ROME" Text="Augusta Treverorum" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_YEREVAN_ROME" Text="Artaxata" Language="en_US" />
+		<!-- Russia -->
+		<Replace Tag="LOC_CITY_NAME_SARAI_RUSSIA" Text="Volgograd" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_KONIGSBERG_RUSSIA" Text="Kaliningrad" Language="en_US" />
+		<!-- Samarkand -->
+		<Replace Tag="LOC_CITY_NAME_ALMATY_SAMARKAND" Text="Samarkand" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BISHKEK_SAMARKAND" Text="Samarkand" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_MARAKANDA_SAMARKAND" Text="Samarkand" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TASHKENT_SAMARKAND" Text="Samarkand" Language="en_US" />
+		<!-- Yerevan -->
+		<Replace Tag="LOC_CITY_NAME_TABRIZ_YEREVAN" Text="Yerevan" Language="en_US" />
+		<!-- Wolin -->
+		<Replace Tag="LOC_CITY_NAME_VISBY_WOLIN" Text="Wolin" Language="en_US" />
+		<!-- Zulu -->
+		<Replace Tag="LOC_CITY_NAME_CAPE_TOWN_ZULU" Text="Qunu" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DURBAN_ZULU" Text="Mdantsane" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PORT_ELIZABETH_ZULU" Text="Mthatha" Language="en_US" />
+  </LocalizedText>
+</GameData>

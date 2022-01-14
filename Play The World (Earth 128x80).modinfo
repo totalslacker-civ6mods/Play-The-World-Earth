@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0ffac96e-140c-4389-8ae8-6c0cd6391c40" version="1.2.7">
+	<Properties>
+		<Name>Play The World (Earth 128*80)</Name>
+		<Description>Features Earth 128*80 with upscaled Europe, and Equal Area Earth (128*80). Works with all game versions and DLC, up to New Frontier</Description>
+		<Teaser>Earth (128*80) and Equal Area Earth by totalslacker</Teaser>
+		<Authors>totalslacker</Authors>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<SupportsMultiplayer>1</SupportsMultiplayer>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Dependencies>
+		<Mod id="36e88483-48fe-4545-b85f-bafc50dde315" title="Yet (not) Another Maps Pack"/>
+	</Dependencies>	
+	<References>
+		<Mod id="02A8BDDE-67EA-4D38-9540-26E685E3156E" title="DLC: Aztec Civilization Pack" /> 
+		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="DLC: Poland Civilization Pack" />
+		<Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+		<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+		<Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="DLC: Nubia Civilization Pack" />
+		<Mod id="1F367231-A040-4793-BDBB-088816853683" title="DLC: Khmer and Indonesia Civilization Pack" />
+		<Mod id="2F6E858A-28EF-46B3-BEAC-B985E52E9BC1" title="DLC: Vikings Content" />
+		<Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="DLC: Maya and Gran Colombia Civilization Pack" />
+		<Mod id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" title="DLC: Ethiopia Civilization Pack" />
+		<Mod id="A1100FC4-70F2-4129-AC27-2A65A685ED08" title="DLC: Byzantium and Gaul Civilization Pack" />
+		<Mod id="78aa4d0b-742a-4d7a-be7d-a8317d69fb30" title="Mod: Latin American Resources" />
+		<Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="Mod: Sukritact's Resources" />
+		<Mod id="e4c781e0-e101-4442-9b1b-2f46dcc12b83" title="Mod: Gold Resource" />
+	</References>
+	<ActionCriteria>
+		<Criteria id="Expansion1">
+			<GameCoreInUse>Expansion1</GameCoreInUse> 
+		</Criteria>
+		<Criteria id="Expansion2">
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>	
+		<Criteria id="PolandJadwiga" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_JADWIGA,StandardPlayers::LEADER_JADWIGA,Players:Expansion1_Players::LEADER_JADWIGA,Players:Expansion2_Players::LEADER_JADWIGA</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="Australia" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_JOHN_CURTIN,StandardPlayers::LEADER_JOHN_CURTIN,Players:Expansion1_Players::LEADER_JOHN_CURTIN,Players:Expansion2_Players::LEADER_JOHN_CURTIN</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="MacedoniaPersia" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_ALEXANDER,Players:StandardPlayers::LEADER_CYRUS,StandardPlayers::LEADER_ALEXANDER,StandardPlayers::LEADER_CYRUS,Players:Expansion1_Players::LEADER_ALEXANDER,Players:Expansion2_Players::LEADER_CYRUS,Players:Expansion2_Players::LEADER_ALEXANDER,Players:Expansion2_Players::LEADER_CYRUS</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="Nubia" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_AMANITORE,StandardPlayers::LEADER_AMANITORE,Players:Expansion1_Players::LEADER_AMANITORE,Players:Expansion2_Players::LEADER_AMANITORE</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="IndonesiaKhmer" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_GITARJA,Players:StandardPlayers::LEADER_JAYAVARMAN,StandardPlayers::LEADER_GITARJA,StandardPlayers::LEADER_JAYAVARMAN,Players:Expansion1_Players::LEADER_GITARJA,Players:Expansion2_Players::LEADER_JAYAVARMAN,Players:Expansion2_Players::LEADER_GITARJA,Players:Expansion2_Players::LEADER_JAYAVARMAN</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="GranColombiaMaya" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_SIMON_BOLIVAR,Players:StandardPlayers::LEADER_LADY_SIX_SKY,StandardPlayers::LEADER_SIMON_BOLIVAR,StandardPlayers::LEADER_LADY_SIX_SKY,Players:Expansion1_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY,Players:Expansion2_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="Ethiopia" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_MENELIK StandardPlayers::LEADER_MENELIK,Players:Expansion1_Players::LEADER_MENELIK Players:Expansion2_Players::LEADER_MENELIK</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="ByzantiumGaul" any="1">
+			<LeaderPlayable>Players:StandardPlayers::LEADER_BASIL,Players:StandardPlayers::LEADER_AMBIORIX,StandardPlayers::LEADER_BASIL,StandardPlayers::LEADER_AMBIORIX,Players:Expansion1_Players::LEADER_BASIL,Players:Expansion2_Players::LEADER_AMBIORIX,Players:Expansion2_Players::LEADER_BASIL,Players:Expansion2_Players::LEADER_AMBIORIX</LeaderPlayable>
+			<RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+		</Criteria>
+		<Criteria id="ForestFires">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>ForestFires</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<LeaderPlayable>Players:StandardPlayers::LEADER_SIMON_BOLIVAR,Players:StandardPlayers::LEADER_LADY_SIX_SKY,StandardPlayers::LEADER_SIMON_BOLIVAR,StandardPlayers::LEADER_LADY_SIX_SKY,Players:Expansion1_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY,Players:Expansion2_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY</LeaderPlayable>
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>	
+		<Criteria id="Resources">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>RequestedResources</ConfigurationId>
+				<Value>PLACEMENT_REQUEST</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>MapName</ConfigurationId>
+				<Value>Earth128x80</Value>
+			</ConfigurationValueMatches>
+		</Criteria>	
+		<Criteria id="FirstEnvoyCS">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>FirstEnvoyCS</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>	
+		<Criteria id="OceanMovement">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>OceanMovement</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>	
+		<Criteria id="EmergencyVisibility">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>EmergencyVisibility</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<!-- <Criteria id="HigherEraScore_NormalAges"> -->
+			<!-- <ConfigurationValueMatches> -->
+				<!-- <Group>Map</Group> -->
+				<!-- <ConfigurationId>HigherEraScore_NormalAges</ConfigurationId> -->
+				<!-- <Value>1</Value> -->
+			<!-- </ConfigurationValueMatches> -->
+		<!-- </Criteria> -->
+		<Criteria id="HigherEraScore_DramaticAges">
+			<ConfigurationValueMatches>
+				<Group>Map</Group>
+				<ConfigurationId>HigherEraScore_DramaticAges</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>GAMEMODE_DRAMATICAGES</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="LoyalCapitals_Active_XP1_PTW">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>LoyalCapitals_PTW</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<GameCoreInUse>Expansion1</GameCoreInUse> 
+		</Criteria>
+		<Criteria id="LoyalCapitals_Active_XP2_PTW">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>LoyalCapitals_PTW</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>	
+		<Criteria id="LoyaltyPressure_XP1_PTW">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>LoyaltyPressure_PTW</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<GameCoreInUse>Expansion1</GameCoreInUse>
+		</Criteria>
+		<Criteria id="LoyaltyPressure_XP2_PTW">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>LoyaltyPressure_PTW</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+			<GameCoreInUse>Expansion2</GameCoreInUse>
+		</Criteria>		
+		<Criteria id="CityDistance_PTW">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CityDistance_PTW</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>	
+		<Criteria id="CityStateBorders_PTW">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>CityStateBorders_PTW</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>
+		<Criteria id="ResourceChanges_PTW">
+			<ConfigurationValueMatches>
+				<Group>Game</Group>
+				<ConfigurationId>ResourceChanges_PTW</ConfigurationId>
+				<Value>1</Value>
+			</ConfigurationValueMatches>
+		</Criteria>		
+	</ActionCriteria>
+	<InGameActions>	
+		<ImportFiles id="MapLabels">
+           	<Properties>
+				<LoadOrder>1</LoadOrder>
+           	</Properties>
+			<File>Scripts/MapLabelManager.lua</File>
+			<File>Scripts/CustomMapLabels_Earth128x80.lua</File>
+			<File>Scripts/CustomMapLabels_EqualAreaEarth.lua</File>
+		</ImportFiles>
+		<ImportFiles id="Scripts">
+           	<Properties>
+				<!-- Load order must be higher than YNAMP ImportFiles -->
+				<LoadOrder>1000003</LoadOrder>
+           	</Properties>
+			<File>Maps/Earth128x80/Earth128x80.lua</File>
+			<File>Maps/Equal Area Earth/EqualAreaEarth.lua</File>
+			<File>Scripts/FeatureGenerator_Earth128x80.lua</File>
+			<File>Scripts/AssignStartingPlots.lua</File>
+		</ImportFiles>
+        <AddGameplayScripts id="Scripts" >
+			<File>Scripts/PTWScript.lua</File>
+        </AddGameplayScripts>		
+		<UpdateDatabase id="TSL">	
+			<Properties><LoadOrder>100</LoadOrder></Properties>
+			<Items>
+				<File>Maps/Earth128x80/MapValues.xml</File>
+				<File>Maps/Earth128x80/ModSupport.xml</File>
+				<File>Maps/Equal Area Earth/MapValues.xml</File>
+			</Items>
+		</UpdateDatabase>	
+		<UpdateDatabase id="Data">	
+			<Properties><LoadOrder>105</LoadOrder></Properties>
+			<Items>
+				<File>Data/MapValuesChanges.sql</File>
+				<File>Maps/Earth128x80/Resource.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="Resources">	
+			<Properties><LoadOrder>105</LoadOrder></Properties>
+			<Items>
+				<File>Data/Resources.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="ForestFires" criteria="ForestFires">	
+			<Properties><LoadOrder>110</LoadOrder></Properties>
+			<Items>
+				<File>Data/Features.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="OceanMovement" criteria="OceanMovement">	
+			<Properties><LoadOrder>110</LoadOrder></Properties>
+			<Items>
+				<File>Data/OceanMovement.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="FirstEnvoyCS" criteria="FirstEnvoyCS">	
+			<Properties><LoadOrder>110</LoadOrder></Properties>
+			<Items>
+				<File>Data/FirstEnvoyCS.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="EmergencyVisibility" criteria="EmergencyVisibility">	
+			<Properties><LoadOrder>115</LoadOrder></Properties>
+			<Items>
+				<File>Data/EmergencyVisibility.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<!-- <UpdateDatabase id="HigherEraScore_NormalAges" criteria="HigherEraScore_NormalAges">	 -->
+			<!-- <Properties><LoadOrder>115</LoadOrder></Properties> -->
+			<!-- <Items> -->
+				<!-- <File>Data/NormalAges.sql</File> -->
+			<!-- </Items> -->
+		<!-- </UpdateDatabase> -->
+		<UpdateDatabase id="HigherEraScore_DramaticAges" criteria="HigherEraScore_DramaticAges">	
+			<Properties><LoadOrder>120</LoadOrder></Properties>
+			<Items>
+				<File>Data/DramaticAges.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="CityMap_Maps">
+			<Properties><LoadOrder>400</LoadOrder></Properties>
+			<Items>
+				<File>CityMaps/Earth128x80CityMap.xml</File>
+				<File>CityMaps/EqualAreaEarthCityMap.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateText id="CityNames_Maps">
+           	<Properties>
+				<!-- Load order must be higher than YNAMP City Maps text -->
+				<LoadOrder>2010</LoadOrder>
+           	</Properties>
+			<File>Text/Earth128x80_GamePlayText.xml</File>
+			<File>Text/EqualAreaEarth_GamePlayText.xml</File>
+		</UpdateText>
+		<UpdateText id="CityNames_NameChanges">
+           	<Properties>
+				<!-- Load order must be higher than YNAMP City Maps text and map city names above -->
+				<LoadOrder>2015</LoadOrder>
+           	</Properties>
+			<File>Text/CityNameChanges.xml</File>
+		</UpdateText>		
+		<UpdateDatabase id="Gameplay" criteria="CityDistance_PTW">	
+			<Properties><LoadOrder>10</LoadOrder></Properties>
+			<Items>
+				<File>Data/CityDistance.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="Gameplay" criteria="CityStateBorders_PTW">	
+			<Properties><LoadOrder>10</LoadOrder></Properties>
+			<Items>
+				<File>Data/CityStateBorders.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="Gameplay" criteria="ResourceChanges_PTW">	
+			<Properties><LoadOrder>10</LoadOrder></Properties>
+			<Items>
+				<File>Data/ResourceChanges.sql</File>
+			</Items>
+		</UpdateDatabase>			
+		<UpdateDatabase id="LoyalCapitals" criteria="LoyalCapitals_Active_XP1_PTW">
+			<Properties><LoadOrder>10</LoadOrder></Properties>
+			<Items>
+				<File>Data/LoyalCapitals.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="LoyalCapitals" criteria="LoyalCapitals_Active_XP2_PTW">
+			<Properties><LoadOrder>10</LoadOrder></Properties>
+			<Items>
+				<File>Data/LoyalCapitals.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="LoyaltyPressure" criteria="LoyaltyPressure_XP1_PTW">	
+			<Properties><LoadOrder>10</LoadOrder></Properties>
+			<Items>
+				<File>Data/LoyaltyPressure.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<UpdateDatabase id="LoyaltyPressure" criteria="LoyaltyPressure_XP2_PTW">	
+			<Properties><LoadOrder>10</LoadOrder></Properties>
+			<Items>
+				<File>Data/LoyaltyPressure.sql</File>
+			</Items>
+		</UpdateDatabase>				
+	</InGameActions>
+	<FrontEndActions>
+		<UpdateDatabase id="SetupMenu">
+			<File>Maps/Earth128x80/Config.xml</File>
+			<File>Maps/Equal Area Earth/Config.xml</File>
+			<File>Data/AdvancedOptionsConfig.xml</File>
+		</UpdateDatabase>		
+		<UpdateText id="SetupMenu">
+			<File>Text/ConfigText.xml</File>
+		</UpdateText>				
+	</FrontEndActions>		
+  <Files>
+	<File>Maps/Earth128x80/Earth128x80.lua</File>
+	<File>Maps/Earth128x80/MapValues.xml</File>
+	<File>Maps/Earth128x80/ModSupport.xml</File>
+	<File>Maps/Earth128x80/Resource.xml</File>
+	<File>Maps/Equal Area Earth/EqualAreaEarth.lua</File>
+	<File>Maps/Equal Area Earth/MapValues.xml</File>
+	<File>CityMaps/Earth128x80CityMap.xml</File>
+	<File>CityMaps/EqualAreaEarthCityMap.xml</File>
+	<File>Scripts/FeatureGenerator_Earth128x80.lua</File>
+	<File>Scripts/AssignStartingPlots.lua</File>
+	<File>Scripts/PTWScript.lua</File>
+	<File>Scripts/MapLabelManager.lua</File>
+	<File>Scripts/CustomMapLabels_Earth128x80.lua</File>
+	<File>Scripts/CustomMapLabels_EqualAreaEarth.lua</File>
+    <File>Maps/Earth128x80/Config.xml</File>
+	<File>Maps/Equal Area Earth/Config.xml</File>
+	<File>Text/ConfigText.xml</File>
+	<File>Text/Earth128x80_GamePlayText.xml</File>
+	<File>Text/EqualAreaEarth_GamePlayText.xml</File>
+	<File>Text/CityNameChanges.xml</File>
+	<File>Data/Resources.sql</File>
+	<File>Data/Features.sql</File>
+	<File>Data/FirstEnvoyCS.sql</File>
+	<File>Data/OceanMovement.sql</File>
+	<!-- <File>Data/NormalAges.sql</File> -->
+	<File>Data/DramaticAges.sql</File>
+	<File>Data/EmergencyVisibility.sql</File>
+	<File>Data/MapValuesChanges.sql</File>
+	<File>Data/AdvancedOptionsConfig.xml</File>
+	<File>Data/CityDistance.sql</File>
+	<File>Data/LoyaltyPressure.sql</File>	
+	<File>Data/LoyalCapitals.sql</File>	
+	<File>Data/CityStateBorders.sql</File>
+	<File>Data/ResourceChanges.sql</File>
+  </Files>
+</Mod>

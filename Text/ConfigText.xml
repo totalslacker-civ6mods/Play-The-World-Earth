@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+	<!-- Maps -->
+	<Replace Tag="LOC_MAP_Earth128x80" Language="en_US">
+      <Text>Earth (128*80) [COLOR_Civ6Yellow](Play The World)[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_MAP_Earth128x80_DESC" Language="en_US">
+      <Text>True-start location Earth with upscaled Europe for gameplay balance. Resources are randomly generated with options for real world resource regions. Enormous size (128*80)</Text>
+    </Replace>
+	<Replace Tag="LOC_MAP_Earth_EqualArea" Language="en_US">
+      <Text>Equal Area Earth [COLOR_Civ6Yellow](Play The World)[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_MAP_Earth_EqualArea_DESC" Language="en_US">
+      <Text>True-start location Earth with no upscaling. Polar regions are removed. Resources are imported for real world resource placement. Enormous size (128*80)</Text>
+    </Replace>
+	<!-- Advanced Setup Menu Options -->
+	<Replace Tag="LOC_CONVERT_MAIZE_PTW" Language="en_US">
+      <Text>Maize in the Americas</Text>
+    </Replace>
+	<Replace Tag="LOC_CONVERT_MAIZE_PTW_DESC" Language="en_US">
+      <Text>Convert Wheat resources to Maize in the Americas</Text>
+    </Replace>
+	<Replace Tag="LOC_LEY_LINES_PTW" Language="en_US">
+      <Text>Ley Lines in Capitals</Text>
+    </Replace>
+	<Replace Tag="LOC_LEY_LINES_PTW_DESC" Language="en_US">
+      <Text>All starting positions will contain a Ley Line resource (requires Secret Societies mode)</Text>
+    </Replace>
+	<Replace Tag="LOC_ICE_GENERATION" Language="en_US">
+      <Text>Generate Ice</Text>
+    </Replace>
+	<Replace Tag="LOC_ICE_GENERATION_DESC" Language="en_US">
+      <Text>Place sea ice that melts with global warming (Gathering Storm only)</Text>
+    </Replace>
+	<Replace Tag="LOC_FOREST_FIRES_NAME" Language="en_US">
+      <Text>Less Forest Fires</Text>
+    </Replace>
+	<Replace Tag="LOC_FOREST_FIRES_DESC" Language="en_US">
+      <Text>Forest Fires can no longer spawn on Tundra or Tundra Hills. All fires remain in a burnt state for 2 turns longer.</Text>
+    </Replace>
+	<Replace Tag="LOC_MAP_CUSTOM_LABELS" Language="en_US">
+      <Text>Real Map Labels</Text>
+    </Replace>
+	<Replace Tag="LOC_MAP_CUSTOM_LABELS_DESC" Language="en_US">
+      <Text>Map labels are changed to their real names. Does not affect the tooltip label.</Text>
+    </Replace>
+	<Replace Tag="LOC_LAKES_PTW" Language="en_US">
+      <Text>Extra Lakes</Text>
+    </Replace>
+	<Replace Tag="LOC_LAKES_PTW_DESC" Language="en_US">
+      <Text>Add more lakes to the map[NEWLINE][ICON_Bullet][COLOR_Civ6Blue]Lake Texcoco[NEWLINE][ICON_Bullet]Lake Titicaca[NEWLINE][ICON_Bullet]Poyang Lake[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GEOTHERMAL_PTW" Language="en_US">
+      <Text>Extra Geothermal Fissures</Text>
+    </Replace>
+	<Replace Tag="LOC_GEOTHERMAL_PTW_DESC" Language="en_US">
+      <Text>Add more Geothermal Fissures to the map (Gathering Storm only)</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_OTTOMAN" Language="en_US">
+      <Text>Alternate TSL: Ottomans - Anatolia</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_OTTOMAN_DESC" Language="en_US">
+      <Text>Replace the Ottoman alternate TSL with Hattusa TSL when Byzantines are present</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_SCYTHIA" Language="en_US">
+      <Text>Alternate TSL: Scythia - Central Asia</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_SCYTHIA_DESC" Language="en_US">
+      <Text>Scythian start location will be moved to Central Asia</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_PHOENICIA" Language="en_US">
+      <Text>Alternate TSL: Phoenicia - Tyre</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_PHOENICIA_DESC" Language="en_US">
+      <Text>Phoenician start location will be moved to Tyre in the Levant</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_SUMERIA" Language="en_US">
+      <Text>Alternate TSL: Sumeria - Iraq</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_SUMERIA_DESC" Language="en_US">
+      <Text>Sumerian start location will be moved to Babylon</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_HUNGARY" Language="en_US">
+      <Text>Alternate TSL: Hungary - Urals</Text>
+    </Replace>
+	<Replace Tag="LOC_ALTERNATE_TSL_HUNGARY_DESC" Language="en_US">
+      <Text>Hungary start location will be moved to the Ural Mountains</Text>
+    </Replace>
+	<Replace Tag="LOC_BIG_SCOTLAND_NAME" Language="en_US">
+      <Text>Expand Scotland</Text>
+    </Replace>
+	<Replace Tag="LOC_BIG_SCOTLAND_DESC" Language="en_US">
+      <Text>Add extra land plots for Scottish TSL</Text>
+    </Replace>
+	<Replace Tag="LOC_MAP_AUTO_CITY_NAMING_DESC" Language="en_US">
+      <Text>Cities are renamed based on their geographic location. Features Civilization Specific names and Native Only names</Text>
+    </Replace>
+	<Replace Tag="LOC_OCEAN_MOVEMENT_NAME" Language="en_US">
+      <Text>Faster Sea Travel</Text>
+    </Replace>
+	<Replace Tag="LOC_OCEAN_MOVEMENT_DESC" Language="en_US">
+      <Text>Units move twice as fast on Ocean terrain. Use this option to reduce unit travel times over Oceans.[NEWLINE][NEWLINE]This option will double the movement of all embarked units and naval units. Coast terrain has doubled movement cost to compensate. Units effectively move twice as fast only on Ocean terrain.</Text>
+    </Replace>
+	<Replace Tag="LOC_FIRST_ENVOY_NAME" Language="en_US">
+      <Text>Disable Free CS Envoy</Text>
+    </Replace>
+	<Replace Tag="LOC_FIRST_ENVOY_DESC" Language="en_US">
+      <Text>No free envoys from being the first player to meet a City-State[NEWLINE][NEWLINE]On Earth maps with predictable City-States, the free CS envoy can be considered an unfair advantage. Use this option for game balance.</Text>
+    </Replace>
+	<Replace Tag="LOC_EMERGENCY_VIS_NAME" Language="en_US">
+      <Text>Disable Emergency Visibility</Text>
+    </Replace>
+	<Replace Tag="LOC_EMERGENCY_VIS_DESC" Language="en_US">
+      <Text>No shared visibility for joining an emergency.[NEWLINE][NEWLINE]You may want to reveal a Natural Wonder for the recon unit experience or Era Score boost at the right time. Use this option to prevent emergencies from revealing Natural Wonders.[NEWLINE][NEWLINE]Requires Rise and Fall or Gathering Storm</Text>
+    </Replace>
+	<Replace Tag="LOC_HIGHER_ERA_SCORE_NAME" Language="en_US">
+      <Text>Higher Era Score Limits</Text>
+    </Replace>
+	<Replace Tag="LOC_HIGHER_ERA_SCORE_DRAMATIC_AGES_NAME" Language="en_US">
+      <Text>Higher Era Score Limits (Dramatic Ages)</Text>
+    </Replace>
+	<Replace Tag="LOC_HIGHER_ERA_SCORE_DESC" Language="en_US">
+      <Text>Raise the Era Score threshold for Dark Ages and Golden Ages[NEWLINE][NEWLINE][ICON_Bullet]Normal Games: Raises the Era Score thresholds to 18 and 28, with a (+) or (-) 8 change for a past Golden Age or Dark Age.[NEWLINE][ICON_Bullet]Dramatic Ages: Raises the threshold to 35, with a -15 change for a past Dark Age[NEWLINE][NEWLINE]On Earth maps with the maximum number of players and Natural Wonders, Era Score can be gained too easily. Use this option for game balance.[NEWLINE][NEWLINE]Requires Rise and Fall or Gathering Storm</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_MAP_PTW_HEADER_MAIN_NAME" Language="en_US">
+		<Text>[COLOR_Civ6Blue]Play The World Options[ENDCOLOR]</Text>
+	</Replace>
+	<Replace Tag="LOC_MAP_PTW_FOOTER_MAIN_NAME" Language="en_US">
+		<Text>[COLOR_Civ6Blue]Play The World Options[ENDCOLOR]</Text>
+	</Replace>	
+	<Replace Tag="LOC_GAME_LOYAL_CAPITALS_NAME" Language="en_US">
+		<Text>Loyal Capitals</Text>
+	</Replace>	
+	<Replace Tag="LOC_GAME_LOYAL_CAPITALS_DESC" Language="en_US">
+		<Text>Capital cities are unaffected by changes in Loyalty and will always remain at the maximum loyalty level</Text>
+	</Replace>	
+	<Replace Tag="LOC_GAME_LOYALTY_PRESSURE_NAME" Language="en_US">
+		<Text>Reduced Loyalty Pressure</Text>
+	</Replace>	
+	<Replace Tag="LOC_GAME_LOYALTY_PRESSURE_DESC" Language="en_US">
+		<Text>Loyalty Pressure is reduced to 16 max pressure per plot with 8 plot radius per city</Text>
+	</Replace>
+	<Replace Tag="LOC_GAME_CITY_DISTANCE_NAME" Language="en_US">
+		<Text>Reduced City Distance</Text>
+	</Replace>	
+	<Replace Tag="LOC_GAME_CITY_DISTANCE_DESC" Language="en_US">
+		<Text>Minimum city distance is reduced to 2 plots</Text>
+	</Replace>
+	<Replace Tag="LOC_GAME_CS_BORDERS_NAME" Language="en_US">
+		<Text>Static City State Borders</Text>
+	</Replace>	
+	<Replace Tag="LOC_GAME_CS_BORDERS_DESC" Language="en_US">
+		<Text>City State borders do not expand. Use this option to preserve space on smaller maps</Text>
+	</Replace>
+	<Replace Tag="LOC_GAME_RESOURCE_CHANGES_NAME" Language="en_US">
+		<Text>Resource Rule Changes</Text>
+	</Replace>	
+	<Replace Tag="LOC_GAME_RESOURCE_CHANGES_DESC" Language="en_US">
+		<Text>[ICON_Bullet][ICON_Resource_Aluminum]Aluminum: Plains Hills[NEWLINE][ICON_Bullet][ICON_Resource_Cattle] Cattle: Plains[NEWLINE][ICON_Bullet][ICON_Resource_Jade]Jade: Desert Hills, Jungle[NEWLINE][ICON_Bullet][ICON_Resource_Marble]Marble: Desert Hills[NEWLINE][ICON_Bullet][ICON_Resource_Pearls]Pearls: Reefs</Text>
+	</Replace>
+	<Replace Tag="LOC_MOUNTAIN_PASS_CAUCASUS_NAME" Language="en_US">
+		<Text>Mountain Pass - Caucasus</Text>
+	</Replace>	
+	<Replace Tag="LOC_MOUNTAIN_PASS_CAUCASUS_DESC" Language="en_US">
+		<Text>Add a mountain pass in the Caucasus at Derbent</Text>
+	</Replace>
+  </LocalizedText>
+</GameData>
