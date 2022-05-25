@@ -27,10 +27,10 @@
 		<!-- Jakarta City-State is set separately in MapStartPositions_IndonesiaKhmer.sql -->
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6235" Type="CIVILIZATION" Value="CIVILIZATION_JERUSALEM"/>
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="1580" Type="CIVILIZATION" Value="CIVILIZATION_JOHANNESBURG"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7153" Type="CIVILIZATION" Value="CIVILIZATION_KABUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7152" Type="CIVILIZATION" Value="CIVILIZATION_KABUL"/>
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4009" Type="CIVILIZATION" Value="CIVILIZATION_KANDY"/>
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="3814" Type="CIVILIZATION" Value="CIVILIZATION_KUMASI"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7007" Type="CIVILIZATION" Value="CIVILIZATION_LAHORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7006" Type="CIVILIZATION" Value="CIVILIZATION_LAHORE"/>
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5872" Type="CIVILIZATION" Value="CIVILIZATION_LA_VENTA"/>
 		<!-- Lisbon City-State is set separately in MapStartPositions_Portugal.sql -->
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6168" Type="CIVILIZATION" Value="CIVILIZATION_MEXICO_CITY"/>

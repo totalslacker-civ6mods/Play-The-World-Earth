@@ -4,22 +4,28 @@
 		<!-- Names with Special Characters -->
 		<Replace Tag="LOC_CITY_NAME_ABO" Text="Åbo" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_A_CORUNA" Text="A Coruña" Language="en_US" />
-		<Replace Tag="LOC_CITY_NAME_AMAL" Text="Ålesund" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ALESUND" Text="Ålesund" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_AMAL" Text="Åmål" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_BAJA" Text="Bája" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_BELEM" Text="Belém" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_BEOGRAD" Text="Belgrade" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_BIEN_HOA" Text="Biên Hòa" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_BJARKOY" Text="Bjarkøy" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_BOGOTA" Text="Bogotá" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_BORLANGE" Text="Borlänge" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_BOUAKE" Text="Bouaké" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_BRASILIA" Text="Brasília" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_CARNUNTUM" Text="Vienna" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_CA_MAU" Text="Cà Mau" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_COPAN" Text="Copán" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_CUCUTA" Text="Cúcuta" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_DA_LAT" Text="Đà Lạt" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_GDANSK" Text="Gdańsk" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_GOAIANA" Text="Goiânia" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_GOTEBURG" Text="Göteburg" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_HA_LONG" Text="Hạ Long" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_HA_NOI" Text="Thăng Long" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_HUE" Text="Huế" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_HUMAITA" Text="Humaitá" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_JAPURA" Text="Japurá" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_JONKOPING" Text="Jönköping" Language="en_US" />
@@ -29,6 +35,7 @@
 		<Replace Tag="LOC_CITY_NAME_KRAKOW" Text="Kraków" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_LODZ" Text="Łódź" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_LUAN" Text="Lu’an" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_LU_AN" Text="Lu’an" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_LUBECK" Text="Lübeck" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_LULEA" Text="Luleå" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_MALMO" Text="Malmö" Language="en_US" />
@@ -41,6 +48,7 @@
 		<Replace Tag="LOC_CITY_NAME_OBIDOS" Text="Óbidos " Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_OSKEMEN" Text="Öskemen " Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_OSTERSUND" Text="Östersund " Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_PECS" Text="Pécs" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_PRAHA" Text="Prague" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_PORTO_VELHO" Text="Pôrto Velho" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_POZNAN" Text="Poznań" Language="en_US" />
@@ -50,6 +58,9 @@
 		<Replace Tag="LOC_CITY_NAME_SAO_LUIS" Text="São Luis" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_SAO_PAULO" Text="São Paulo" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_TAIZZ" Text="Ta’izz" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_THAI_NGUYEN" Text="Thái Nguyên" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_THAP_CHAM" Text="Tháp Chàm" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_TIMISOARA" Text="Timișoara" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_TIRGOVISTE" Text="Tîrgoviște" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_TJOTTA" Text="Tjøtta" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_TOBOLSK" Text="Tobol’sk" Language="en_US" />
@@ -397,6 +408,7 @@
 		<Replace Tag="LOC_CITY_NAME_ADRIANOPLE_OTTOMAN" Text="Edirne" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_ALEPPO_OTTOMAN" Text="Halep" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_EPHESUS_OTTOMAN" Text="Aydin" Language="en_US" />
+		<Replace Tag="LOC_CITY_NAME_ICONIUM_OTTOMAN" Text="Konya" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_NICOMEDIA_OTTOMAN" Text="İzmit" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_PERGAMON_OTTOMAN" Text="İzmir" Language="en_US" />
 		<Replace Tag="LOC_CITY_NAME_SINOPE_OTTOMAN" Text="Sinop" Language="en_US" />
