@@ -458,7 +458,7 @@
 		<Replace MapName="Earth128x80" X="66" Y="39" CityLocaleName="LOC_CITY_NAME_KANO" Area="0" />
 		<Replace MapName="Earth128x80" X="85" Y="55" CityLocaleName="LOC_CITY_NAME_NISHAPUR" Area="0" />
 		<Replace MapName="Earth128x80" X="86" Y="55" CityLocaleName="LOC_CITY_NAME_MERV" Area="0" />
-		<Replace MapName="Earth128x80" X="86" Y="54" CityLocaleName="LOC_CITY_NAME_HARAIVA" Area="0" />
+		<Replace MapName="Earth128x80" X="86" Y="54" CityLocaleName="LOC_CITY_NAME_KHORASAN" Area="0" />
 		<Replace MapName="Earth128x80" X="87" Y="54" CityLocaleName="LOC_CITY_NAME_HARAIVA" Area="0" />
 		<Replace MapName="Earth128x80" X="88" Y="54" CityLocaleName="LOC_CITY_NAME_MARAKANDA" Area="0" />
 		<Replace MapName="Earth128x80" X="90" Y="54" CityLocaleName="LOC_CITY_NAME_ISLAMABAD" Area="0" />

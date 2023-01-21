@@ -7,7 +7,9 @@
 	<!-- Majors -->
 	<StartPosition>
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_AMERICA"		X="36" Y="54" />
+		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_AMERICA"		X="39" Y="56" AlternateStart="1"/>
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_ARABIA"		X="78" Y="46" />
+		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_ARABIA"		X="80" Y="40" AlternateStart="1"/>
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_AUSTRALIA"	X="117" Y="19" />
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_AZTEC"		X="27" Y="45" />
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_BRAZIL"		X="48" Y="23" />
@@ -28,8 +30,10 @@
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_INDIA"		X="91" Y="41" AlternateStart="1"/>
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_INDONESIA"	X="104" Y="31" />
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_JAPAN"		X="116" Y="51" />
+		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_JAPAN"		X="114" Y="50" Leader="LEADER_TOKUGAWA"/>
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_KHMER"		X="102" Y="40" />
-		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_KONGO"		X="69" Y="29" />
+		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_KONGO"		X="71" Y="27" />
+		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_KONGO"		X="68" Y="29" Leader="LEADER_MVEMBA"/>
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_KOREA"		X="110" Y="54" />
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_MACEDON"		X="71" Y="58" />
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_MAPUCHE"		X="38" Y="17" />
@@ -40,6 +44,7 @@
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_NORWAY"		X="67" Y="75" />
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_NUBIA"		X="75" Y="41" />
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_PERSIA"		X="84" Y="50" DisabledByCivilization="CIVILIZATION_BABYLON_STK"/>
+		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_PERSIA"		X="86" Y="54" Leader="LEADER_NADER_SHAH"/>
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_PERSIA"		X="83" Y="54" AlternateStart="1"/>
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_POLAND"		X="72" Y="65" />
 		<Replace MapName="Earth128x80" Civilization="CIVILIZATION_POLAND"		X="73" Y="65" AlternateStart="1"/>

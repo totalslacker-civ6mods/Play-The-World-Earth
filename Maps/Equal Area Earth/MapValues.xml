@@ -7,12 +7,17 @@
 	<!-- Majors -->
 	<StartPosition>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_AMERICA"		X="36" Y="63" />
+		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_AMERICA"		X="39" Y="66" AlternateStart="1"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_ARABIA"		X="77" Y="55" />
+		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_ARABIA"		X="78" Y="51" AlternateStart="1"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_AUSTRALIA"	X="118" Y="14" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_AZTEC"		X="28" Y="51" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_BRAZIL"		X="48" Y="20" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CHINA"		X="103" Y="61" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CHINA"		X="105" Y="65" Leader="LEADER_KUBLAI_KHAN_CHINA"/>
+		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CHINA"		X="105" Y="59" AlternateStart="1" />		
+		<!-- <Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CHINA"		X="105" Y="59" Leader="LEADER_YONGLE" />  -->
+		<!-- <Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CHINA"		X="104" Y="62" Leader="LEADER_WU_ZETIAN"/>  -->
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CREE"		X="24" Y="72" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_EGYPT"		X="74" Y="56" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_ENGLAND"		X="63" Y="72" />
@@ -29,8 +34,10 @@
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_INDIA"		X="92" Y="45" AlternateStart="1"/>
 		<Replace MapName="EqualAreaEarth"	Civilization="CIVILIZATION_INDONESIA"	X="104" Y="31" />
 		<Replace MapName="EqualAreaEarth"	Civilization="CIVILIZATION_JAPAN"		X="114" Y="61" />
+		<Replace MapName="EqualAreaEarth"	Civilization="CIVILIZATION_JAPAN"		X="112" Y="60" Leader="LEADER_TOKUGAWA"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_KHMER"		X="102" Y="46" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_KONGO"		X="71" Y="30" />
+		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_KONGO"		X="68" Y="33" Leader="LEADER_MVEMBA"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_KOREA"		X="109" Y="64" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_MACEDON"		X="72" Y="66" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_MAPUCHE"		X="37" Y="11" />
@@ -49,6 +56,7 @@
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_SPAIN"		X="62" Y="64" AlternateStart="1"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_SUMERIA"		X="81" Y="55" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_PERSIA"		X="84" Y="58" DisabledByCivilization="CIVILIZATION_BABYLON_STK"/>
+		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_PERSIA"		X="86" Y="62" Leader="LEADER_NADER_SHAH"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_PERSIA"		X="83" Y="62" AlternateStart="1"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_POLAND"		X="73" Y="70" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_POLAND"		X="74" Y="70" AlternateStart="1"/>
