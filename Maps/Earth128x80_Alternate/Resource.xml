@@ -2948,7 +2948,11 @@
 		<Row>
 			<Region>Earth128x80_Alt_PANNONIA</Region>
 			<Resource>RESOURCE_TRUFFLES</Resource>
-		</Row>		
+		</Row>	
+		<Row>
+			<Region>Earth128x80_Alt_PANNONIA</Region>
+			<Resource>RESOURCE_OIL</Resource>
+		</Row>	
 	</ResourceRegionExclusive>
 	<!-- BRITTANIA -->
 	<ResourceRegionExclude>
