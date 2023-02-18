@@ -20,6 +20,8 @@
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7177" Type="LEADER" Value="LEADER_YONGLE"/> <!-- Nanjing -->
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7622" Type="LEADER" Value="LEADER_WU_ZETIAN"/> <!-- Luoyang -->
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7620" Type="LEADER" Value="LEADER_QIN_ALT"/> <!-- Xi'an -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6229" Type="LEADER" Value="LEADER_CLEOPATRA_ALT"/> <!-- Alexandria -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5011" Type="LEADER" Value="LEADER_SUNDIATA_KEITA"/> <!-- Timbuktu -->
 		
 	</MapStartPositions>	
 </GameInfo>

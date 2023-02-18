@@ -6,7 +6,13 @@
       <Text>Earth (128*80) [COLOR_Civ6Yellow](Play The World)[ENDCOLOR]</Text>
     </Replace>
 	<Replace Tag="LOC_MAP_Earth128x80_DESC" Language="en_US">
-      <Text>True-start location Earth with upscaled Europe for gameplay balance. Resources are randomly generated with options for real world resource regions. Enormous size (128*80)</Text>
+      <Text>True-start location Earth with upscaled land areas for gameplay balance. Resources are randomly generated with options for real world resource regions. Enormous size (128*80)</Text>
+    </Replace>
+	<Replace Tag="LOC_MAP_Earth128x80_Alt_NAME" Language="en_US">
+      <Text>Earth (128*80) Alternate [COLOR_Civ6Yellow](Play The World)[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_MAP_Earth128x80_Alt_DESCRIPTION" Language="en_US">
+      <Text>True-start location Earth with less upscaling. Resources are randomly generated with options for real world resource regions. Enormous size (128*80)</Text>
     </Replace>
 	<Replace Tag="LOC_MAP_Earth_EqualArea" Language="en_US">
       <Text>Equal Area Earth [COLOR_Civ6Yellow](Play The World)[ENDCOLOR]</Text>
@@ -43,7 +49,7 @@
       <Text>Less Forest Fires</Text>
     </Replace>
 	<Replace Tag="LOC_FOREST_FIRES_DESC" Language="en_US">
-      <Text>Forest Fires can no longer spawn on Tundra or Tundra Hills. All fires remain in a burnt state for 2 turns longer.</Text>
+      <Text>Forest Fires have a reduced chance to spread (25%) and reduced chance to increase yields (50%). Forests remain in a burnt state for 2 turns longer.</Text>
     </Replace>
 	<Replace Tag="LOC_MAP_CUSTOM_LABELS" Language="en_US">
       <Text>Real Map Labels</Text>
@@ -164,7 +170,7 @@
 		<Text>Resource Rule Changes</Text>
 	</Replace>	
 	<Replace Tag="LOC_GAME_RESOURCE_CHANGES_DESC" Language="en_US">
-		<Text>[ICON_Bullet][ICON_Resource_Aluminum]Aluminum: Plains Hills[NEWLINE][ICON_Bullet][ICON_Resource_Cattle] Cattle: Plains[NEWLINE][ICON_Bullet][ICON_Resource_Jade]Jade: Desert Hills, Jungle[NEWLINE][ICON_Bullet][ICON_Resource_Marble]Marble: Desert Hills[NEWLINE][ICON_Bullet][ICON_Resource_Pearls]Pearls: Reefs</Text>
+		<Text>[ICON_Bullet][ICON_Resource_Aluminum]Aluminum: Plains Hills, Tundra Hills, Snow Hills[NEWLINE][ICON_Bullet][ICON_Resource_Cattle] Cattle: Plains[NEWLINE][ICON_Bullet][ICON_Resource_Jade]Jade: Desert Hills, Jungle[NEWLINE][ICON_Bullet][ICON_Resource_Marble]Marble: Desert Hills[NEWLINE][ICON_Bullet][ICON_Resource_Pearls]Pearls: Reefs</Text>
 	</Replace>
 	<Replace Tag="LOC_MOUNTAIN_PASS_CAUCASUS_NAME" Language="en_US">
 		<Text>Mountain Pass - Caucasus</Text>

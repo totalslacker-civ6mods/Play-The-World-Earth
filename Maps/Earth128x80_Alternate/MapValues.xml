@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- ++++++++++++++++++++++++++++++ -->
+	<!--   TSL Earth (128x80) (Alternate Version with less upscaling) by totalslacker   -->
+	<!-- ++++++++++++++++++++++++++++++ -->
+	
+	<!-- Majors -->
+	<StartPosition>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AMERICA"		X="36" Y="54" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AMERICA"		X="39" Y="56" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ARABIA"		X="78" Y="46" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ARABIA"		X="80" Y="40" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AUSTRALIA"	X="117" Y="19" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AZTEC"		X="28" Y="45" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BRAZIL"		X="48" Y="23" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CHINA"		X="103" Y="54" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CHINA"		X="106" Y="56" Leader="LEADER_KUBLAI_KHAN_CHINA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CHINA"		X="106" Y="51" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CREE"			X="25" Y="62" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_EGYPT"		X="74" Y="44" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_EGYPT"		X="73" Y="48" Leader="LEADER_CLEOPATRA_ALT"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_EGYPT"		X="73" Y="48" Leader="LEADER_CLEOPATRA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ENGLAND"		X="63" Y="68" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="63" Y="64" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="61" Y="60" Leader="LEADER_ELEANOR_FRANCE"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="61" Y="60" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEORGIA"		X="80" Y="59" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GERMANY"		X="69" Y="66" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GREECE"		X="73" Y="53" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="91" Y="49" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="95" Y="48" Leader="LEADER_CHANDRAGUPTA" DisabledByCivilization="CIVILIZATION_NALANDA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="91" Y="41" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDONESIA"	X="104" Y="31" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JAPAN"		X="116" Y="51" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JAPAN"		X="113" Y="50" Leader="LEADER_TOKUGAWA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KHMER"		X="102" Y="40" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KONGO"		X="71" Y="28" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KONGO"		X="68" Y="30" Leader="LEADER_MVEMBA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KOREA"		X="110" Y="54" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MACEDON"		X="71" Y="58" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAPUCHE"		X="38" Y="17" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MONGOLIA"		X="100" Y="60" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MONGOLIA"		X="106" Y="56" Leader="LEADER_KUBLAI_KHAN_MONGOLIA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NETHERLANDS"	X="65" Y="67" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NORWAY"		X="67" Y="75" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NUBIA"		X="75" Y="40" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="84" Y="50" DisabledByCivilization="CIVILIZATION_BABYLON_STK"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="86" Y="54" Leader="LEADER_NADER_SHAH"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="83" Y="54" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_POLAND"		X="72" Y="65" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_POLAND"		X="73" Y="65" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ROME"			X="68" Y="55" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_RUSSIA"		X="77" Y="67" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SCOTLAND"		X="61" Y="74" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SCYTHIA"		X="80" Y="63" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SPAIN"		X="60" Y="56" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUMERIA"		X="81" Y="47" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ZULU"			X="74" Y="18" />
+		<!-- Gathering Storm -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SWEDEN"		X="71"	Y="72" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MALI"			X="61" 	Y="39" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MALI"			X="64" 	Y="42" Leader="LEADER_SUNDIATA_KEITA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAORI"		X="1"	Y="33" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_HUNGARY"		X="70"	Y="62" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_HUNGARY"		X="71"	Y="62" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CANADA"		X="35"	Y="59" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PHOENICIA"	X="65"	Y="50" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INCA"			X="38"	Y="27" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_OTTOMAN"		X="74"	Y="57" DisabledByCivilization="CIVILIZATION_BYZANTIUM" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_OTTOMAN"		X="94"	Y="62" AlternateStart="1" />
+		<!-- New Frontier -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BABYLON_STK"			X="80"	Y="51" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAYA"					X="32"	Y="44" DisabledByCivilization="CIVILIZATION_LA_VENTA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAYA"					X="33"	Y="46" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GRAN_COLOMBIA"		X="37"	Y="37" DisabledByCivilization="CIVILIZATION_HUNZA" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GRAN_COLOMBIA"		X="40"	Y="39" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ETHIOPIA"				X="77"	Y="37" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BYZANTIUM"			X="74"	Y="57" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GAUL"					X="66"	Y="63" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_VIETNAM"				X="101"	Y="45" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PORTUGAL"				X="57"	Y="54" />
+	</StartPosition>	
+	
+	<!-- Minors -->
+	<StartPosition>		
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ANTIOCH"			X="77" Y="53" DisabledByCivilization="CIVILIZATION_BYZANTIUM"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ANTIOCH"			X="67" Y="59" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AMSTERDAM"		X="65" Y="67" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BABYLON"			X="80" Y="51" DisabledByCivilization="CIVILIZATION_BABYLON_STK" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BABYLON"			X="84" Y="50" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BRUSSELS"			X="66" Y="63" DisabledByCivilization="CIVILIZATION_GAUL"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BRUSSELS"			X="68" Y="69" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BUENOS_AIRES"		X="43" Y="16" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CARTHAGE"			X="65" Y="50" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GENEVA"			X="64" Y="60" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_HATTUSA"			X="78" Y="56" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_HONG_KONG"		X="105" Y="47" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JAKARTA"			X="104" Y="31" DisabledByCivilization="CIVILIZATION_INDONESIA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JAKARTA"			X="104" Y="37" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JERUSALEM"		X="76" Y="50" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KABUL"			X="87" Y="52" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KANDY"			X="92" Y="37" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KUMASI"			X="63" Y="37" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KUMASI"			X="64" Y="36" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_LA_VENTA"			X="31" Y="42" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_LISBON"			X="57" Y="54" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MOHENJO_DARO"		X="88" Y="48" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NAN_MADOL"		X="120" Y="38" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PRESLAV"			X="73" Y="59" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PRESLAV"			X="74" Y="61" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SEOUL"			X="109" Y="54" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_STOCKHOLM"		X="71" Y="72" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_TORONTO"			X="35" Y="59" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_VALLETTA"			X="69" Y="49" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_VILNIUS"			X="73" Y="67" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_VILNIUS"			X="74" Y="69" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_YEREVAN"			X="81" Y="58" DisabledByCivilization="CIVILIZATION_GEORGIA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_YEREVAN"			X="81" Y="55" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ZANZIBAR"			X="79" Y="30" />
+		
+		<!-- DLC -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AUCKLAND" 		X="125" Y="17" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ANTANANARIVO" 	X="81" Y="24" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ARMAGH" 			X="58" Y="71" DisabledByCivilization="CIVILIZATION_CARDIFF"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ARMAGH" 			X="57" Y="71" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GRANADA" 			X="60" Y="52" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MUSCAT" 			X="84" Y="45" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PALENQUE" 		X="34" Y="40" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PALENQUE" 		X="33" Y="41" AlternateStart="1"/>
+		<!-- Gathering Storm -->		
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AKKAD"			X="79"	Y="55" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AKKAD"			X="74"	Y="24" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BOLOGNA"			X="67"	Y="59" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BOLOGNA"			X="54"	Y="75" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CAHOKIA"			X="31"	Y="55" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CARDIFF"			X="60"	Y="69" DisabledByCivilization="CIVILIZATION_ENGLAND"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CARDIFF"			X="60"	Y="70" AlternateStart="1" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FEZ"				X="61"	Y="49" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FEZ"				X="60"	Y="48" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MEXICO_CITY"		X="28"	Y="45" DisabledByCivilization="CIVILIZATION_AZTEC" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MEXICO_CITY"		X="39"	Y="56" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NAZCA"			X="37"	Y="27" DisabledByCivilization="CIVILIZATION_INCA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NAZCA"			X="36"	Y="30" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NGAZARGAMU"		X="70"	Y="40" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_RAPA_NUI"			X="26"	Y="21" />	
+		<!-- New Frontier -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AYUTTHAYA"		X="99"	Y="43" DisabledByCivilization="CIVILIZATION_VIETNAM"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AYUTTHAYA"		X="99"	Y="42" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CAGUANA"			X="41"	Y="44" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CHINGUETTI"		X="60"	Y="44" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_HUNZA"			X="37"	Y="37" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JOHANNESBURG"		X="73"	Y="19" DisabledByCivilization="CIVILIZATION_ZULU"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JOHANNESBURG"		X="70"	Y="15" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_LAHORE"			X="90"	Y="53" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NALANDA"			X="95"	Y="48" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SAMARKAND"		X="88"	Y="56" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SINGAPORE"		X="99"	Y="37" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_TARUGA"			X="67"	Y="38" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_VATICAN_CITY"		X="68"	Y="55" DisabledByCivilization="CIVILIZATION_ROME"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_VATICAN_CITY"		X="97"	Y="51" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_WOLIN"			X="69"	Y="67" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_WOLIN"			X="71"	Y="69"  AlternateStart="1"/>
+	</StartPosition>
+
+	<!-- +++++++++++++++++++++++++++ -->
+	<!--      EXTRA SPAWNS      -->
+	<!-- +++++++++++++++++++++++++++ -->
+
+	<ExtraPlacement>
+		<!-- Map Options -->
+		<!-- Extra Lakes -->
+		<Replace MapName="Earth128x80_Alt" X="40" Y="24"	ConfigurationId="ExtraLakes"			TerrainType="TERRAIN_COAST" FeatureType="NONE"/>	
+		<!-- <Replace MapName="Earth128x80_Alt" X="104" Y="49"	ConfigurationId="ExtraLakes"			TerrainType="TERRAIN_COAST" FeatureType="NONE"/>	 -->
+		<!-- Extra Geothermal Fissures -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="61" Y="66"	ConfigurationId="ExtraGeothermal"			FeatureType="FEATURE_GEOTHERMAL_FISSURE"/>	 -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="68" Y="57"	ConfigurationId="ExtraGeothermal"			FeatureType="FEATURE_GEOTHERMAL_FISSURE"/>	 -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="72" Y="56"	ConfigurationId="ExtraGeothermal"			FeatureType="FEATURE_GEOTHERMAL_FISSURE"/>			 -->
+		<!-- If Natural Wonder mountains don't spawn as mountain tiles, you can use this section to manually change the tile into a mountain -->
+		<!-- Cerro De Potosi -->
+		<Replace MapName="Earth128x80_Alt" X="40" Y="25" TerrainType="TERRAIN_PLAINS_MOUNTAIN" />
+		<!-- Paititi -->
+		<Replace MapName="Earth128x80_Alt" X="39" Y="28" TerrainType="TERRAIN_GRASS_MOUNTAIN" />
+		<!-- This is being done through LUA now, disabled -->
+		<!-- Chocolate Hills -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="106" Y="43" TerrainType="TERRAIN_GRASS_HILLS" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="107" Y="43" TerrainType="TERRAIN_GRASS_HILLS" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="107" Y="44" TerrainType="TERRAIN_GRASS_HILLS" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="108" Y="44" TerrainType="TERRAIN_GRASS_HILLS" />		 -->
+		<!-- Everest -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="95" Y="49"	TerrainType="TERRAIN_GRASS_HILLS" FeatureType="FEATURE_FOREST" />	 -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="95" Y="50" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="96" Y="50" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="95" Y="51" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" />			 -->
+		<!-- Matterhorn -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="66" Y="61"	TerrainType="TERRAIN_GRASS_MOUNTAIN" />	 -->
+		<!-- Vesuvius -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="68" Y="55"	TerrainType="TERRAIN_PLAINS_MOUNTAIN" />	 -->
+		<!-- Kilimanjaro -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="76" Y="33"	TerrainType="TERRAIN_PLAINS_MOUNTAIN" />	 -->
+		<!-- Iceland Volcano -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="56" Y="73"	TerrainType="TERRAIN_TUNDRA_MOUNTAIN" />	 -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="57" Y="73"	TerrainType="TERRAIN_TUNDRA_MOUNTAIN" />	 -->
+		<!-- Norway -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="66" Y="73" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="65" Y="73" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="66" Y="72" TerrainType="TERRAIN_GRASS_MOUNTAIN" />		 -->
+		<!-- Roirama -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="41" Y="37" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="42" Y="37" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="42" Y="36" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="42" Y="35" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> -->
+		<!-- Torres Del Paine -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="37" Y="9"	TerrainType="TERRAIN_TUNDRA_MOUNTAIN" />	 -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="38" Y="9"	TerrainType="TERRAIN_TUNDRA_MOUNTAIN" />	 -->
+		<!-- Yosemite -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="21" Y="55"	TerrainType="TERRAIN_PLAINS_MOUNTAIN" />	 -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="22" Y="55"	TerrainType="TERRAIN_PLAINS_MOUNTAIN" /> -->
+		<!-- Zhangye -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="97" Y="55" TerrainType="TERRAIN_DESERT_MOUNTAIN" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="98" Y="55" TerrainType="TERRAIN_DESERT_MOUNTAIN" /> -->
+		<!-- <Replace MapName="Earth128x80_Alt" X="99" Y="55" TerrainType="TERRAIN_DESERT_MOUNTAIN" />		 -->
+	</ExtraPlacement>
+	
+	<!-- +++++++++++++++++++++++++++ -->
+	<!--      NATURAL WONDERS      -->
+	<!-- +++++++++++++++++++++++++++ -->
+	
+	<NaturalWonderPosition>
+
+		<Replace MapName="Earth128x80_Alt" X="117" Y="24" FeatureType="FEATURE_BARRIER_REEF" TerrainType="TERRAIN_COAST" />
+		<Replace MapName="Earth128x80_Alt" X="116" Y="25" FeatureType="FEATURE_BARRIER_REEF" TerrainType="TERRAIN_COAST" />	
+		
+		<Replace MapName="Earth128x80_Alt" X="62" Y="67" FeatureType="FEATURE_CLIFFS_DOVER" TerrainType="TERRAIN_PLAINS_HILLS" />
+		<Replace MapName="Earth128x80_Alt" X="63" Y="67" FeatureType="FEATURE_CLIFFS_DOVER" TerrainType="TERRAIN_PLAINS_HILLS" />	
+		
+		<Replace MapName="Earth128x80_Alt" X="20" Y="57" FeatureType="FEATURE_CRATER_LAKE" TerrainType="TERRAIN_COAST" />
+		
+		<Replace MapName="Earth128x80_Alt" X="76" Y="49" FeatureType="FEATURE_DEAD_SEA" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="77" Y="50" FeatureType="FEATURE_DEAD_SEA" TerrainType="TERRAIN_DESERT" />
+		
+		<Replace MapName="Earth128x80_Alt" X="95" Y="50" FeatureType="FEATURE_EVEREST" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" />
+		<Replace MapName="Earth128x80_Alt" X="96" Y="50" FeatureType="FEATURE_EVEREST" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" />
+		<Replace MapName="Earth128x80_Alt" X="95" Y="51" FeatureType="FEATURE_EVEREST" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" />		
+		
+		<Replace MapName="Earth128x80_Alt" X="32" Y="34" FeatureType="FEATURE_GALAPAGOS" TerrainType="TERRAIN_COAST" />
+		<Replace MapName="Earth128x80_Alt" X="31" Y="35" FeatureType="FEATURE_GALAPAGOS" TerrainType="TERRAIN_COAST" />			
+		
+		<Replace MapName="Earth128x80_Alt" X="76" Y="31" FeatureType="FEATURE_KILIMANJARO" TerrainType="TERRAIN_GRASS_MOUNTAIN" />
+		
+		<Replace MapName="Earth128x80_Alt" X="44" Y="24" FeatureType="FEATURE_PANTANAL" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="45" Y="24" FeatureType="FEATURE_PANTANAL" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="44" Y="25" FeatureType="FEATURE_PANTANAL" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="45" Y="25" FeatureType="FEATURE_PANTANAL" TerrainType="TERRAIN_GRASS" />	
+		
+		<Replace MapName="Earth128x80_Alt" X="123" Y="10" FeatureType="FEATURE_PIOPIOTAHI" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="124" Y="10" FeatureType="FEATURE_PIOPIOTAHI" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="123" Y="11" FeatureType="FEATURE_PIOPIOTAHI" TerrainType="TERRAIN_GRASS" />			
+		
+		<Replace MapName="Earth128x80_Alt" X="37" Y="9" FeatureType="FEATURE_TORRES_DEL_PAINE" TerrainType="TERRAIN_TUNDRA" />
+		<Replace MapName="Earth128x80_Alt" X="38" Y="9" FeatureType="FEATURE_TORRES_DEL_PAINE" TerrainType="TERRAIN_TUNDRA" />	
+		
+		<Replace MapName="Earth128x80_Alt" X="79" Y="23" FeatureType="FEATURE_TSINGY" TerrainType="TERRAIN_GRASS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="21" Y="55" FeatureType="FEATURE_YOSEMITE" TerrainType="TERRAIN_PLAINS" />
+		<Replace MapName="Earth128x80_Alt" X="22" Y="55" FeatureType="FEATURE_YOSEMITE" TerrainType="TERRAIN_PLAINS" />	
+		
+		
+		<!-- **************** -->
+		<!--     DLC NW       -->
+		<!-- **************** -->
+		
+
+		<Replace MapName="Earth128x80_Alt" X="55" Y="75" FeatureType="FEATURE_EYJAFJALLAJOKULL" TerrainType="TERRAIN_TUNDRA_HILLS" />
+		<Replace MapName="Earth128x80_Alt" X="56" Y="75" FeatureType="FEATURE_EYJAFJALLAJOKULL" TerrainType="TERRAIN_TUNDRA_HILLS" />	
+		
+
+		<Replace MapName="Earth128x80_Alt" X="66" Y="74" FeatureType="FEATURE_LYSEFJORDEN" TerrainType="TERRAIN_TUNDRA" />
+		<Replace MapName="Earth128x80_Alt" X="65" Y="74" FeatureType="FEATURE_LYSEFJORDEN" TerrainType="TERRAIN_TUNDRA" />
+		<Replace MapName="Earth128x80_Alt" X="65" Y="73" FeatureType="FEATURE_LYSEFJORDEN" TerrainType="TERRAIN_TUNDRA" />		
+		
+
+		<Replace MapName="Earth128x80_Alt" X="58" Y="71" FeatureType="FEATURE_GIANTS_CAUSEWAY" TerrainType="TERRAIN_PLAINS" />
+		<Replace MapName="Earth128x80_Alt" X="59" Y="72" FeatureType="FEATURE_GIANTS_CAUSEWAY" TerrainType="TERRAIN_COAST" />			
+		
+		<Replace MapName="Earth128x80_Alt" X="110" Y="23" FeatureType="FEATURE_ULURU" TerrainType="TERRAIN_PLAINS" />
+
+		<Replace MapName="Earth128x80_Alt" X="102" Y="44" FeatureType="FEATURE_HA_LONG_BAY" TerrainType="TERRAIN_COAST" />
+		<Replace MapName="Earth128x80_Alt" X="103" Y="44" FeatureType="FEATURE_HA_LONG_BAY" TerrainType="TERRAIN_COAST" />		
+		
+		<!-- **************** -->
+		<!-- Rise and Fall NW -->
+		<!-- **************** -->		
+		
+		<Replace MapName="Earth128x80_Alt" X="42" Y="35" FeatureType="FEATURE_RORAIMA" TerrainType="TERRAIN_GRASS_MOUNTAIN" />
+		<Replace MapName="Earth128x80_Alt" X="42" Y="36" FeatureType="FEATURE_RORAIMA" TerrainType="TERRAIN_GRASS_MOUNTAIN" />
+		<Replace MapName="Earth128x80_Alt" X="41" Y="37" FeatureType="FEATURE_RORAIMA" TerrainType="TERRAIN_GRASS_MOUNTAIN" />
+		<Replace MapName="Earth128x80_Alt" X="42" Y="37" FeatureType="FEATURE_RORAIMA" TerrainType="TERRAIN_GRASS_MOUNTAIN" />	
+		
+		<Replace MapName="Earth128x80_Alt" X="97" Y="55" FeatureType="FEATURE_ZHANGYE_DANXIA" TerrainType="TERRAIN_DESERT_MOUNTAIN" />
+		<Replace MapName="Earth128x80_Alt" X="98" Y="55" FeatureType="FEATURE_ZHANGYE_DANXIA" TerrainType="TERRAIN_DESERT_MOUNTAIN" />
+		<Replace MapName="Earth128x80_Alt" X="99" Y="55" FeatureType="FEATURE_ZHANGYE_DANXIA" TerrainType="TERRAIN_DESERT_MOUNTAIN" />	
+		
+		<Replace MapName="Earth128x80_Alt" X="97" Y="60" FeatureType="FEATURE_UBSUNUR_HOLLOW" TerrainType="TERRAIN_TUNDRA" />
+		<Replace MapName="Earth128x80_Alt" X="96" Y="61" FeatureType="FEATURE_UBSUNUR_HOLLOW" TerrainType="TERRAIN_TUNDRA" />
+		<Replace MapName="Earth128x80_Alt" X="97" Y="61" FeatureType="FEATURE_UBSUNUR_HOLLOW" TerrainType="TERRAIN_TUNDRA" />
+		<Replace MapName="Earth128x80_Alt" X="97" Y="62" FeatureType="FEATURE_UBSUNUR_HOLLOW" TerrainType="TERRAIN_TUNDRA" />
+		
+		<Replace MapName="Earth128x80_Alt" X="59" Y="42" FeatureType="FEATURE_LAKE_RETBA" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="60" Y="42" FeatureType="FEATURE_LAKE_RETBA" TerrainType="TERRAIN_GRASS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="65" Y="61" FeatureType="FEATURE_MATTERHORN" TerrainType="TERRAIN_GRASS_MOUNTAIN" /> 
+		
+		<Replace MapName="Earth128x80_Alt" X="24" Y="56" FeatureType="FEATURE_DELICATE_ARCH" TerrainType="TERRAIN_DESERT_HILLS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="60" Y="45" FeatureType="FEATURE_EYE_OF_THE_SAHARA" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="61" Y="45" FeatureType="FEATURE_EYE_OF_THE_SAHARA" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="61" Y="44" FeatureType="FEATURE_EYE_OF_THE_SAHARA" TerrainType="TERRAIN_DESERT" />
+		
+		 
+		<!-- ****************** -->
+		<!-- Gathering Storm NW -->
+		<!-- ****************** -->
+		
+		<Replace MapName="Earth128x80_Alt" X="107" Y="43" FeatureType="FEATURE_CHOCOLATEHILLS" TerrainType="TERRAIN_GRASS_HILLS" />
+		<Replace MapName="Earth128x80_Alt" X="108" Y="43" FeatureType="FEATURE_CHOCOLATEHILLS" TerrainType="TERRAIN_GRASS_HILLS" />
+		<Replace MapName="Earth128x80_Alt" X="108" Y="44" FeatureType="FEATURE_CHOCOLATEHILLS" TerrainType="TERRAIN_GRASS_HILLS" />
+		<Replace MapName="Earth128x80_Alt" X="109" Y="44" FeatureType="FEATURE_CHOCOLATEHILLS" TerrainType="TERRAIN_GRASS_HILLS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="81" Y="56" FeatureType="FEATURE_GOBUSTAN" TerrainType="TERRAIN_PLAINS" />
+		<Replace MapName="Earth128x80_Alt" X="82" Y="56" FeatureType="FEATURE_GOBUSTAN" TerrainType="TERRAIN_PLAINS" />
+		<Replace MapName="Earth128x80_Alt" X="81" Y="57" FeatureType="FEATURE_GOBUSTAN" TerrainType="TERRAIN_PLAINS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="75" Y="55" FeatureType="FEATURE_PAMUKKALE" TerrainType="TERRAIN_PLAINS_HILLS" />
+		<Replace MapName="Earth128x80_Alt" X="76" Y="54" FeatureType="FEATURE_PAMUKKALE" TerrainType="TERRAIN_PLAINS_HILLS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="71" Y="46" FeatureType="FEATURE_WHITEDESERT" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="72" Y="46" FeatureType="FEATURE_WHITEDESERT" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="71" Y="47" FeatureType="FEATURE_WHITEDESERT" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="72" Y="47" FeatureType="FEATURE_WHITEDESERT" TerrainType="TERRAIN_DESERT" />
+		
+		<Replace MapName="Earth128x80_Alt" X="27" Y="58" FeatureType="FEATURE_DEVILSTOWER" TerrainType="TERRAIN_PLAINS_MOUNTAIN" />
+		
+		<Replace MapName="Earth128x80_Alt" X="32" Y="46" FeatureType="FEATURE_IKKIL"  />
+		
+		<Replace MapName="Earth128x80_Alt" X="69" Y="54" FeatureType="FEATURE_VESUVIUS" TerrainType="TERRAIN_PLAINS_MOUNTAIN" />
+		
+		<!-- ****************** -->
+		<!-- New Frontier NW -->
+		<!-- ****************** -->	
+		
+		<Replace MapName="Earth128x80_Alt" X="37" Y="48" FeatureType="FEATURE_FOUNTAIN_OF_YOUTH" TerrainType="TERRAIN_GRASS" />		
+		
+		<Replace MapName="Earth128x80_Alt" X="38" Y="28" FeatureType="FEATURE_PAITITI" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="39" Y="28" FeatureType="FEATURE_PAITITI" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="38" Y="29" FeatureType="FEATURE_PAITITI" TerrainType="TERRAIN_GRASS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="40" Y="48" FeatureType="FEATURE_BERMUDA_TRIANGLE" TerrainType="TERRAIN_OCEAN" />
+		<Replace MapName="Earth128x80_Alt" X="41" Y="48" FeatureType="FEATURE_BERMUDA_TRIANGLE" TerrainType="TERRAIN_OCEAN" />
+		<Replace MapName="Earth128x80_Alt" X="40" Y="49" FeatureType="FEATURE_BERMUDA_TRIANGLE" TerrainType="TERRAIN_OCEAN" />
+		 
+		<!-- **************** -->
+		<!--    Modded NW     -->
+		<!-- **************** -->
+		
+		<!-- Sukritact's Wonders -->
+		
+		<Replace MapName="Earth128x80_Alt" X="115" Y="51" FeatureType="FEATURE_SUK_FUJI" TerrainType="TERRAIN_GRASS_MOUNTAIN" />
+		
+		<Replace MapName="Earth128x80_Alt" X="74" Y="31" FeatureType="FEATURE_SUK_NGORONGORO_CRATER" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="75" Y="31" FeatureType="FEATURE_SUK_NGORONGORO_CRATER" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="75" Y="30" FeatureType="FEATURE_SUK_NGORONGORO_CRATER" TerrainType="TERRAIN_GRASS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="23" Y="55" FeatureType="FEATURE_SUK_GRANDCANYON" TerrainType="TERRAIN_DESERT_HILLS" />
+		<Replace MapName="Earth128x80_Alt" X="24" Y="55" FeatureType="FEATURE_SUK_GRANDCANYON" TerrainType="TERRAIN_DESERT_HILLS" />
+		<Replace MapName="Earth128x80_Alt" X="24" Y="54" FeatureType="FEATURE_SUK_GRANDCANYON" TerrainType="TERRAIN_DESERT_HILLS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="101" Y="41" FeatureType="FEATURE_SUK_TONLESAP" TerrainType="TERRAIN_COAST" />
+		<Replace MapName="Earth128x80_Alt" X="101" Y="42" FeatureType="FEATURE_SUK_TONLESAP" TerrainType="TERRAIN_COAST" />		
+		
+		<Replace MapName="Earth128x80_Alt" X="34" Y="44" FeatureType="FEATURE_SUK_GREATBLUEHOLE" TerrainType="TERRAIN_COAST" />
+		
+		<!-- Terra Mirabilis -->
+
+		<Replace MapName="Earth128x80_Alt" X="40" Y="25" FeatureType="FEATURE_CERRO_DE_POTOSI" TerrainType="TERRAIN_GRASS_MOUNTAIN" />
+		
+		<Replace MapName="Earth128x80_Alt" X="25" Y="52" FeatureType="FEATURE_BARRINGER_CRATER" TerrainType="TERRAIN_DESERT" />		
+		
+		<Replace MapName="Earth128x80_Alt" X="93" Y="37" FeatureType="FEATURE_SRI_PADA" TerrainType="TERRAIN_GRASS_MOUNTAIN" />		
+		
+		<Replace MapName="Earth128x80_Alt" X="101" Y="30" FeatureType="FEATURE_KRAKATOA" TerrainType="TERRAIN_GRASS_MOUNTAIN" />
+		
+		<Replace MapName="Earth128x80_Alt" X="79" Y="38" FeatureType="FEATURE_DALLOL" TerrainType="TERRAIN_DESERT" />				
+
+		<Replace MapName="Earth128x80_Alt" X="74" Y="33" FeatureType="FEATURE_LAKE_VICTORIA" TerrainType="TERRAIN_COAST" />
+		<Replace MapName="Earth128x80_Alt" X="75" Y="33" FeatureType="FEATURE_LAKE_VICTORIA" TerrainType="TERRAIN_COAST" />
+		<Replace MapName="Earth128x80_Alt" X="75" Y="32" FeatureType="FEATURE_LAKE_VICTORIA" TerrainType="TERRAIN_COAST" />
+		<Replace MapName="Earth128x80_Alt" X="76" Y="32" FeatureType="FEATURE_LAKE_VICTORIA" TerrainType="TERRAIN_COAST" />
+		
+		<Replace MapName="Earth128x80_Alt" X="50" Y="32" FeatureType="FEATURE_LENCOIS_MARANHENSES" TerrainType="TERRAIN_DESERT" />		
+		<Replace MapName="Earth128x80_Alt" X="50" Y="31" FeatureType="FEATURE_LENCOIS_MARANHENSES" TerrainType="TERRAIN_DESERT" />
+
+		<Replace MapName="Earth128x80_Alt" X="74" Y="25" FeatureType="FEATURE_MOTLATSE_CANYON" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="75" Y="26" FeatureType="FEATURE_MOTLATSE_CANYON" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="75" Y="25" FeatureType="FEATURE_MOTLATSE_CANYON" TerrainType="TERRAIN_GRASS" />
+		<Replace MapName="Earth128x80_Alt" X="76" Y="25" FeatureType="FEATURE_MOTLATSE_CANYON" TerrainType="TERRAIN_GRASS" />		
+		
+		<Replace MapName="Earth128x80_Alt" X="68" Y="24" FeatureType="FEATURE_NAMIB" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="68" Y="23" FeatureType="FEATURE_NAMIB" TerrainType="TERRAIN_DESERT" />	
+		<Replace MapName="Earth128x80_Alt" X="69" Y="22" FeatureType="FEATURE_NAMIB" TerrainType="TERRAIN_DESERT" />				
+		
+		<Replace MapName="Earth128x80_Alt" X="70" Y="43" FeatureType="FEATURE_OUNIANGA" TerrainType="TERRAIN_DESERT" />	
+		<Replace MapName="Earth128x80_Alt" X="71" Y="44" FeatureType="FEATURE_OUNIANGA" TerrainType="TERRAIN_DESERT" />		
+
+		<Replace MapName="Earth128x80_Alt" X="39" Y="24" FeatureType="FEATURE_SALAR_DE_UYUNI" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="38" Y="23" FeatureType="FEATURE_SALAR_DE_UYUNI" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="39" Y="23" FeatureType="FEATURE_SALAR_DE_UYUNI" TerrainType="TERRAIN_DESERT" />
+		<Replace MapName="Earth128x80_Alt" X="39" Y="22" FeatureType="FEATURE_SALAR_DE_UYUNI" TerrainType="TERRAIN_DESERT" />
+		
+		<Replace MapName="Earth128x80_Alt" X="24" Y="59" FeatureType="FEATURE_OLD_FAITHFUL" TerrainType="TERRAIN_PLAINS" />	
+		
+		<Replace MapName="Earth128x80_Alt" X="25" Y="55" FeatureType="FEATURE_GRAND_MESA" TerrainType="TERRAIN_PLAINS_MOUNTAIN" />		
+
+		<Replace MapName="Earth128x80_Alt" X="93" Y="52" FeatureType="FEATURE_KAILASH" TerrainType="TERRAIN_GRASS_MOUNTAIN" />	
+		
+		<Replace MapName="Earth128x80_Alt" X="42" Y="44" FeatureType="FEATURE_BIOLUMINESCENT_BAY" TerrainType="TERRAIN_COAST" />
+		
+		<Replace MapName="Earth128x80_Alt" X="76" Y="48" FeatureType="FEATURE_SINAI" TerrainType="TERRAIN_PLAINS_MOUNTAIN" />
+		
+		<Replace MapName="Earth128x80_Alt" X="75" Y="24" FeatureType="FEATURE_MOSI_OA_TUNYA" TerrainType="TERRAIN_GRASS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="59" Y="53" FeatureType="FEATURE_GIBRALTAR" TerrainType="TERRAIN_GRASS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="73" Y="20" FeatureType="FEATURE_VREDEFORT_DOME" TerrainType="TERRAIN_PLAINS" />
+		<Replace MapName="Earth128x80_Alt" X="74" Y="20" FeatureType="FEATURE_VREDEFORT_DOME" TerrainType="TERRAIN_PLAINS" />
+		
+		<Replace MapName="Earth128x80_Alt" X="102" Y="49" FeatureType="FEATURE_WULINGYUAN" TerrainType="TERRAIN_GRASS_HILLS" />
+		<Replace MapName="Earth128x80_Alt" X="102" Y="50" FeatureType="FEATURE_WULINGYUAN" TerrainType="TERRAIN_GRASS_HILLS" />
+
+	</NaturalWonderPosition>
+	
+	<!-- +++++++++++++++++++++++++++ -->
+	<!--      RESOURCE REGIONS      -->
+	<!-- +++++++++++++++++++++++++++ -->
+	
+	<RegionPosition>
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ANTARCTICA"				X="39" Y="0" Width="6" Height="4" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_NORTH_AMERICA_CANADA_EAST"	X="35" Y="58" Width="13" Height="5" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_NORTH_AMERICA_EAST"		X="35" Y="54" Width="13" Height="4" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_NORTH_AMERICA_CENTRAL"	X="26" Y="54" Width="8" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_NORTH_AMERICA_SOUTH"		X="26" Y="49" Width="11" Height="4" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_NORTH_AMERICA_WEST"		X="17" Y="49" Width="8" Height="13" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ARCTIC_AMERICA_WEST"		X="0" Y="63" Width="18" Height="16" />
+		<!-- <Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ARCTIC_AMERICA_EAST"		X="25" Y="63" Width="10" Height="16" /> -->
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_CENTRAL_AMERICA"			X="21" Y="42" Width="9" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_CARIBBEAN"				X="31" Y="42" Width="13" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_VENEZUELA"				X="38" Y="36" Width="10" Height="5" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_GRAN_COLOMBIA"			X="34" Y="36" Width="4" Height="5" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_AMAZON"					X="41" Y="28" Width="4" Height="7" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_PARAGUAY"				X="41" Y="21" Width="4" Height="7" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SOUTH_AMERICA_WEST"		X="33" Y="21" Width="7" Height="14" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SOUTH_AMERICA_EAST"		X="46" Y="21" Width="10" Height="14" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_PATAGONIA"				X="36" Y="11" Width="10" Height="10" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ANTARCTIC_AMERICA"		X="36" Y="5" Width="10" Height="6" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_AUSTRALIA"				X="102" Y="11" Width="20" Height="17" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ZEALANDIA"				X="121" Y="7" Width="6" Height="14" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_MELANESIA"				X="111" Y="29" Width="11" Height="14" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_POLYNESIA"				X="123" Y="23" Width="4" Height="7" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_OCEANIA"					X="0" Y="15" Width="21" Height="33" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SOUTH_ASIA"				X="97" Y="39" Width="13" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_INDONESIA"				X="97" Y="29" Width="13" Height="9" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_CENTRAL_ASIA"			X="81" Y="56" Width="10" Height="4" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_PERSIA"					X="81" Y="49" Width="6" Height="6" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_EAST_ASIA"				X="97" Y="47" Width="11" Height="14" />
+		<!-- <Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_NORTH_ASIA"			X="94" Y="69" Width="47" Height="4" /> -->
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SIBERIA_WEST"			X="86" Y="61" Width="6" Height="18" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SIBERIA_CENTRAL"			X="93" Y="61" Width="15" Height="18" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SIBERIA_EAST"			X="109" Y="61" Width="9" Height="18" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SIBERIA_FAR_EAST"		X="119" Y="61" Width="8" Height="19" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_INDIA"					X="88" Y="32" Width="8" Height="19" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_TIBET"					X="88" Y="52" Width="8" Height="2" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_MIDDLE_EAST"				X="76" Y="49" Width="4" Height="4" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_TURKEY"					X="74" Y="54" Width="6" Height="6" />		
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ARABIA"					X="76" Y="40" Width="9" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_MEDITERRANEAN"			X="65" Y="52" Width="5" Height="9" />
+		<!-- <Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SOUTH_EUROPA"			X="55" Y="61" Width="27" Height="7" /> -->
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_NORTH_EUROPA"			X="65" Y="61" Width="9" Height="5" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_BRITTANIA"				X="57" Y="66" Width="8" Height="10" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SCANDINAVIA"				X="65" Y="71" Width="20" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_BALTICS"					X="65" Y="66" Width="8" Height="5" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_EAST_EUROPA"				X="74" Y="61" Width="11" Height="9" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_EGYPT"					X="70" Y="40" Width="5" Height="7" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_NORTH_AFRICA"			X="58" Y="47" Width="11" Height="5" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SAHARA"					X="55" Y="40" Width="15" Height="7" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_CENTRAL_AFRICA"			X="68" Y="36" Width="5" Height="4" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_EAST_AFRICA"				X="74" Y="25" Width="4" Height="14" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_WEST_AFRICA"				X="58" Y="36" Width="9" Height="4" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SOMALIA"					X="79" Y="32" Width="5" Height="6" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SOUTH_AFRICA"			X="67" Y="14" Width="11" Height="10" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_MADAGASCAR"				X="79" Y="18" Width="7" Height="13" />
+		<!-- NEW -->
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_KONGO"					X="66" Y="25" Width="8" Height="10" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_JAPAN"					X="112" Y="49" Width="6" Height="12" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_KOREA"					X="108" Y="52" Width="4" Height="9" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_SPAIN"					X="57" Y="52" Width="8" Height="7" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_GREECE"					X="70" Y="51" Width="5" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_PANNONIA"				X="70" Y="58" Width="6" Height="3" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_FRANCE"					X="59" Y="59" Width="6" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_TARIM_BASIN"				X="91" Y="54" Width="6" Height="7" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ARCTIC_AMERICA_YUKON"	X="18" Y="62" Width="7" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ARCTIC_AMERICA_CENTRAL"	X="25" Y="62" Width="10" Height="8" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ARCTIC_AMERICA_QUEBEC"	X="35" Y="63" Width="10" Height="7" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ARCTIC_AMERICA_ISLANDS"	X="18" Y="70" Width="12" Height="10" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_ARCTIC_AMERICA_NUNAVUT"	X="30" Y="70" Width="13" Height="10" />
+		<Replace MapName="Earth128x80_Alt" Region="Earth128x80_Alt_GREENLANDIA"				X="43" Y="66" Width="11" Height="14" />
+	</RegionPosition>
+	<ResourceRegionDeposit>
+		<Row>
+			<Region>Earth128x80_Alt_AMAZON</Region>
+			<Resource>RESOURCE_BANANAS</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_ARABIA</Region>
+			<Resource>RESOURCE_INCENSE</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_ARABIA</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>5</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_ARCTIC_AMERICA_WEST</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>5</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_ARCTIC_AMERICA_CENTRAL</Region>
+			<Resource>RESOURCE_FURS</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_ARCTIC_AMERICA_CENTRAL</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_ARCTIC_AMERICA_NUNAVUT</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_ARCTIC_AMERICA_YUKON</Region>
+			<Resource>RESOURCE_COAL</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_ARCTIC_AMERICA_YUKON</Region>
+			<Resource>RESOURCE_FURS</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_ARCTIC_AMERICA_YUKON</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_BALTICS</Region>
+			<Resource>RESOURCE_FISH</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_BALTICS</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_BRITTANIA</Region>
+			<Resource>RESOURCE_COAL</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_BRITTANIA</Region>
+			<Resource>RESOURCE_FISH</Resource>
+			<Deposit>5</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_BRITTANIA</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_BRITTANIA</Region>
+			<Resource>RESOURCE_NITER</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_BRITTANIA</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_BRITTANIA</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_CENTRAL_AFRICA</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_CENTRAL_AFRICA</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_KONGO</Region>
+			<Resource>RESOURCE_BANANAS</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_KONGO</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_KONGO</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_KONGO</Region>
+			<Resource>RESOURCE_SUGAR</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_CENTRAL_ASIA</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_ASIA</Region>
+			<Resource>RESOURCE_HORSES</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_ASIA</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_ASIA</Region>
+			<Resource>RESOURCE_NITER</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_ASIA</Region>
+			<Resource>RESOURCE_RICE</Resource>
+			<Deposit>6</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_ASIA</Region>
+			<Resource>RESOURCE_SILK</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_EUROPA</Region>
+			<Resource>RESOURCE_NITER</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_EUROPA</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>6</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_EUROPA</Region>
+			<Resource>RESOURCE_WHEAT</Resource>
+			<Deposit>6</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_EUROPA</Region>
+			<Resource>RESOURCE_SALT</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_EAST_EUROPA</Region>
+			<Resource>RESOURCE_FURS</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_FRANCE</Region>
+			<Resource>RESOURCE_WHEAT</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_FRANCE</Region>
+			<Resource>RESOURCE_FISH</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_FRANCE</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_GREECE</Region>
+			<Resource>RESOURCE_FISH</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_GREECE</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_GREENLANDIA</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_INDIA</Region>
+			<Resource>RESOURCE_CITRUS</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_INDIA</Region>
+			<Resource>RESOURCE_SPICES</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_INDONESIA</Region>
+			<Resource>RESOURCE_BANANAS</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_INDONESIA</Region>
+			<Resource>RESOURCE_SPICES</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_JAPAN</Region>
+			<Resource>RESOURCE_COAL</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_JAPAN</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_JAPAN</Region>
+			<Resource>RESOURCE_RICE</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_KOREA</Region>
+			<Resource>RESOURCE_FISH</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_MADAGASCAR</Region>
+			<Resource>RESOURCE_BANANAS</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_MEDITERRANEAN</Region>
+			<Resource>RESOURCE_ALUMINUM</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_MEDITERRANEAN</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_MEDITERRANEAN</Region>
+			<Resource>RESOURCE_FISH</Resource>
+			<Deposit>6</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_MEDITERRANEAN</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_MIDDLE_EAST</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_MIDDLE_EAST</Region>
+			<Resource>RESOURCE_WHEAT</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_NORTH_AMERICA_CANADA_EAST</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_NORTH_AMERICA_SOUTH</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_NORTH_AMERICA_WEST</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_NORTH_EUROPA</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_NORTH_EUROPA</Region>
+			<Resource>RESOURCE_NITER</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_PANNONIA</Region>
+			<Resource>RESOURCE_WHEAT</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_PERSIA</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SCANDINAVIA</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SCANDINAVIA</Region>
+			<Resource>RESOURCE_NITER</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SCANDINAVIA</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_CENTRAL</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_CENTRAL</Region>
+			<Resource>RESOURCE_NITER</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_CENTRAL</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_CENTRAL</Region>
+			<Resource>RESOURCE_COAL</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_CENTRAL</Region>
+			<Resource>RESOURCE_FURS</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_EAST</Region>
+			<Resource>RESOURCE_COAL</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_EAST</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_EAST</Region>
+			<Resource>RESOURCE_URANIUM</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_EAST</Region>
+			<Resource>RESOURCE_FURS</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_FAR_EAST</Region>
+			<Resource>RESOURCE_DIAMONDS</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_FAR_EAST</Region>
+			<Resource>RESOURCE_NITER</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_FAR_EAST</Region>
+			<Resource>RESOURCE_FURS</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_WEST</Region>
+			<Resource>RESOURCE_OIL</Resource>
+			<Deposit>3</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_WEST</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_WEST</Region>
+			<Resource>RESOURCE_IRON</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SIBERIA_WEST</Region>
+			<Resource>RESOURCE_FURS</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SPAIN</Region>
+			<Resource>RESOURCE_WHALES</Resource>
+			<Deposit>1</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SPAIN</Region>
+			<Resource>RESOURCE_FISH</Resource>
+			<Deposit>4</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SOUTH_AFRICA</Region>
+			<Resource>RESOURCE_URANIUM</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+		<Row>
+			<Region>Earth128x80_Alt_SOUTH_AFRICA</Region>
+			<Resource>RESOURCE_DIAMONDS</Resource>
+			<Deposit>2</Deposit>
+		</Row>
+	</ResourceRegionDeposit>
+</GameData>

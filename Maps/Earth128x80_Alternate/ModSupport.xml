@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- ++++++++++++++++++++++++++++++ -->
+	<!--   TSL Earth (128x80) (Alternate Version with less upscaling) - Starting Locations for Community Civs   -->
+	<!--   Credits: Gedemo start positions - Lord Atlas -->
+	<!-- ++++++++++++++++++++++++++++++ -->
+	<StartPosition>
+		<!-- Sukritact -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_TIBET" 		X="97" Y="51" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_BURMA" 		X="98" Y="46" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_SIAM" 		X="99" Y="42" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_GAUL" 		X="66" Y="63" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_ICELAND" 		X="54" Y="75" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_ETHIOPIA" 	X="77" Y="37" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_SWAHILI" 		X="77" Y="27" />
+		<!-- CIVITAS -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_PHILIPPINES" 	X="109" Y="42" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_TAINO" 		X="41" Y="44" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_ARMENIA" 		X="81" Y="58" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_BERBER" 		X="63" Y="46" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_MALAYSIA" 	X="99" Y="37" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_NORMANDY" 	X="62" Y="65" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_ROMANIA"		X="73" Y="59" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_ROMANIA"		X="74" Y="61" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_SASANIAN"		X="84" Y="50" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_SELEUCID"		X="80" Y="51" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_SONGHAI"		X="64" Y="41" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_SWITZERLAND"	X="66" Y="63" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CVS_CIVILIZATION_SELJUQ"		X="88" Y="56" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_AKKAD"		X="79" Y="55" />
+		<!-- Merrick -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_BULGARIA"		X="73" Y="58" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_AUSTRIA"		X="70"	Y="62" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_AUSTRIA"		X="71"	Y="62" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FB_ANGLO_SAXONS"	X="63"	Y="68" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_FINLAND"		X="74"	Y="72" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_MALTA"		X="69"	Y="49" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_PALMYRA"		X="78"	Y="53" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_SICILY"		X="68"	Y="51" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_VENICE"		X="67"	Y="59" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_KIEVAN_RUS"	X="75"	Y="63" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_FLANDERS"		X="65"	Y="66" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_TLINGIT"		X="17"	Y="63" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_ASHANTI"		X="64"	Y="36" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MER_SERBIA"		X="71"	Y="58" />
+		<!-- Leugi -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_LEU_MEXICO"		X="28"	Y="45" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_LEU_ARGENTINA"	X="43"	Y="16" />
+		<!-- JFD -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JFD_BELGIUM"		X="65"	Y="66" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JFD_CHILE"		X="38"	Y="19" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JFD_DENMARK"		X="68"	Y="69" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JFD_ITALY"		X="68"	Y="55" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JFD_PAPAL_STATES"	X="68"	Y="55" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JFD_PORTUGAL"		X="57"	Y="54" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JFD_WALES"		X="60"	Y="70" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JFD_USSR"			X="77"	Y="67" />
+		<!-- Gedemo -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_KORYAK" X="122" Y="67" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_KUIKURO" X="44" Y="30" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_MARAJOARA" X="46" Y="34" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_NENETSIA" X="82" Y="73" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_NOONGAR" X="106" Y="18" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_NUUCHAHNULTH" X="19" Y="59" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_PAWNEE" X="28" Y="57" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_PAPUA" X="115" Y="31" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_RAPANUI" X="26" Y="22" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_SAAMI" X="73" Y="78" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_TAHITI" X="10" Y="26" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_TAIRONA" X="37" Y="39" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_TUPINAMBA" X="50" Y="29" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_VANUATU" X="123" Y="25" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_WIRADJURI" X="116" Y="18" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_YANOMAMI" X="40" Y="35" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_YOLNGU" X="112" Y="28" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEDEMO_YUPIK" X="7" Y="67" />
+	</StartPosition>	
+</GameData>

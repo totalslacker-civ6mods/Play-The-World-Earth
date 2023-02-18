@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="0ffac96e-140c-4389-8ae8-6c0cd6391c40" version="1.3.3">
+<Mod id="0ffac96e-140c-4389-8ae8-6c0cd6391c40" version="1.3.4">
 	<Properties>
 		<Name>Play The World</Name>
 		<Description>Map pack includes Giant Earth (150*84), Earth (128*80), and Equal Area Earth (128*80). Compatible with all game versions and DLC</Description>
@@ -240,6 +240,7 @@
 				<LoadOrder>1000003</LoadOrder>
            	</Properties>
 			<File>Maps/Earth128x80/Earth128x80.lua</File>
+			<File>Maps/Earth128x80_Alternate/Earth128x80_Alt.lua</File>
 			<File>Maps/Equal Area Earth/EqualAreaEarth.lua</File>
 			<File>Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map</File>
 			<File>Scripts/FeatureGenerator_Earth128x80.lua</File>
@@ -254,6 +255,8 @@
 			<Items>
 				<File>Maps/Earth128x80/MapValues.xml</File>
 				<File>Maps/Earth128x80/ModSupport.xml</File>
+				<File>Maps/Earth128x80_Alternate/MapValues.xml</File>
+				<File>Maps/Earth128x80_Alternate/ModSupport.xml</File>
 				<File>Maps/Equal Area Earth/MapValues.xml</File>
 				<File>Maps/Giant Earth/NaturalWonderPositions.xml</File>
 			</Items>
@@ -279,6 +282,7 @@
 			<Items>
 				<File>Data/MapValuesChanges.sql</File>
 				<File>Maps/Earth128x80/Resource.xml</File>
+				<File>Maps/Earth128x80_Alternate/Resource.xml</File>
 			</Items>
 		</UpdateDatabase>
 		<UpdateDatabase id="Resources">	
@@ -327,6 +331,7 @@
 			<Properties><LoadOrder>400</LoadOrder></Properties>
 			<Items>
 				<File>CityMaps/Earth128x80CityMap.xml</File>
+				<File>CityMaps/Earth128x80_Alt_CityMap.xml</File>
 				<File>CityMaps/EqualAreaEarthCityMap.xml</File>
 				<File>CityMaps/PTW_GiantEarth_CityMap.xml</File>
 			</Items>
@@ -405,6 +410,7 @@
 	<FrontEndActions>
 		<UpdateDatabase id="SetupMenu">
 			<File>Maps/Earth128x80/Config.xml</File>
+			<File>Maps/Earth128x80_Alternate/Config.xml</File>
 			<File>Maps/Equal Area Earth/Config.xml</File>
 			<File>Maps/Giant Earth/Config.xml</File>
 			<File>Data/AdvancedOptionsConfig.xml</File>
@@ -434,6 +440,10 @@
 	<File>Maps/Earth128x80/MapValues.xml</File>
 	<File>Maps/Earth128x80/ModSupport.xml</File>
 	<File>Maps/Earth128x80/Resource.xml</File>
+	<File>Maps/Earth128x80_Alternate/Earth128x80_Alt.lua</File>
+	<File>Maps/Earth128x80_Alternate/MapValues.xml</File>
+	<File>Maps/Earth128x80_Alternate/ModSupport.xml</File>
+	<File>Maps/Earth128x80_Alternate/Resource.xml</File>
 	<File>Maps/Equal Area Earth/EqualAreaEarth.lua</File>
 	<File>Maps/Equal Area Earth/MapValues.xml</File>
 	<File>Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map</File>
@@ -452,6 +462,7 @@
 	<File>Maps/Giant Earth/AlternateTSL_Phoenicia.xml</File>
 	<File>Maps/Giant Earth/NaturalWonderPositions.xml</File>
 	<File>CityMaps/Earth128x80CityMap.xml</File>
+	<File>CityMaps/Earth128x80_Alt_CityMap.xml</File>
 	<File>CityMaps/EqualAreaEarthCityMap.xml</File>
 	<File>CityMaps/PTW_GiantEarth_CityMap.xml</File>
 	<File>Scripts/FeatureGenerator_Earth128x80.lua</File>
@@ -463,6 +474,7 @@
 	<File>Scripts/CustomMapLabels_EqualAreaEarth.lua</File>
 	<File>Scripts/CustomMapLabels_GiantEarth.lua</File>
     <File>Maps/Earth128x80/Config.xml</File>
+	<File>Maps/Earth128x80_Alternate/Config.xml</File>
 	<File>Maps/Equal Area Earth/Config.xml</File>
 	<File>Maps/Giant Earth/Config.xml</File>
 	<File>Text/ConfigText.xml</File>

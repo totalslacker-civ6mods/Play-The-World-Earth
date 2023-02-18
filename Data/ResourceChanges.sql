@@ -9,8 +9,8 @@
 -- Valid Terrains
 -- INSERT OR REPLACE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES ('RESOURCE_ALUMINUM', 'TERRAIN_GRASS_HILLS');
 INSERT OR REPLACE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES ('RESOURCE_ALUMINUM', 'TERRAIN_PLAINS_HILLS');
--- INSERT OR REPLACE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES ('RESOURCE_ALUMINUM', 'TERRAIN_TUNDRA_HILLS');
--- INSERT OR REPLACE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES ('RESOURCE_ALUMINUM', 'TERRAIN_SNOW_HILLS');
+INSERT OR REPLACE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES ('RESOURCE_ALUMINUM', 'TERRAIN_TUNDRA_HILLS');
+INSERT OR REPLACE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES ('RESOURCE_ALUMINUM', 'TERRAIN_SNOW_HILLS');
 INSERT OR REPLACE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES ('RESOURCE_CATTLE', 'TERRAIN_PLAINS');
 -- INSERT OR REPLACE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES ('RESOURCE_CATTLE', 'TERRAIN_TUNDRA');
 -- INSERT OR REPLACE INTO Resource_ValidTerrains (ResourceType, TerrainType) VALUES ('RESOURCE_CATTLE', 'TERRAIN_TUNDRA_HILLS');
@@ -125,10 +125,6 @@ INSERT OR REPLACE INTO Resource_ValidFeatures (ResourceType, FeatureType) VALUES
 -- INSERT OR REPLACE INTO Resource_ValidFeatures (ResourceType, FeatureType) VALUES ('RESOURCE_SILVER', 'FEATURE_FOREST');
 -- INSERT OR REPLACE INTO Resource_ValidFeatures (ResourceType, FeatureType) VALUES ('RESOURCE_STONE', 'FEATURE_FOREST');
 -- INSERT OR REPLACE INTO Resource_ValidFeatures (ResourceType, FeatureType) VALUES ('RESOURCE_TEA', 'FEATURE_FOREST');
-
-/* UPDATE Improvement_ValidResources SET MustRemoveFeature='0' 
-WHERE ResourceType ='RESOURCE_JADE'  
-OR ResourceType ='RESOURCE_PEARLS'; */
 
 --No river requirement unlocked in Worldbuilder
 /* UPDATE Resources SET NoRiver='0' 

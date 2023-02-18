@@ -99,9 +99,22 @@ VALUES	('CIVILIZATION_AMERICA',	'RESOURCE_NITER'),
 
 --Must remove feature
 UPDATE Improvement_ValidResources SET MustRemoveFeature='0' 
-WHERE ResourceType ='RESOURCE_CATTLE'
+WHERE ResourceType ='RESOURCE_SILVER' 
+OR ResourceType = 'RESOURCE_NITER' 
+OR ResourceType = 'RESOURCE_IRON' 
+OR ResourceType ='RESOURCE_JADE' 
+OR ResourceType ='RESOURCE_SALT' 
+OR ResourceType ='RESOURCE_COPPER' 
+OR ResourceType ='RESOURCE_STONE' 
+OR ResourceType ='RESOURCE_CATTLE' 
+OR ResourceType ='RESOURCE_WHEAT' 
+OR ResourceType ='RESOURCE_GYPSUM' 
+OR ResourceType ='RESOURCE_MARBLE' 
+OR ResourceType ='RESOURCE_SHEEP' 
 OR ResourceType ='RESOURCE_PEARLS'
 OR ResourceType ='RESOURCE_HORSES'
+OR ResourceType ='RESOURCE_CRABS'
+OR ResourceType ='RESOURCE_MERCURY'
+OR ResourceType ='RESOURCE_MAIZE'
 OR ResourceType ='RESOURCE_HONEY'
-OR ResourceType ='RESOURCE_NITER'
-OR ResourceType ='RESOURCE_MAIZE';
+OR ResourceType ='RESOURCE_OLIVES';

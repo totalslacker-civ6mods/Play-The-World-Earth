@@ -1247,7 +1247,7 @@ function AddTerritoryLabel(pOverlay, pTerritory)
 		local x, y = UI.GetRegionCenter(pInstance.pPlots);
 		
 		if bCustomLabels then
-			if mapName == "Earth128x80" then
+			if ((mapName == "Earth128x80") or (mapName == "Earth128x80_Alt")) then
 				CreateMapLabel_Earth128x80(szName, pOverlay, x, y);			
 			elseif(mapName == "EqualAreaEarth") then
 				CreateMapLabel_EqualAreaEarth(szName, pOverlay, x, y);	

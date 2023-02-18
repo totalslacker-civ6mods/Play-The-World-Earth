@@ -19,7 +19,9 @@
 		<!-- <Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CHINA"		X="105" Y="59" Leader="LEADER_YONGLE" />  -->
 		<!-- <Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CHINA"		X="104" Y="62" Leader="LEADER_WU_ZETIAN"/>  -->
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CREE"		X="24" Y="72" />
-		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_EGYPT"		X="74" Y="56" />
+		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_EGYPT"		X="73" Y="53" />
+		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_EGYPT"		X="73" Y="57" Leader="LEADER_CLEOPATRA_ALT"/>
+		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_EGYPT"		X="73" Y="57" Leader="LEADER_CLEOPATRA"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_ENGLAND"		X="63" Y="72" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_FRANCE"		X="65" Y="68" DisabledByCivilization="CIVILIZATION_GAUL"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_FRANCE"		X="63" Y="68" Leader="LEADER_ELEANOR_FRANCE"/>
@@ -64,6 +66,7 @@
 		<!-- Gathering Storm -->
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_SWEDEN"		X="70"	Y="75" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_MALI"		X="62" 	Y="46" />
+		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_MALI"		X="63" 	Y="50" Leader="LEADER_SUNDIATA_KEITA"/>
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_MAORI"		X="7"	Y="30" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_HUNGARY"		X="71"	Y="67" />
 		<Replace MapName="EqualAreaEarth" 	Civilization="CIVILIZATION_CANADA"		X="36"	Y="68" />
