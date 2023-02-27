@@ -6023,7 +6023,7 @@ function SetTrueStartingLocations()
 						else
 							print ("WARNING ! Plot is too close from another Starting Position")
 							--totalslacker: Ignore warnings on Earth128x80 and Equal Area Earth
-							if mapName == "Earth128x80" or mapName == "EqualAreaEarth" then
+							if ((mapName == "Earth128x80") or (mapName == "EqualAreaEarth") or (mapName == "Earth128x80_Alt")) then
 								if CivilizationTypeName == "CIVILIZATION_NETHERLANDS" then
 									player:SetStartingPlot(plot)
 									print ("Used original starting plot anyway for Netherlands")
@@ -6039,7 +6039,7 @@ function SetTrueStartingLocations()
 							end
 						end
 						--totalslacker: Special override options for Earth128x80
-						if mapName == "Earth128x80" then
+						if ((mapName == "Earth128x80") or (mapName == "Earth128x80_Alt")) then
 							if CivilizationTypeName == "CIVILIZATION_OTTOMAN" and bOttomansOverride then
 								local hattusaPlot = Map.GetPlot(77, 55)
 								player:SetStartingPlot(hattusaPlot)
@@ -6101,7 +6101,7 @@ function SetTrueStartingLocations()
 						else
 							print ("WARNING ! Plot is too close from another Starting Position")
 							--totalslacker: Ignore warnings on Earth128x80 and Equal Area Earth
-							if mapName == "Earth128x80" or mapName == "EqualAreaEarth" then
+							if ((mapName == "Earth128x80") or (mapName == "EqualAreaEarth") or (mapName == "Earth128x80_Alt")) then
 								if CivilizationTypeName == "CIVILIZATION_VALLETTA" then
 									player:SetStartingPlot(plot)
 									print ("Used original starting plot anyway for Valletta")
