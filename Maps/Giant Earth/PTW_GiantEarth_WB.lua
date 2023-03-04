@@ -226,6 +226,28 @@ function PlaceNaturalWonders()
 					table.insert(wonderPlots, pNWPlot:GetIndex());
 					TerrainBuilder.SetMultiPlotFeatureType(wonderPlots, eFeatureType);					
 				end
+				if loop.Value == "FEATURE_SUK_GRANDCANYON" then
+					local pEPlot  = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_EAST);
+					local pSEPlot  = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
+					table.insert(wonderPlots, pPlot:GetIndex());
+					table.insert(wonderPlots, pEPlot:GetIndex());
+					table.insert(wonderPlots, pSEPlot:GetIndex());
+					TerrainBuilder.SetMultiPlotFeatureType(wonderPlots, eFeatureType);					
+				end
+				if loop.Value == "FEATURE_SUK_NGORONGORO_CRATER" then
+					local pEPlot  = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_EAST);
+					local pNEPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_NORTHEAST);
+					table.insert(wonderPlots, pPlot:GetIndex());
+					table.insert(wonderPlots, pEPlot:GetIndex());
+					table.insert(wonderPlots, pNEPlot:GetIndex());
+					TerrainBuilder.SetMultiPlotFeatureType(wonderPlots, eFeatureType);					
+				end
+				if loop.Value == "FEATURE_SUK_TONLESAP" then
+					local pEPlot  = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_EAST);
+					table.insert(wonderPlots, pPlot:GetIndex());
+					table.insert(wonderPlots, pEPlot:GetIndex());
+					TerrainBuilder.SetMultiPlotFeatureType(wonderPlots, eFeatureType);					
+				end
 				if loop.Value == "FEATURE_TORRES_DEL_PAINE" then
 					local pEPlot  = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_EAST);
 					table.insert(wonderPlots, pPlot:GetIndex());

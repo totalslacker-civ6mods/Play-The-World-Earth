@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- author: totalslacker -->
+<GameInfo>
+	<MapStartPositions>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="3963" 	Type="CIVILIZATION" Value="CIVILIZATION_SUK_AKAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6659" 	Type="CIVILIZATION" Value="CIVILIZATION_SUK_AL_ANDALUS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5966" 	Type="CIVILIZATION" Value="CIVILIZATION_SUK_BURMA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4134" 	Type="CIVILIZATION" Value="CIVILIZATION_SUK_ETHIOPIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8014" 	Type="CIVILIZATION" Value="CIVILIZATION_SUK_GAUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="11301" 	Type="CIVILIZATION" Value="CIVILIZATION_SUK_ICELAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="5519" 	Type="CIVILIZATION" Value="CIVILIZATION_SUK_SIAM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7013" 	Type="CIVILIZATION" Value="CIVILIZATION_SUK_TIBET"/>
+		
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="1687" 	Type="CIVILIZATION" Value="CIVILIZATION_STR_ARGENTINA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7224" 	Type="CIVILIZATION" Value="CIVILIZATION_SHU_TEXAS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6181" 	Type="CIVILIZATION" Value="CIVILIZATION_L_CUBA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="2436" 	Type="CIVILIZATION" Value="CIVILIZATION_GEDEMO_GUARANI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6357" 	Type="CIVILIZATION" Value="CIVILIZATION_GEDEMO_MOROCCO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8765" 	Type="CIVILIZATION" Value="CIVILIZATION_JFD_BELGIUM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9819" 	Type="CIVILIZATION" Value="CIVILIZATION_JFD_DENMARK"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8475" 	Type="CIVILIZATION" Value="CIVILIZATION_JTF_CZECHOSLOVAKIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7880" 	Type="CIVILIZATION" Value="CIVILIZATION_SS_BULGARIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8331" 	Type="CIVILIZATION" Value="CIVILIZATION_CVS_ROMANIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8933" 	Type="CIVILIZATION" Value="CIVILIZATION_MER_KIEVAN_RUS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="9381" 	Type="CIVILIZATION" Value="CIVILIZATION_RB_RB"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="10281" 	Type="CIVILIZATION" Value="CIVILIZATION_MER_FINLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="7925" 	Type="CIVILIZATION" Value="CIVILIZATION_CHINA_PRC"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="8168" 	Type="CIVILIZATION" Value="CIVILIZATION_CVS_SWITZERLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="6853" 	Type="CIVILIZATION" Value="CIVILIZATION_GEDEMO_TIMURID"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4118" 	Type="CIVILIZATION" Value="CIVILIZATION_MC_KANEM_BORNU"/>
+		
+	</MapStartPositions>
+	<MapLeaders>
+		<!-- Insert mod Leaders to make them available in the setup menu -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_ABD_AL_RAHMAN_III"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_BAYINNAUNG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_HADRIAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_INGOLFUR"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_LOBSANG_GYATSO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_OSON"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_RAMKHAMHAENG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_TRISONG_DETSEN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_VERCINGETORIX"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_VERCINGETORIX_DLC"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_ZARAYAQOB"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_ZARAYAQOB_DLC"/>
+	</MapLeaders>
+	<MapSupportedValues>
+		<!-- Insert mod City States (one for each domain) to make them available in the City-State picker setup menu option -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_ANTANANARIVO"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ANTANANARIVO"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_ANTANANARIVO"/> -->
+	</MapSupportedValues>
+</GameInfo>

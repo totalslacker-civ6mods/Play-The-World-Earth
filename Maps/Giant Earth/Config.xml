@@ -47,8 +47,279 @@
 		<Row ParameterId="LeaderTSL" ConfigurationGroup="Map" ConfigurationId="MapName" Operator="NotEquals" ConfigurationValue="PTW_GiantEarth"/>
 		<Row ParameterId="AlternateTSL" ConfigurationGroup="Map" ConfigurationId="MapName" Operator="NotEquals" ConfigurationValue="PTW_GiantEarth"/>
 		<Row ParameterId="AlternatePlacement" ConfigurationGroup="Map" ConfigurationId="MapName" Operator="NotEquals" ConfigurationValue="PTW_GiantEarth"/>
+		<Row ParameterId="OnlyLeadersWithTSL" ConfigurationGroup="Map" ConfigurationId="MapName" Operator="NotEquals" ConfigurationValue="PTW_GiantEarth"/>
 	</ParameterDependencies>
 	<MapSupportedValues>
 		<Row Map = "{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain = "CivilizationPlacement" Value = "PLACEMENT_TSL" />
+	</MapSupportedValues>
+	<MapLeaders>
+		<!-- Firaxis Leaders -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_ABRAHAM_LINCOLN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_ALEXANDER"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_AMANITORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_AMBIORIX"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_BARBAROSSA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_BASIL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_CATHERINE_DE_MEDICI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_CATHERINE_DE_MEDICI_ALT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_CHANDRAGUPTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_CLEOPATRA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_CLEOPATRA_ALT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_CYRUS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_DIDO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_ELEANOR_ENGLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_ELEANOR_FRANCE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_GANDHI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_GENGHIS_KHAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_GILGAMESH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_GITARJA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_GORGO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_HAMMURABI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_HARDRADA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_HOJO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_JADWIGA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_JAYAVARMAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_JOAO_III"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_JOHN_CURTIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_JULIUS_CAESAR"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_KRISTINA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_KUBLAI_KHAN_CHINA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_KUBLAI_KHAN_MONGOLIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_KUPE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_LADY_SIX_SKY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_LADY_TRIEU"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_LAURIER"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_LAUTARO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MANSA_MUSA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MATTHIAS_CORVINUS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MENELIK"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MONTEZUMA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MVEMBA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_NADER_SHAH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_NZINGA_MBANDE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_PACHACUTI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_PEDRO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_PERICLES"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_PETER_GREAT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_PHILIP_II"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_POUNDMAKER"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_QIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_QIN_ALT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_RAMSES"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_ROBERT_THE_BRUCE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SALADIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SALADIN_ALT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SEONDEOK"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SHAKA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SIMON_BOLIVAR"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SULEIMAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SULEIMAN_ALT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUNDIATA_KEITA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_TAMAR"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_TOKUGAWA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_TOMYRIS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_TRAJAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_T_ROOSEVELT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_T_ROOSEVELT_ROUGHRIDER"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_VICTORIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_WILHELMINA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_WU_ZETIAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_YONGLE"/>
+		
+		<!-- Random -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="RANDOM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="RANDOM_POOL1"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="RANDOM_POOL2"/>
+		
+		<!-- City States -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_AKKAD"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_ANTANANARIVO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_ANTIOCH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_ARMAGH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_AUCKLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_AYUTTHAYA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_BABYLON"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_BOLOGNA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_BRUSSELS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_BUENOS_AIRES"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_CAGUANA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_CAHOKIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_CARDIFF"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_CARTHAGE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_CHINGUETTI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_FEZ"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_GENEVA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_GRANADA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_HATTUSA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_HONG_KONG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_HUNZA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_JAKARTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_JERUSALEM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_JOHANNESBURG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_KABUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_KANDY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_KUMASI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_LAHORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_LA_VENTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_LISBON"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_MEXICO_CITY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_MOHENJO_DARO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_MUSCAT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_NALANDA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_NAN_MADOL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_NAZCA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_NGAZARGAMU"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_PALENQUE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_PRESLAV"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_RAPA_NUI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_SAMARKAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_SINGAPORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_STOCKHOLM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_TARUGA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_VALLETTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_VATICAN_CITY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_VILNIUS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_WOLIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_YEREVAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_MINOR_CIV_ZANZIBAR"/>
+	</MapLeaders>
+	<MapSupportedValues>
+		<!-- StandardCityStates -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_AMSTERDAM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_ANTANANARIVO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_ARMAGH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_AUCKLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_AYUTTHAYA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_BRUSSELS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_BUENOS_AIRES"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_CAGUANA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_CARTHAGE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_CHINGUETTI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_GENEVA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_GRANADA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_HATTUSA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_HONG_KONG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_HUNZA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_JAKARTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_JERUSALEM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_JOHANNESBURG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_KABUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_KANDY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_KUMASI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_LAHORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_LA_VENTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_LISBON"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_MOHENJO_DARO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_MUSCAT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_NALANDA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_NAN_MADOL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_PALENQUE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_PRESLAV"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_SAMARKAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_SEOUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_SINGAPORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_STOCKHOLM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_TARUGA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_TORONTO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_VALLETTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_VATICAN_CITY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_VILNIUS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_WOLIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_YEREVAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_ZANZIBAR"/>
+		
+		<!-- Expansion1CityStates -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ANTANANARIVO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ANTIOCH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ARMAGH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_AUCKLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_AYUTTHAYA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_BABYLON"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_BRUSSELS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_BUENOS_AIRES"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_CAGUANA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_CARTHAGE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_CHINGUETTI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_GENEVA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_GRANADA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HATTUSA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HONG_KONG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_HUNZA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_JAKARTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_JERUSALEM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_JOHANNESBURG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_KABUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_KANDY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_KUMASI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_LAHORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_LA_VENTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_LISBON"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_MOHENJO_DARO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_MUSCAT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_NALANDA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_NAN_MADOL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_PALENQUE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_PRESLAV"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_SAMARKAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_SINGAPORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_STOCKHOLM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_TARUGA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_TORONTO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VALLETTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VATICAN_CITY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_VILNIUS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_WOLIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_YEREVAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion1CityStates" Value="CIVILIZATION_ZANZIBAR"/>
+		
+		<!-- Expansion2CityStates -->
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_AKKAD"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_ANTANANARIVO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_ANTIOCH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_ARMAGH"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_AUCKLAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_AYUTTHAYA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_BABYLON"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_BOLOGNA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_BRUSSELS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_BUENOS_AIRES"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_CAGUANA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_CAHOKIA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_CARDIFF"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_CHINGUETTI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_FEZ"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_GENEVA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_GRANADA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_HATTUSA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_HONG_KONG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_HUNZA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_JAKARTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_JERUSALEM"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_JOHANNESBURG"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_KABUL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_KANDY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_KUMASI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_LAHORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_LA_VENTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_LISBON"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_MEXICO_CITY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_MOHENJO_DARO"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_MUSCAT"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_NALANDA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_NAN_MADOL"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_NAZCA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_NGAZARGAMU"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_PALENQUE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_PRESLAV"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_RAPA_NUI"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_SAMARKAND"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_SINGAPORE"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_TARUGA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_VALLETTA"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_VATICAN_CITY"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_VILNIUS"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_WOLIN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_YEREVAN"/>
+		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="Expansion2CityStates" Value="CIVILIZATION_ZANZIBAR"/>
 	</MapSupportedValues>
 </GameInfo>
