@@ -28,6 +28,7 @@ end
 -- List the player slots
 local slotStatusString	= {}
 local civLevelString	= {}
+SlotStatus.SS_RESERVED	= 5
 for key, v in pairs(SlotStatus) do
 	slotStatusString[v] = key
 end
@@ -39,7 +40,7 @@ print("InGame Player slots :")
 for slotID = 0, 63 do
 	local playerConfig = PlayerConfigurations[slotID]
 	if playerConfig then
-		print(slotID, Indentation(playerConfig and playerConfig:GetLeaderTypeName(),20), Indentation(playerConfig and playerConfig:GetCivilizationTypeName(),25), Indentation(playerConfig and playerConfig:GetSlotName(),25), Indentation(playerConfig and (slotStatusString[playerConfig:GetSlotStatus()] or "UNK STATUS"),15))--, playerConfig and (civLevelString[playerConfig:GetCivilizationLevelTypeID()] or "UNK LEVEL"),  playerConfig and playerConfig:IsAI())
+		print(slotID, Indentation(playerConfig and playerConfig:GetLeaderTypeName(),20), Indentation(playerConfig and playerConfig:GetCivilizationTypeName(),25), Indentation(playerConfig and playerConfig:GetSlotName(),25), Indentation(playerConfig and (slotStatusString[playerConfig:GetSlotStatus()] or "UNK STATUS#"..tostring(playerConfig:GetSlotStatus())),15), playerConfig and (civLevelString[playerConfig:GetCivilizationLevelTypeID()] or "UNK LEVEL"))--,  playerConfig and playerConfig:IsAI())
 	end
 end
 
@@ -49,7 +50,7 @@ print ("Setting YnAMP globals and cache...")
 g_startTimer = os.clock()
 
 --ExposedMembers.HistoricalStartingPlots 	= nil
-ExposedMembers.YnAMP	= { RiverMap = {}, PlayerToRemove = {}}
+ExposedMembers.YnAMP	= ExposedMembers.YnAMP or { RiverMap = {}, PlayerToRemove = {}}
 
 local YnAMP				= ExposedMembers.YnAMP
 local RiverMap 			= YnAMP.RiverMap
@@ -71,6 +72,8 @@ isResourceExclusive 			= {}
 YnAMP_Loading.IsAlternateStart	= {}
 -- get options
 bCulturallyLinked 		= MapConfiguration.GetValue("CulturallyLinkedStart") == "PLACEMENT_ETHNIC";
+bDistanceRelativeStart	= MapConfiguration.GetValue("CulturallyLinkedStart") == "PLACEMENT_DISTANCE";
+bTeamLinkedStart 		= MapConfiguration.GetValue("TeamLinkedStart")
 bTSL 					= MapConfiguration.GetValue("CivilizationPlacement") == "PLACEMENT_TSL";
 bResourceExclusion 		= MapConfiguration.GetValue("ResourcesExclusion") == "PLACEMENT_EXCLUDE";
 bRequestedResources 	= MapConfiguration.GetValue("RequestedResources") == "PLACEMENT_REQUEST";
@@ -121,18 +124,6 @@ local lowLandPlacement = MapConfiguration.GetValue("LowLandPlacement")
 local bDeepLowLand = lowLandPlacement == "PLACEMENT_DEEP"
 
 local floodPlainsPlacement = MapConfiguration.GetValue("FloodPlainsPlacement")
-
--- totalslacker: Natural Wonder Picker and extra settings support
-local placedWonders = {};
-local excludedWonders = {};
-local excludeWondersConfig = GameConfiguration.GetValue("EXCLUDE_NATURAL_WONDERS");
-if(excludeWondersConfig and #excludeWondersConfig > 0) then
-	print("The following Natural Wonders have been marked as 'excluded':");
-	for i,v in ipairs(excludeWondersConfig) do
-		print("* " .. v);
-		excludedWonders[v] = true;
-	end
-end
 
 -- totalslacker: Override TSL options
 local bOttomansOverride = MapConfiguration.GetValue("OttomansAnatolia")
@@ -284,6 +275,7 @@ function AssignStartingPlots.Create(args)
 
 	--instance:__InitStartingData()
 	-- YnAMP <<<<<
+	SetGlobals()
 	if not bTSL then
 		instance:__InitStartingData()
 	end
@@ -2878,18 +2870,19 @@ function buildExclusionList()
 				
 				-- fill the exclusion/exclusive table
 				if (#resExclusionTable > 0) or (#resExclusiveTable > 0) then
+				
 					local regionX, regionY 	= GetXYFromRefMapXY(RegionRow.X, RegionRow.Y)
 					local regionWidth 		= 1
 					local regionHeight 		= 1
-
-					if mapName == "Earth128x80" then
+					
+					--totalslacker: calculate regions differently for PTW maps
+					if (mapName == "Earth128x80") or (mapName == "Earth128x80_Alt") then
 						regionWidth 		= RegionRow.Width
 						regionHeight 		= RegionRow.Height
 					else
 						regionWidth 		= g_ReferenceWidthRatio * RegionRow.Width
 						regionHeight 		= g_ReferenceHeightRatio * RegionRow.Height					
 					end
-
 					
 					--print ("    - Bottom Left (X,Y) = ", regionX, regionY)
 					print ("    - Width (used, default, map ratio) = ", regionWidth, RegionRow.Width, g_ReferenceWidthRatio)
@@ -3236,8 +3229,6 @@ function GenerateImportedMap(MapToConvert, Civ6DataToConvert, NaturalWonders, wi
 	-- Set globals
 	SetGlobals()
 	
-	g_MaxStartDistanceMajor = math.sqrt(g_iW * g_iH / PlayerManager.GetWasEverAliveMajorsCount())
-	g_MinStartDistanceMajor = g_MaxStartDistanceMajor / 3
 	print("g_MaxStartDistanceMajor, g_MinStartDistanceMajor = ", g_MaxStartDistanceMajor, g_MinStartDistanceMajor)
 
 	local bIsCiv5Map = (#MapToConvert[0][0][6] == 2) -- 6th entry is resource for civ5 data ( = 2 : type and number), cliffs positions for civ6 data ( = 3 : all possible positions on a hexagon side)
@@ -3396,11 +3387,10 @@ function GenerateImportedMap(MapToConvert, Civ6DataToConvert, NaturalWonders, wi
 		end
 		
 		function CheckFlowDirectionValid(plotA, edgeA, plotB, edgeB)
-			-- print("Need to check Flow between: ", plotA:GetX(), plotA:GetY(), " and " , plotB:GetX(), plotB:GetY())	
 			local flowA	= GetFlowDirection(plotA, edgeA)
 			local flowB	= GetFlowDirection(plotB, edgeB)
 			if (NextFlowValid[flowA] and NextFlowValid[flowB]) and (not NextFlowValid[flowA][flowB]) and (not NextFlowValid[flowB][flowA]) then
-				print("Need to check Flow between: ", plotA:GetX(), plotA:GetY(), EdgeString[edgeA], FlowDirectionString[flowA], " and " , plotB:GetX(), plotB:GetY(), EdgeString[edgeB], FlowDirectionString[flowB])
+				--print("Need to check Flow between: ", plotA:GetX(), plotA:GetY(), EdgeString[edgeA], FlowDirectionString[flowA], " and " , plotB:GetX(), plotB:GetY(), EdgeString[edgeB], FlowDirectionString[flowB])
 			end			
 		end
 		
@@ -3566,7 +3556,8 @@ function GenerateImportedMap(MapToConvert, Civ6DataToConvert, NaturalWonders, wi
 		--]]
 		
 		-- Generate GS flood plains
-		if mapName == "Earth128x80" or mapName == "EqualAreaEarth" then			
+		--totalslacker: generate floodplains differently on PTW maps
+		if (mapName == "Earth128x80") or (mapName == "Earth128x80_Alt") or (mapName == "EqualAreaEarth") then			
 			local bRiversStartInland	= true
 			local iMinFloodplainSize 	= 3;
 			local iMaxFloodplainSize 	= 15;
@@ -3582,14 +3573,14 @@ function GenerateImportedMap(MapToConvert, Civ6DataToConvert, NaturalWonders, wi
 		end
 		
 		-- Restore map initial flood plains
-		if mapName ~= "Earth128x80" and mapName ~= "EqualAreaEarth" then
+		--totalslacker: don't restore on PTW maps
+		if (mapName ~= "Earth128x80") and (mapName ~= "Earth128x80_Alt") and (mapName ~= "EqualAreaEarth") then
 			for _, plot in ipairs(tempFloodPlains) do
 				if plot:GetFeatureType() ~= floodPlainID then
 					TerrainBuilder.SetFeatureType(plot, floodPlainID)
 				end
 			end		
 		end
-
 	end
 	
 	currentTimer = os.clock() - g_startTimer
@@ -3744,11 +3735,11 @@ function CheckAllCivilizationsStartingLocations()
 				end
 			else
 				table.insert(YnAMP.PlayerToRemove, iPlayer)
-				print("Set temporary starting plot for " .. PlayerConfigurations[iPlayer]:GetPlayerName())
+				print("Get temporary starting plot for " .. PlayerConfigurations[iPlayer]:GetPlayerName())
 				--local pPlot = Map.GetPlot(0,0)
 				local pPlot = GetBestStartingPlotFromList(startPlotList, true)
 				if pPlot then
-					print("  - Set starting plot at ", pPlot:GetX(), pPlot:GetY())
+					print("  - Set temporary starting plot at ", pPlot:GetX(), pPlot:GetY())
 					player:SetStartingPlot(pPlot)
 				end
 			end
@@ -3823,6 +3814,11 @@ function CheckAllCivilizationsStartingLocations()
 		print("Updating Culturally Linked placement...")
 		CulturallyLinkedCivilizations(true)	
 		CulturallyLinkedCityStates(true)	
+	end -- ApplyDistanceRelativeStart
+	
+	if bDistanceRelativeStart and bNeedPlacementUpdate then
+		print("Updating Distance-Relative start...")
+		ApplyDistanceRelativeStart()
 	end
 end
 
@@ -3999,7 +3995,7 @@ end
 -------------------------------------------------------------------------------
 function PlaceRealNaturalWonders(NaturalWonders)
 	print("YnAMP Natural Wonders placement...")
-	
+
 	-- Allow override when using a reference map (use current map data instead of reference map data)
 	local bOnlyOffset = false
 	if MapConfiguration.GetValue("UseOwnDataForNW") then
@@ -4016,18 +4012,12 @@ function PlaceRealNaturalWonders(NaturalWonders)
 		HasMapScriptPosition[eFeatureType] = true
 	end
 	
-	-- totalslacker: Added Natural Wonder picker support below via excludedWonders
-	
 	-- First pass to add NW that are in the DB with a direct reference to MapScript to the NaturalWonders table
 	-- NW directly defined in the Map File still take priority
 	for NaturalWonderRow in GameInfo.NaturalWonderPosition() do
-		-- Don't process excluded wonders
-		-- if excludedWonders[NaturalWonderRow.FeatureType] then
-			-- print("Found excluded wonder") 
-		-- end
 		local bScriptValid	= NaturalWonderRow.MapScript ~= nil and NaturalWonderRow.MapScript == mapScript
 		local bOnlyOffset	= true
-		if bScriptValid and GameInfo.Features[NaturalWonderRow.FeatureType] and not excludedWonders[NaturalWonderRow.FeatureType] then
+		if bScriptValid and GameInfo.Features[NaturalWonderRow.FeatureType] then
 			local eFeatureType = GameInfo.Features[NaturalWonderRow.FeatureType].Index
 			if not NaturalWonders[eFeatureType] then
 				HasMapScriptPosition[eFeatureType] 	= true
@@ -4063,12 +4053,8 @@ function PlaceRealNaturalWonders(NaturalWonders)
 	
 	-- The coordinates in NaturalWonders table are still those from the reference map, unless using MapScript rows
 	for NaturalWonderRow in GameInfo.NaturalWonderPosition() do
-		-- Don't process excluded wonders
-		-- if excludedWonders[NaturalWonderRow.FeatureType] then
-			-- print("Found excluded wonder")
-		-- end
 		local bNameValid 	= (not bMapScriptRefForNW) and NaturalWonderRow.MapName == mapName
-		if (bNameValid) and GameInfo.Features[NaturalWonderRow.FeatureType] and not excludedWonders[NaturalWonderRow.FeatureType] then
+		if (bNameValid) and GameInfo.Features[NaturalWonderRow.FeatureType] then
 			local eFeatureType = GameInfo.Features[NaturalWonderRow.FeatureType].Index
 			if NaturalWonders[eFeatureType] and not HasMapScriptPosition[eFeatureType] then --and not bUseRelativePlacement then 
 				-- Seems to be a multiplots feature...
@@ -4119,10 +4105,20 @@ function PlaceRealNaturalWonders(NaturalWonders)
 		end
 	end
 	
+	local excludedWonders = {};
+	local excludeWondersConfig = GameConfiguration.GetValue("EXCLUDE_NATURAL_WONDERS");
+	if(excludeWondersConfig and #excludeWondersConfig > 0) then
+		print("The following Natural Wonders have been marked as 'excluded':");
+		for i,v in ipairs(excludeWondersConfig) do
+			print("* " .. v);
+			excludedWonders[v] = true;
+		end
+	end
+	
 	-- Place all NW from the table
 	for eFeatureType, position in pairs(NaturalWonders) do
-		if GameInfo.Features[eFeatureType] then
-			local featureTypeName = GameInfo.Features[eFeatureType].FeatureType
+		local featureTypeName = GameInfo.Features[eFeatureType] and GameInfo.Features[eFeatureType].FeatureType
+		if featureTypeName and not excludedWonders[featureTypeName] then
 
 			-- Convert the NW coordinates to the current map position if using a reference map or offsets
 			local x, y = GetXYFromRefMapXY(position.X, position.Y, (HasMapScriptPosition[eFeatureType])) -- if the NW has a true position from the MapScript table, don't use relative placement, only offset)
@@ -4163,7 +4159,8 @@ function PlaceRealNaturalWonders(NaturalWonders)
 					-- 3 plots, mountains, 1st plot is WEST
 					-- preparing the 3 plots
 					local terrainType = g_TERRAIN_TYPE_TUNDRA_MOUNTAIN
-					if mapName == "Earth128x80" or mapName == "EqualAreaEarth" then
+					--totalslacker: change orientation on PTW maps
+					if (mapName == "Earth128x80") or (mapName == "Earth128x80_Alt") or (mapName == "EqualAreaEarth") then
 						table.insert(plotsList, { Plot = pPlot, Terrain = terrainType })
 						table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_NORTHEAST), Terrain = terrainType })
 						table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_EAST), Terrain = terrainType })
@@ -4228,7 +4225,8 @@ function PlaceRealNaturalWonders(NaturalWonders)
 					-- preparing the area
 					local terrainType = g_TERRAIN_TYPE_COAST
 					bUseOnlyPlotListPlacement = true
-					if mapName == "Earth128x80" or mapName == "EqualAreaEarth" then
+					--totalslacker: change orientation on PTW maps
+					if (mapName == "Earth128x80") or (mapName == "Earth128x80_Alt") or (mapName == "EqualAreaEarth") then
 						table.insert(plotsList, { Plot = pPlot, Terrain = terrainType })
 						table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_NORTHEAST), Terrain = terrainType })
 					else
@@ -4242,22 +4240,15 @@ function PlaceRealNaturalWonders(NaturalWonders)
 					-- 2 plots, one on coastal land and one in water, 1st plot is land, SOUTHEAST
 					-- preparing the 2 plots
 					bUseOnlyPlotListPlacement = true
-					if mapName == "Earth128x80" or mapName == "EqualAreaEarth" then
+					--totalslacker: change orientation on PTW maps
+					if (mapName == "Earth128x80") or (mapName == "Earth128x80_Alt") or (mapName == "EqualAreaEarth") then
 						table.insert(plotsList, { Plot = pPlot, Terrain = g_TERRAIN_TYPE_PLAINS })
 						table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_NORTHEAST), Terrain = g_TERRAIN_TYPE_COAST })					
 					else
 						table.insert(plotsList, { Plot = pPlot, Terrain = g_TERRAIN_TYPE_PLAINS })
-						table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_NORTHWEST), Terrain = g_TERRAIN_TYPE_COAST })					
+						table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_NORTHWEST), Terrain = g_TERRAIN_TYPE_COAST })
 					end
-
 				end
-				
-				-- if featureTypeName == "FEATURE_GOBUSTAN" and mapName == "EqualAreaEarth" then
-					-- local terrainType = g_TERRAIN_TYPE_GRASS_HILLS
-					-- table.insert(plotsList, { Plot = pPlot, Terrain = terrainType })
-					-- table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_NORTHEAST), Terrain = terrainType })
-					-- table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_EAST), Terrain = terrainType })
-				-- end
 				
 				if featureTypeName == "FEATURE_LYSEFJORDEN"then
 					--print(" - Preparing position...")
@@ -4265,6 +4256,7 @@ function PlaceRealNaturalWonders(NaturalWonders)
 					-- preparing the 3 plots
 					local terrainType = g_TERRAIN_TYPE_GRASS
 					bUseOnlyPlotListPlacement = true
+					--totalslacker: change orientation on PTW maps
 					if mapName == "EqualAreaEarth" then
 						table.insert(plotsList, { Plot = pPlot, Terrain = terrainType })
 						table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_SOUTHEAST), Terrain = terrainType })
@@ -4280,7 +4272,8 @@ function PlaceRealNaturalWonders(NaturalWonders)
 					--print(" - Preparing position...")
 					-- 4 plots, coast without features, 1st plot is NORTH-EAST
 					-- preparing the 4 plots
-					if mapName == "Earth128x80" then
+					--totalslacker: change orientation on PTW maps
+					if (mapName == "Earth128x80") or (mapName == "Earth128x80_Alt") then
 						local terrainType = g_TERRAIN_TYPE_COAST
 						local pPlot2 = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_SOUTHEAST) -- we need plot2 to get plot4
 						table.insert(plotsList, { Plot = pPlot, Terrain = terrainType })
@@ -4303,21 +4296,6 @@ function PlaceRealNaturalWonders(NaturalWonders)
 						table.insert(plotsList, { Plot = Map.GetAdjacentPlot(pPlot2:GetX(), pPlot2:GetY(), DirectionTypes.DIRECTION_WEST), Terrain = terrainType })		
 					end
 				end
-				
-				-- if featureTypeName == "FEATURE_YOSEMITE" then
-					-- --print(" - Preparing position...")
-					-- -- 3 plots, flat grass near coast, 1st plot is EAST
-					-- -- preparing the 3 plots
-					-- local terrainType = g_TERRAIN_TYPE_PLAINS
-					-- bUseOnlyPlotListPlacement = true
-					-- if mapName == "Earth128x80" then
-						-- table.insert(plotsList, { Plot = pPlot, Terrain = terrainType })
-						-- table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_SOUTHEAST), Terrain = terrainType })		
-					-- else
-						-- table.insert(plotsList, { Plot = pPlot, Terrain = terrainType })
-						-- table.insert(plotsList, { Plot = Map.GetAdjacentPlot(x, y, DirectionTypes.DIRECTION_EAST), Terrain = terrainType })			
-					-- end
-				-- end
 				
 				-- Set terrain, remove features and resources for Civ6 NW
 				for k, data in ipairs(plotsList) do 
@@ -4373,7 +4351,8 @@ function PlaceRealNaturalWonders(NaturalWonders)
 					
 					-- Extra placement:					
 					-- Replace water by jungle plains around lake victoria and remove cliffs
-					if featureTypeName == "FEATURE_LAKE_VICTORIA" and mapName ~= "Earth128x80" and mapName ~= "EqualAreaEarth"  then				
+					--totalslacker: exclude PTW maps (handled below)
+					if (featureTypeName == "FEATURE_LAKE_VICTORIA") and (mapName ~= "Earth128x80") and (mapName ~= "Earth128x80_Alt") and (mapName ~= "EqualAreaEarth") then				
 						for dx = -3, 3 do
 							for dy = -3,3 do
 								local otherPlot = Map.GetPlotXY(plotX, plotY, dx, dy, 3)
@@ -4396,7 +4375,8 @@ function PlaceRealNaturalWonders(NaturalWonders)
 							end
 						end
 					end
-					if mapName == "Earth128x80" or mapName == "EqualAreaEarth" then
+					--totalslacker: change wonder plot terrains on PTW maps
+					if (mapName == "Earth128x80") or (mapName == "Earth128x80_Alt") or (mapName == "EqualAreaEarth") then
 						if featureTypeName == "FEATURE_CERRO_DE_POTOSI" then				
 							for dx = -3, 3 do
 								for dy = -3,3 do
@@ -4677,8 +4657,8 @@ function PlaceRealNaturalWonders(NaturalWonders)
 			else
 				print ("  - WARNING : can't get the plot at that NW position")
 			end
-		else
-			print ("  - WARNING : Can't find "..tostring().." in Features tables")
+		elseif not GameInfo.Features[eFeatureType] then
+			print ("  - WARNING : Can't find "..tostring(featureTypeName).." in Features tables")
 		end
 	end
 end
@@ -5060,7 +5040,8 @@ function placeResourceInRegion(eResourceType, region, number, bNumberIsRatio)
 				local x, y 		= GetXYFromRefMapXY(Data.X, Data.Y)
 				local width		= 1
 				local height	= 1
-				if mapName == "Earth128x80" then
+				--totalslacker: calculate resource regions different for PTW maps
+				if (mapName == "Earth128x80") or (mapName == "Earth128x80_Alt") then
 					width		= Data.Width
 					height		= Data.Height
 				else
@@ -5853,6 +5834,10 @@ function ImportCiv6Map(MapToConvert, g_iW, g_iH, bDoTerrains, bImportRivers, bIm
 		ContinentConvertion["CONTINENT_CAUCASIA"]		= EuropeID
 		ContinentConvertion["CONTINENT_BRITTANIA"]		= EuropeID
 		ContinentConvertion["CONTINENT_BALKANIA"]		= EuropeID
+		ContinentConvertion["CONTINENT_FRANCIA"]		= EuropeID
+		ContinentConvertion["CONTINENT_GERMANIA"]		= EuropeID
+		ContinentConvertion["CONTINENT_ITALIA"]			= EuropeID
+		ContinentConvertion["CONTINENT_BALTICA"]		= EuropeID
 	
 		-- North America
 		local NorthAmericaID = GameInfo.Continents["CONTINENT_NORTH_AMERICA"].Index
@@ -6199,6 +6184,10 @@ function YnAMP_StartPositions()
 		CulturallyLinkedCityStates()
 	end
 	
+	if bDistanceRelativeStart then
+		ApplyDistanceRelativeStart()
+	end
+	
 	if bRequestedResources and (not bNoResources) and (not bStartinglocationResourcesAdded) then
 		AddStartingLocationResources()
 	end
@@ -6208,7 +6197,7 @@ end
 -- Culturally Linked Start Locations
 ------------------------------------------------------------------------------
 
-BRUTE_FORCE_TRIES 	= 3 -- raise this number for better placement but longer initialization. From tests, 3 passes should be more than enough.
+BRUTE_FORCE_TRIES 	= 5--3 -- raise this number for better placement but longer initialization. From tests, 3 passes should be more than enough.
 OVERSEA_PENALTY 	= 50 -- distance penalty for starting plot separated by sea
 SAME_GROUP_WEIGHT 	= 5 -- factor to use for distance in same cultural group
 
@@ -6240,7 +6229,9 @@ function CalculateDistanceScore(cultureList, bOutput, player1, player2)
 				local player2 		= Players[player_ID2]
 				local playerConfig2 = PlayerConfigurations[player_ID2]
 				local civCulture2 	= GameInfo.Civilizations[playerConfig2:GetCivilizationTypeID()].Ethnicity
-				if  civCulture2 == civCulture then
+				local bUseTeamStart	= bTeamLinkedStart and player:GetTeam() == player2:GetTeam()
+				if  civCulture2 == civCulture or bUseTeamStart then
+					local SAME_GROUP_WEIGHT = bUseTeamStart and (SAME_GROUP_WEIGHT*2) or SAME_GROUP_WEIGHT
 					local startPlot1 = player:GetStartingPlot()
 					--if not startPlot1 then print("WARNING no starting plot for : " .. tostring(playerConfig:GetPlayerName())) end
 					local startPlot2 = player2:GetStartingPlot()
@@ -6542,6 +6533,137 @@ function CulturallyLinkedCityStates(bForcePlacement)
 	print ("CS INITIAL DISTANCE SCORE = " .. tostring(initialDistanceScore))
 	print ("------------------------------------------------------- ")
 	print ("CS FINAL DISTANCE SCORE = " .. tostring(CalculateDistanceScoreCityStates()))
+	print ("------------------------------------------------------- ")
+end
+
+
+------------------------------------------------------------------------------
+-- Civ-to-Civ relative distance
+------------------------------------------------------------------------------
+local sReferenceMapName	= "GiantEarth"
+local tCivToCivDistance = {}
+local tCivRefStartPos	= {}
+local iDefaultDistance	= GlobalParameters.START_DISTANCE_MAJOR_CIVILIZATION * 2 -- place further Civs that don't have a reference TSL
+function BuildReferenceDistanceTable()
+
+	if tCivRefStartPos.IsInitialized then return end
+
+	for row in GameInfo.StartPosition() do
+		if row.MapName == sReferenceMapName  then
+			if isInGame[row.Civilization] and not tCivRefStartPos[row.Civilization] then
+				tCivRefStartPos[row.Civilization] = row
+			end
+		end
+	end
+
+	for iPlayer = 0, PlayerManager.GetWasEverAliveCount() - 1 do -- players can share a Civilization/Leader, so we can't assume "one TSL by Civilization/Leader" and need to loop the players table
+		local sCivType 	= PlayerConfigurations[iPlayer]:GetCivilizationTypeName()
+		local rowPlayer	= tCivRefStartPos[sCivType]
+		tCivToCivDistance[iPlayer] = {}
+		local iPlayerX, iPlayerY = tCivRefStartPos
+		for iOtherPlayer = 0, PlayerManager.GetWasEverAliveCount() - 1 do
+			if iOtherPlayer ~= iPlayer then
+				local sOtherCivType = PlayerConfigurations[iOtherPlayer]:GetCivilizationTypeName()
+				if sOtherCivType == sCivType then
+					tCivToCivDistance[iPlayer][iOtherPlayer] = 0
+				else
+					local rowOtherPlayer = tCivRefStartPos[sOtherCivType]
+					
+					if rowOtherPlayer and rowPlayer then
+						local iPlayerX, iPlayerY			= GetXYFromRefMapXY(rowPlayer.X, rowPlayer.Y)
+						local iOtherPlayerX, iOtherPlayerY	= GetXYFromRefMapXY(rowOtherPlayer.X, rowOtherPlayer.Y)
+						tCivToCivDistance[iPlayer][iOtherPlayer] = Map.GetPlotDistance(iPlayerX, iPlayerY, iOtherPlayerX, iOtherPlayerY)
+					else
+						tCivToCivDistance[iPlayer][iOtherPlayer] = iDefaultDistance
+					end
+				end
+				print(sCivType, sOtherCivType, tCivToCivDistance[iPlayer][iOtherPlayer])
+			end
+		end
+	end
+	tCivRefStartPos.IsInitialized = true
+end
+
+function CalculateCivToCivDistanceScore()
+	local globalDistanceScore = 0
+	for iPlayer = 0, PlayerManager.GetWasEverAliveCount() - 1 do
+		local pPlayer	= Players[iPlayer]
+		local pPlot		= pPlayer:GetStartingPlot()
+		if pPlot then
+			for iOtherPlayer = 0, PlayerManager.GetWasEverAliveCount() - 1 do
+				if iPlayer ~= iOtherPlayer then
+					local pOtherPlayer	= Players[iOtherPlayer]
+					local pOtherPlot 	= pOtherPlayer:GetStartingPlot()
+					if pOtherPlot then
+						local bUseTeamStart	= bTeamLinkedStart and pPlayer:GetTeam() == pOtherPlayer:GetTeam()
+						local iRefDistance	= bUseTeamStart and 0 or tCivToCivDistance[iPlayer][iOtherPlayer]
+						local iDistance		= Map.GetPlotDistance(pPlot:GetX(), pPlot:GetY(), pOtherPlot:GetX(), pOtherPlot:GetY())
+						if pPlot:GetArea() ~= pOtherPlot:GetArea() then
+							iDistance = iDistance + OVERSEA_PENALTY
+						end
+						local iScore		= math.abs(tCivToCivDistance[iPlayer][iOtherPlayer] - iDistance)
+						globalDistanceScore = globalDistanceScore + (iScore*iScore)
+					end
+				end
+			end
+		end
+	end
+	return globalDistanceScore
+end
+
+function ApplyDistanceRelativeStart()
+
+	BuildReferenceDistanceTable()
+
+	print ("------------------------------------------------------- ")
+	print ("Apply Distance-Relative option to startingposition... ")
+	print ("------------------------------------------------------- ")
+	
+	local iInitialDistanceScore = CalculateCivToCivDistanceScore()
+	local iBestDistanceScore 	= iInitialDistanceScore
+	
+	-- very brute force
+	for try = 1, BRUTE_FORCE_TRIES do 
+		print ("------------------------------------------------------- ")
+		print ("Brute Force Pass num = " .. tostring(try) )
+		for player_ID = 0, PlayerManager.GetWasEverAliveCount() - 1 do
+			if not IsOceanStart[player_ID] then
+				local player = Players[player_ID]
+				local playerConfig = PlayerConfigurations[player_ID]
+				print ("------------------------------------------------------- ")
+				print ("Testing " .. tostring(playerConfig:GetPlayerName()) )
+				for player_ID2 = 0, PlayerManager.GetWasEverAliveCount() - 1 do
+					if player_ID ~= player_ID2 and not IsOceanStart[player_ID2] then
+						local player2 		= Players[player_ID2]
+						local playerConfig2 = PlayerConfigurations[player_ID2]
+						
+						local startPlot1 	= player:GetStartingPlot()
+						local startPlot2 	= player2:GetStartingPlot()
+						local bAreSameType	= player:IsMajor() == player2:IsMajor()
+						if startPlot1 and startPlot2 and bAreSameType then
+							player:SetStartingPlot(startPlot2)
+							player2:SetStartingPlot(startPlot1)
+							local actualdistanceScore = CalculateCivToCivDistanceScore()
+							if  actualdistanceScore < iBestDistanceScore then
+								print (" - Got better score, switching position of " .. tostring(playerConfig:GetPlayerName()) .. " with " .. tostring(playerConfig2:GetPlayerName()) .. " at new best score = " .. tostring(actualdistanceScore) )
+								iBestDistanceScore = actualdistanceScore
+							else	
+								player:SetStartingPlot(startPlot1)
+								player2:SetStartingPlot(startPlot2)
+							end
+						end
+					end
+				end
+			end
+		end
+
+		print ("New global distance = " .. tostring(CalculateCivToCivDistanceScore()))
+	end
+	local finalScore = CalculateCivToCivDistanceScore()
+	print ("------------------------------------------------------- ")
+	print ("INITIAL DISTANCE SCORE = " .. tostring(iInitialDistanceScore))
+	print ("------------------------------------------------------- ")
+	print ("FINAL DISTANCE SCORE: " .. tostring(finalScore) )
 	print ("------------------------------------------------------- ")
 end
 

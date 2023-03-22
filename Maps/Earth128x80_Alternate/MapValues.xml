@@ -22,13 +22,13 @@
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_EGYPT"		X="73" Y="48" Leader="LEADER_CLEOPATRA"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ENGLAND"		X="63" Y="68" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="63" Y="64" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="61" Y="60" Leader="LEADER_ELEANOR_FRANCE"/>
+		<!-- <Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="61" Y="60" Leader="LEADER_ELEANOR_FRANCE"/> -->
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="61" Y="60" AlternateStart="1"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEORGIA"		X="80" Y="59" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GERMANY"		X="69" Y="66" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GREECE"		X="73" Y="53" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="91" Y="49" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="95" Y="48" Leader="LEADER_CHANDRAGUPTA" DisabledByCivilization="CIVILIZATION_NALANDA"/>
+		<!-- <Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="95" Y="48" Leader="LEADER_CHANDRAGUPTA" DisabledByCivilization="CIVILIZATION_NALANDA"/> -->
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="91" Y="41" AlternateStart="1"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDONESIA"	X="104" Y="31" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JAPAN"		X="116" Y="51" />
@@ -44,9 +44,10 @@
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NETHERLANDS"	X="65" Y="67" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NORWAY"		X="67" Y="75" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NUBIA"		X="75" Y="40" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="84" Y="50" DisabledByCivilization="CIVILIZATION_BABYLON_STK"/>
+		<!-- <Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="84" Y="50" DisabledByCivilization="CIVILIZATION_BABYLON_STK"/> -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="83" Y="54" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="86" Y="54" Leader="LEADER_NADER_SHAH"/>
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="83" Y="54" AlternateStart="1"/>
+		<!-- <Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="83" Y="54" AlternateStart="1"/> -->
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_POLAND"		X="72" Y="65" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_POLAND"		X="73" Y="65" AlternateStart="1"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ROME"			X="68" Y="55" />

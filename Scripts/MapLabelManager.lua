@@ -1188,7 +1188,7 @@ function AddTerritoryLabel(pOverlay, pTerritory)
 		
 		--totalslacker: Custom map labels for everything except rivers
 		if bCustomLabels then
-			if mapName == "Earth128x80" then
+			if ((mapName == "Earth128x80") or (mapName == "Earth128x80_Alt"))then
 				-- print("Earth128x80 detected. Applying Real Map Labels for Earth 128*80 (Play The World)");
 				szName = GetCustomMapLabel_Earth128x80(eTerritory, pTerritory, szName);			
 			end

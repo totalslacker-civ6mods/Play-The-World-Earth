@@ -13,6 +13,8 @@
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_ICELAND" 		X="54" Y="75" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_ETHIOPIA" 	X="77" Y="37" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_SWAHILI" 		X="77" Y="27" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_AL_ANDALUS" 	X="60" Y="52" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUK_AKAN" 		X="64" Y="37" />
 		<!-- CIVITAS -->
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_PHILIPPINES" 	X="109" Y="42" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CVS_TAINO" 		X="41" Y="44" />
