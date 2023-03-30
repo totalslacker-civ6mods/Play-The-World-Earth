@@ -30,21 +30,21 @@
 		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Plot="4118" 	Type="CIVILIZATION" Value="CIVILIZATION_MC_KANEM_BORNU"/>
 		
 	</MapStartPositions>
-	<MapLeaders>
-		<!-- Insert mod Leaders to make them available in the setup menu -->
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_ABD_AL_RAHMAN_III"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_BAYINNAUNG"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_HADRIAN"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_INGOLFUR"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_LOBSANG_GYATSO"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_OSON"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_RAMKHAMHAENG"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_TRISONG_DETSEN"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_VERCINGETORIX"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_VERCINGETORIX_DLC"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_ZARAYAQOB"/>
-		<Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_ZARAYAQOB_DLC"/>
-	</MapLeaders>
+	<!-- <MapLeaders> -->
+		<!-- <!-- Insert mod Leaders to make them available in the setup menu --> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_ABD_AL_RAHMAN_III"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_BAYINNAUNG"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_HADRIAN"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_INGOLFUR"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_LOBSANG_GYATSO"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_OSON"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_RAMKHAMHAENG"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_TRISONG_DETSEN"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_VERCINGETORIX"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_VERCINGETORIX_DLC"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_ZARAYAQOB"/> -->
+		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" LeaderType="LEADER_SUK_ZARAYAQOB_DLC"/> -->
+	<!-- </MapLeaders> -->
 	<MapSupportedValues>
 		<!-- Insert mod City States (one for each domain) to make them available in the City-State picker setup menu option -->
 		<!-- <Row Map="{0ffac96e-140c-4389-8ae8-6c0cd6391c40}Maps/Giant Earth/PTW_GiantEarth_WB.Civ6Map" Domain="StandardCityStates" Value="CIVILIZATION_ANTANANARIVO"/> -->
