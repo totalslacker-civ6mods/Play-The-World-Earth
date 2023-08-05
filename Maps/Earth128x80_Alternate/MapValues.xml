@@ -12,7 +12,10 @@
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ARABIA"		X="80" Y="40" AlternateStart="1"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AUSTRALIA"	X="117" Y="19" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AZTEC"		X="28" Y="45" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BABYLON_STK"	X="80"	Y="51" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BRAZIL"		X="48" Y="23" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BYZANTIUM"	X="74"	Y="57" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CANADA"		X="35"	Y="59" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CHINA"		X="103" Y="54" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CHINA"		X="106" Y="56" Leader="LEADER_KUBLAI_KHAN_CHINA"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CHINA"		X="106" Y="51" AlternateStart="1"/>
@@ -21,12 +24,20 @@
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_EGYPT"		X="73" Y="48" Leader="LEADER_CLEOPATRA_ALT"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_EGYPT"		X="73" Y="48" Leader="LEADER_CLEOPATRA"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ENGLAND"		X="63" Y="68" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ETHIOPIA"		X="77"	Y="37" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="63" Y="64" />
 		<!-- <Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="61" Y="60" Leader="LEADER_ELEANOR_FRANCE"/> -->
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_FRANCE"		X="61" Y="60" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GAUL"					X="66"	Y="63" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GEORGIA"		X="80" Y="59" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GERMANY"		X="69" Y="66" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GERMANY"		X="64" Y="63" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GRAN_COLOMBIA"		X="37"	Y="37" DisabledByCivilization="CIVILIZATION_HUNZA" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GRAN_COLOMBIA"		X="40"	Y="39" AlternateStart="1"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GREECE"		X="73" Y="53" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_HUNGARY"		X="70"	Y="62" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_HUNGARY"		X="71"	Y="62" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INCA"			X="38"	Y="27" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="91" Y="49" />
 		<!-- <Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="95" Y="48" Leader="LEADER_CHANDRAGUPTA" DisabledByCivilization="CIVILIZATION_NALANDA"/> -->
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INDIA"		X="91" Y="41" AlternateStart="1"/>
@@ -38,54 +49,42 @@
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KONGO"		X="68" Y="30" Leader="LEADER_MVEMBA"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KOREA"		X="110" Y="54" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MACEDON"		X="71" Y="58" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MALI"			X="61" 	Y="39" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MALI"			X="64" 	Y="42" Leader="LEADER_SUNDIATA_KEITA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAORI"		X="1"	Y="33" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAPUCHE"		X="38" Y="17" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAYA"			X="32"	Y="44" DisabledByCivilization="CIVILIZATION_LA_VENTA"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAYA"			X="33"	Y="46" AlternateStart="1"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MONGOLIA"		X="100" Y="60" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MONGOLIA"		X="106" Y="56" Leader="LEADER_KUBLAI_KHAN_MONGOLIA"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NETHERLANDS"	X="65" Y="67" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NORWAY"		X="67" Y="75" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NORWAY"		X="66" Y="71" Leader="LEADER_HARALD_ALT"/>
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NUBIA"		X="75" Y="40" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_OTTOMAN"		X="74"	Y="57" DisabledByCivilization="CIVILIZATION_BYZANTIUM" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_OTTOMAN"		X="94"	Y="62" AlternateStart="1" />
 		<!-- <Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="84" Y="50" DisabledByCivilization="CIVILIZATION_BABYLON_STK"/> -->
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="83" Y="54" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="86" Y="54" Leader="LEADER_NADER_SHAH"/>
 		<!-- <Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PERSIA"		X="83" Y="54" AlternateStart="1"/> -->
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PHOENICIA"	X="65"	Y="50" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_POLAND"		X="72" Y="65" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_POLAND"		X="73" Y="65" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PORTUGAL"		X="57"	Y="54" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ROME"			X="68" Y="55" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_RUSSIA"		X="77" Y="67" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SCOTLAND"		X="61" Y="74" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SCYTHIA"		X="80" Y="63" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SPAIN"		X="60" Y="56" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUMERIA"		X="81" Y="47" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ZULU"			X="74" Y="18" />
-		<!-- Gathering Storm -->
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SWEDEN"		X="71"	Y="72" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MALI"			X="61" 	Y="39" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MALI"			X="64" 	Y="42" Leader="LEADER_SUNDIATA_KEITA"/>
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAORI"		X="1"	Y="33" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_HUNGARY"		X="70"	Y="62" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_HUNGARY"		X="71"	Y="62" AlternateStart="1"/>
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_CANADA"		X="35"	Y="59" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PHOENICIA"	X="65"	Y="50" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_INCA"			X="38"	Y="27" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_OTTOMAN"		X="74"	Y="57" DisabledByCivilization="CIVILIZATION_BYZANTIUM" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_OTTOMAN"		X="94"	Y="62" AlternateStart="1" />
-		<!-- New Frontier -->
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BABYLON_STK"			X="80"	Y="51" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAYA"					X="32"	Y="44" DisabledByCivilization="CIVILIZATION_LA_VENTA"/>
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MAYA"					X="33"	Y="46" AlternateStart="1"/>
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GRAN_COLOMBIA"		X="37"	Y="37" DisabledByCivilization="CIVILIZATION_HUNZA" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GRAN_COLOMBIA"		X="40"	Y="39" AlternateStart="1"/>
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ETHIOPIA"				X="77"	Y="37" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BYZANTIUM"			X="74"	Y="57" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_GAUL"					X="66"	Y="63" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_VIETNAM"				X="101"	Y="45" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PORTUGAL"				X="57"	Y="54" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_SUMERIA"		X="81" Y="47" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_VIETNAM"		X="101"	Y="45" />
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ZULU"			X="74" Y="18" />
 	</StartPosition>	
 	
 	<!-- Minors -->
 	<StartPosition>		
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ANTIOCH"			X="77" Y="53" DisabledByCivilization="CIVILIZATION_BYZANTIUM"/>
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ANTIOCH"			X="67" Y="59" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_ANTIOCH"			X="67" Y="59" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_AMSTERDAM"		X="65" Y="67" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BABYLON"			X="80" Y="51" DisabledByCivilization="CIVILIZATION_BABYLON_STK" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_BABYLON"			X="84" Y="50" AlternateStart="1"/>
@@ -101,10 +100,10 @@
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_JERUSALEM"		X="76" Y="50" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KABUL"			X="87" Y="52" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KANDY"			X="92" Y="37" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KUMASI"			X="63" Y="37" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KUMASI"			X="64" Y="36" AlternateStart="1"/>
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_KUMASI"			X="64" Y="36" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_LA_VENTA"			X="31" Y="42" />
-		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_LISBON"			X="57" Y="54" />
+		<!-- <Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_LISBON"			X="57" Y="54" /> --> 
+		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_LISBON"			X="80" Y="34" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_MOHENJO_DARO"		X="88" Y="48" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_NAN_MADOL"		X="120" Y="38" />
 		<Replace MapName="Earth128x80_Alt" Civilization="CIVILIZATION_PRESLAV"			X="73" Y="59" />

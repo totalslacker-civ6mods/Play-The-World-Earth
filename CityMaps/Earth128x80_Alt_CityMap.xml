@@ -430,7 +430,7 @@
 		<Replace MapName="Earth128x80_Alt" X="74" Y="43" CityLocaleName="LOC_CITY_NAME_KERMA" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="75" Y="44" CityLocaleName="LOC_CITY_NAME_QASR_IBRIM" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="75" Y="41" CityLocaleName="LOC_CITY_NAME_MEROE" Area="0" />
-		<Replace MapName="Earth128x80_Alt" X="75" Y="40" CityLocaleName="LOC_CITY_NAME_WAD_BAN_NAQA" Area="0" />
+		<Replace MapName="Earth128x80_Alt" X="75" Y="40" CityLocaleName="LOC_CITY_NAME_MEROE" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="76" Y="40" CityLocaleName="LOC_CITY_NAME_MUSAWWARAT_ES_SUFRA" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="78" Y="38" CityLocaleName="LOC_CITY_NAME_LALIBELA" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="77" Y="38" CityLocaleName="LOC_CITY_NAME_LALIBELA" Area="0" />
@@ -1198,7 +1198,7 @@
 		<Replace MapName="Earth128x80_Alt" X="75" Y="46" CityLocaleName="LOC_CITY_NAME_ARSINOE" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="73" Y="45" CityLocaleName="LOC_CITY_NAME_THEBES" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="74" Y="45" CityLocaleName="LOC_CITY_NAME_KARNAK" Area="0" />
-		<Replace MapName="Earth128x80_Alt" X="74" Y="44" CityLocaleName="LOC_CITY_NAME_ABU_SIMBEL" Area="0" />
+		<Replace MapName="Earth128x80_Alt" X="74" Y="44" CityLocaleName="LOC_CITY_NAME_THEBES" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="75" Y="45" CityLocaleName="LOC_CITY_NAME_SWENETT" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="76" Y="44" CityLocaleName="LOC_CITY_NAME_AYDHAB" Area="0" />
 		<Replace MapName="Earth128x80_Alt" X="76" Y="42" CityLocaleName="LOC_CITY_NAME_KURGUS" Area="0" />

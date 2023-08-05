@@ -2769,7 +2769,7 @@ function AddRiverLabel(pOverlay, pRiver)
 		local szName;
 		-- print("River ID is "..tostring(pRiver.TypeID))
 		if bCustomLabels and bRivers then	
-			if mapName == "Earth128x80" then
+			if ((mapName == "Earth128x80") or (mapName == "Earth128x80_Alt")) then
 				GetCustomRiverLabel_Earth128x80(pOverlay, pRiver, szName);
 			end
 			if mapName == "EqualAreaEarth" then
